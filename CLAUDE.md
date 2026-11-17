@@ -1,3 +1,7 @@
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
 # Norantz
 
 *Towards where?* A second reading of national futures. An endorsed sub-brand of Plural Futures ("Norantz, by Plural Futures").
@@ -34,8 +38,19 @@ The repo mirrors the claude.ai project layout, except that the Indonesia analysi
 | `brand/tokens.json`, `brand/logos/` | Design tokens (colour, type, spacing, radius, stroke, shadow, opacity) and the 8 logo SVGs, exported byte-identical from the design-system artifact on 18 Nov. `tokens.json` is the source of truth |
 | `brand/tokens.css`, `scripts/build_tokens.py` | CSS variables (`--nz-*`) and type classes (`.nz-type-*`) **generated** from `tokens.json`; never edit the CSS by hand. Usage in `brand/README.md` |
 | `claude/norantz-brand-guideline.md` | One-page brand summary (full version now in `docs/brand-guidelines.md`) |
-| `Indonesia-*/` | Source extractions: `chunks.jsonl`, `slides.md`, `*-figures.json`, `glossary.json`, `README.md` per document |
+| `Indonesia-*/` | Source extractions, one folder per document. The 2017 oration, the RPJPN draft and the keynote hold `chunks.jsonl` (plus `slides.md`, `*-figures.json`, `glossary.json`, `README.md` where present). The enacted UU 59/2024 and the RPJMN 2025-2029 are single text-layer files (`uu59-2024-lampiran-text.md`, `ringkasan-text.md`) whose headers give source URL, page layout and citation form |
 | `ASEAN National Foresight Scenario Reports.md` | Secondary synthesis of ASEAN reports (stored as text; the original name ended `.docx`) |
+
+## Commands
+
+There is no website code, package manager, test suite or linter yet. The only build step is the token generator (Python 3, standard library only):
+
+```bash
+python3 scripts/build_tokens.py          # regenerate brand/tokens.css from brand/tokens.json
+python3 scripts/build_tokens.py --check  # exit 1 if tokens.css is stale
+```
+
+Run `--check` after any change to `brand/tokens.json`. The three duplicate pairs in `Indonesia-Emas-2045-Analysis/` must stay byte-identical: edit both, then confirm with `cmp register.md indonesia-2045-register.md` (and likewise `source-pack.md` / `indonesia-source-pack.md`, `evidence-cluster-a.md` / `indonesia-2045-evidence-cluster-a.md`).
 
 Source-extraction schema (agreed, keep it): one record per page or slide; numbers verbatim from the PDF text layer; anything read off a chart or image prefixed `~` and **never rated**; keep both `pdf_page` and printed page; visual descriptions in Indonesian and English describe logic, not colour.
 
