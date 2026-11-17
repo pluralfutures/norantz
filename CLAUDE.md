@@ -89,7 +89,7 @@ Source-extraction schema (agreed, keep it): one record per page or slide; number
 - **Method v0.2** and **page spec v0.2** written; most open decisions have proposed defaults, few are agreed.
 - **España 2050** (pilot 1, hybrid, quantified, advisory): 102-item register, 6 of 9 clusters tested, page test-filled on template v0.1. 14 proposed fixes not applied. No change scan or commitment pass yet.
 - **Indonesia Emas 2045** (pilot 2, RPJPN 2025-2045 / UU 59/2024, in force, early-horizon variant, paired with the superseded 2017 deck): register validated (35 claims, 87 goal rows, 37 commitments); clusters A, B, D evidenced; change scan run once (X1-X12); **page draft 0.1 complete** to spec v0.2. No rating has been reviewed by a person.
-- **Brand v0.1** built as a design system artifact (tokens, 15 components, logo SVGs): https://claude.ai/artifact/DRZLvr6GwRJSaThHXB2pe5. Four brand decisions confirmed by the owner; the rest is draft for review.
+- **Brand v0.1** built as a design system artifact (tokens, 15 components, logo SVGs): https://claude.ai/artifact/DRZLvr6GwRJSaThHXB2pe5. Five brand decisions confirmed by the owner (B1-B4, and B15: the site follows the reader's dark-mode setting); the rest is draft for review.
 - No website code exists yet. Tokens (JSON and generated CSS) and logos are in `brand/`; the 15 components are static HTML/CSS (prefix `nz-`) still only in the artifact, no JS bundle.
 
 ## Next steps, in order
@@ -102,3 +102,5 @@ Source-extraction schema (agreed, keep it): one record per page or slide; number
 6. Settle the name risk (trademark and domain check) before buying a domain.
 
 Ask the owner before changing anything listed as confirmed in `docs/decisions.md`.
+
+**Keep the decision record current.** Whenever a decision is made or changes, in the same commit: add or amend its row in `docs/decisions.md` (status, date, why, what was rejected), remove or update the matching item in `docs/open-questions.md`, and update this file wherever it states the point (brand short form, evidence rules, where things stand, next steps).
