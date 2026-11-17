@@ -1,0 +1,297 @@
+/* Norantz — generated from tokens.json by scripts/build_tokens.py. Do not edit. */
+
+/* Default theme: light (Paper). Other themes: set data-theme on any element. */
+:root {
+  --nz-paper: #FBF7F1;
+  --nz-paper-2: #F4ECE0;
+  --nz-paper-3: #F0EEF4;
+  --nz-surface: #FFFFFF;
+  --nz-ink: #241A17;
+  --nz-ink-2: #5C4D47;
+  --nz-ink-3: #766760;
+  --nz-line: #E7DCD0;
+  --nz-line-2: #D7C9BC;
+  --nz-sky: #42C0EB;
+  --nz-sky-ink: #0E6A8C;
+  --nz-sky-wash: #E2F4FB;
+  --nz-on-sky: #241A17;
+  --nz-loam: #96685C;
+  --nz-loam-ink: #6E4A40;
+  --nz-loam-wash: #EFE6E2;
+  --nz-ember: #EB6541;
+  --nz-ember-ink: #C44A2A;
+  --nz-bloom: #EB426D;
+  --nz-bloom-ink: #C72753;
+  --nz-sprout: #42EBB9;
+  --nz-sprout-ink: #0B7656;
+  --nz-scenario-wash-1: #FBE7DE;
+  --nz-scenario-wash-2: #FBE2E9;
+  --nz-scenario-wash-3: #E2FAF1;
+  --nz-focus-ring: var(--nz-sky-ink);
+  --nz-spectrum-soft-1: #BCF1DE;
+  --nz-spectrum-soft-2: #BAE6F5;
+  --nz-spectrum-soft-3: #F6BACB;
+  --nz-spectrum-soft-4: #F6C9B8;
+  --nz-shadow-2: 0 14px 40px -18px rgba(36,26,23,0.28);
+
+  --nz-space-1: 4px;
+  --nz-space-2: 8px;
+  --nz-space-3: 12px;
+  --nz-space-4: 16px;
+  --nz-space-5: 24px;
+  --nz-space-6: 32px;
+  --nz-space-7: 48px;
+  --nz-space-8: 64px;
+  --nz-space-9: 96px;
+  --nz-measure: 680px;
+  --nz-container: 1200px;
+  --nz-radius-0: 0px;
+  --nz-radius-sm: 7px;
+  --nz-radius: 14px;
+  --nz-radius-pill: 999px;
+  --nz-stroke-hair: 1px;
+  --nz-stroke-rule: 1.5px;
+  --nz-stroke-bold: 2.5px;
+  --nz-motif-opacity: 0.16;
+  --nz-range-opacity: 0.6;
+
+  --nz-font-display: "Bricolage Grotesque", "Space Grotesk", system-ui, sans-serif;
+  --nz-font-read: Newsreader, Charter, Cambria, Georgia, serif;
+  --nz-font-signal: "JetBrains Mono", ui-monospace, Menlo, monospace;
+
+  --nz-display-xl-family: var(--nz-font-display);
+  --nz-display-xl-size: 104px;
+  --nz-display-xl-line: 0.94;
+  --nz-display-xl-weight: 700;
+  --nz-display-xl-tracking: -0.025em;
+
+  --nz-display-l-family: var(--nz-font-display);
+  --nz-display-l-size: 72px;
+  --nz-display-l-line: 0.96;
+  --nz-display-l-weight: 700;
+  --nz-display-l-tracking: -0.02em;
+
+  --nz-display-m-family: var(--nz-font-display);
+  --nz-display-m-size: 48px;
+  --nz-display-m-line: 1.0;
+  --nz-display-m-weight: 700;
+  --nz-display-m-tracking: -0.015em;
+
+  --nz-h1-family: var(--nz-font-display);
+  --nz-h1-size: 40px;
+  --nz-h1-line: 1.08;
+  --nz-h1-weight: 600;
+  --nz-h1-tracking: -0.018em;
+
+  --nz-h2-family: var(--nz-font-display);
+  --nz-h2-size: 30px;
+  --nz-h2-line: 1.12;
+  --nz-h2-weight: 600;
+  --nz-h2-tracking: -0.012em;
+
+  --nz-h3-family: var(--nz-font-display);
+  --nz-h3-size: 22px;
+  --nz-h3-line: 1.2;
+  --nz-h3-weight: 600;
+
+  --nz-ui-family: var(--nz-font-display);
+  --nz-ui-size: 15px;
+  --nz-ui-line: 1.4;
+  --nz-ui-weight: 500;
+
+  --nz-lead-family: var(--nz-font-read);
+  --nz-lead-size: 22px;
+  --nz-lead-line: 1.5;
+  --nz-lead-weight: 400;
+
+  --nz-body-family: var(--nz-font-read);
+  --nz-body-size: 18px;
+  --nz-body-line: 1.7;
+  --nz-body-weight: 400;
+
+  --nz-body-s-family: var(--nz-font-read);
+  --nz-body-s-size: 16px;
+  --nz-body-s-line: 1.6;
+  --nz-body-s-weight: 400;
+
+  --nz-quote-family: var(--nz-font-read);
+  --nz-quote-size: 24px;
+  --nz-quote-line: 1.4;
+  --nz-quote-weight: 400;
+  --nz-quote-style: italic;
+
+  --nz-label-family: var(--nz-font-signal);
+  --nz-label-size: 12px;
+  --nz-label-line: 1.4;
+  --nz-label-weight: 500;
+  --nz-label-tracking: 0.16em;
+
+  --nz-data-family: var(--nz-font-signal);
+  --nz-data-size: 14px;
+  --nz-data-line: 1.5;
+  --nz-data-weight: 500;
+
+  --nz-source-family: var(--nz-font-signal);
+  --nz-source-size: 13px;
+  --nz-source-line: 1.45;
+  --nz-source-weight: 400;
+}
+
+/* Ink theme: covers, closers, social cards, data view at night. Opt-in only. */
+[data-theme="dark"] {
+  --nz-paper: #241A17;
+  --nz-paper-2: #2E2420;
+  --nz-paper-3: #2A2328;
+  --nz-surface: #2E2420;
+  --nz-ink: #FBF7F1;
+  --nz-ink-2: #D7C9BC;
+  --nz-ink-3: #A8978E;
+  --nz-line: #3E322D;
+  --nz-line-2: #5C4D47;
+  --nz-sky: #42C0EB;
+  --nz-sky-ink: #7FD3F1;
+  --nz-sky-wash: #12384A;
+  --nz-on-sky: #241A17;
+  --nz-loam: #C9A79C;
+  --nz-loam-ink: #D9C4BD;
+  --nz-loam-wash: #3A2C27;
+  --nz-ember: #EB6541;
+  --nz-ember-ink: #F08A6C;
+  --nz-bloom: #EB426D;
+  --nz-bloom-ink: #F27394;
+  --nz-sprout: #42EBB9;
+  --nz-sprout-ink: #5FE3BC;
+  --nz-scenario-wash-1: #3F2A22;
+  --nz-scenario-wash-2: #3F2229;
+  --nz-scenario-wash-3: #163A30;
+  --nz-focus-ring: var(--nz-sky-ink);
+  --nz-spectrum-soft-1: #1E5A49;
+  --nz-spectrum-soft-2: #1B4E62;
+  --nz-spectrum-soft-3: #5E2537;
+  --nz-spectrum-soft-4: #5E3122;
+  --nz-shadow-2: 0 14px 40px -18px rgba(0,0,0,0.6);
+  color-scheme: dark;
+}
+
+/* Type styles as classes. Usage notes come from tokens.json. */
+
+/* Cover and home hero only. */
+.nz-type-display-xl {
+  font-family: var(--nz-display-xl-family);
+  font-size: var(--nz-display-xl-size);
+  line-height: var(--nz-display-xl-line);
+  font-weight: var(--nz-display-xl-weight);
+  letter-spacing: var(--nz-display-xl-tracking);
+}
+
+/* Big numbers, section openers. */
+.nz-type-display-l {
+  font-family: var(--nz-display-l-family);
+  font-size: var(--nz-display-l-size);
+  line-height: var(--nz-display-l-line);
+  font-weight: var(--nz-display-l-weight);
+  letter-spacing: var(--nz-display-l-tracking);
+}
+
+/* Report name in the page header. */
+.nz-type-display-m {
+  font-family: var(--nz-display-m-family);
+  font-size: var(--nz-display-m-size);
+  line-height: var(--nz-display-m-line);
+  font-weight: var(--nz-display-m-weight);
+  letter-spacing: var(--nz-display-m-tracking);
+}
+
+/* The tip, when set as the page's first line. Action title. */
+.nz-type-h1 {
+  font-family: var(--nz-h1-family);
+  font-size: var(--nz-h1-size);
+  line-height: var(--nz-h1-line);
+  font-weight: var(--nz-h1-weight);
+  letter-spacing: var(--nz-h1-tracking);
+}
+
+/* Section action titles. */
+.nz-type-h2 {
+  font-family: var(--nz-h2-family);
+  font-size: var(--nz-h2-size);
+  line-height: var(--nz-h2-line);
+  font-weight: var(--nz-h2-weight);
+  letter-spacing: var(--nz-h2-tracking);
+}
+
+/* Card and theme titles. */
+.nz-type-h3 {
+  font-family: var(--nz-h3-family);
+  font-size: var(--nz-h3-size);
+  line-height: var(--nz-h3-line);
+  font-weight: var(--nz-h3-weight);
+}
+
+/* Buttons, navigation, tabs. */
+.nz-type-ui {
+  font-family: var(--nz-ui-family);
+  font-size: var(--nz-ui-size);
+  line-height: var(--nz-ui-line);
+  font-weight: var(--nz-ui-weight);
+}
+
+/* The At a glance summary; first paragraph of a section. */
+.nz-type-lead {
+  font-family: var(--nz-lead-family);
+  font-size: var(--nz-lead-size);
+  line-height: var(--nz-lead-line);
+  font-weight: var(--nz-lead-weight);
+}
+
+/* All reading text. Measure 60 to 72 characters. */
+.nz-type-body {
+  font-family: var(--nz-body-family);
+  font-size: var(--nz-body-size);
+  line-height: var(--nz-body-line);
+  font-weight: var(--nz-body-weight);
+}
+
+/* Card bodies, table cells with prose. Phone minimum. */
+.nz-type-body-s {
+  font-family: var(--nz-body-s-family);
+  font-size: var(--nz-body-s-size);
+  line-height: var(--nz-body-s-line);
+  font-weight: var(--nz-body-s-weight);
+}
+
+/* The report's own words, with a loam rule and a page reference. */
+.nz-type-quote {
+  font-family: var(--nz-quote-family);
+  font-size: var(--nz-quote-size);
+  line-height: var(--nz-quote-line);
+  font-weight: var(--nz-quote-weight);
+  font-style: var(--nz-quote-style);
+}
+
+/* Overlines, status words, Then and Now labels. Uppercase. */
+.nz-type-label {
+  font-family: var(--nz-label-family);
+  font-size: var(--nz-label-size);
+  line-height: var(--nz-label-line);
+  font-weight: var(--nz-label-weight);
+  letter-spacing: var(--nz-label-tracking);
+  text-transform: uppercase;
+}
+
+/* Figures in tables and chart labels. Tabular, right-aligned in tables. */
+.nz-type-data {
+  font-family: var(--nz-data-family);
+  font-size: var(--nz-data-size);
+  line-height: var(--nz-data-line);
+  font-weight: var(--nz-data-weight);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Source and date lines under every claim and chart. */
+.nz-type-source {
+  font-family: var(--nz-source-family);
+  font-size: var(--nz-source-size);
+  line-height: var(--nz-source-line);
+  font-weight: var(--nz-source-weight);
+}

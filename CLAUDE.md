@@ -31,7 +31,8 @@ The repo mirrors the claude.ai project layout, except that the Indonesia analysi
 | `claude/handoff-indonesia-2045-2026-11-17.md` | Confirmed Indonesia decisions (§3) and the order of work |
 | `claude/uu59-2024-enacted-annex-reconciliation.md`, `claude/perpres-12-2025-rpjmn-standing-check.md`, `claude/visi-2045-oration-2017-extraction-plan.md` | Indonesia version control, standing check, 2017-deck extraction plan |
 | `BahanPaparanMPPN-VisiIndonesia2045-25September2017.pdf` | The 2017 oration deck PDF (the only source PDF in the repo) |
-| `brand/tokens.json`, `brand/logos/` | Design tokens (colour, type, spacing, radius, stroke, shadow, opacity) and the 8 logo SVGs, exported byte-identical from the design-system artifact on 18 Nov |
+| `brand/tokens.json`, `brand/logos/` | Design tokens (colour, type, spacing, radius, stroke, shadow, opacity) and the 8 logo SVGs, exported byte-identical from the design-system artifact on 18 Nov. `tokens.json` is the source of truth |
+| `brand/tokens.css`, `scripts/build_tokens.py` | CSS variables (`--nz-*`) and type classes (`.nz-type-*`) **generated** from `tokens.json`; never edit the CSS by hand. Usage in `brand/README.md` |
 | `claude/norantz-brand-guideline.md` | One-page brand summary (full version now in `docs/brand-guidelines.md`) |
 | `Indonesia-*/` | Source extractions: `chunks.jsonl`, `slides.md`, `*-figures.json`, `glossary.json`, `README.md` per document |
 | `ASEAN National Foresight Scenario Reports.md` | Secondary synthesis of ASEAN reports (stored as text; the original name ended `.docx`) |
@@ -74,7 +75,7 @@ Source-extraction schema (agreed, keep it): one record per page or slide; number
 - **España 2050** (pilot 1, hybrid, quantified, advisory): 102-item register, 6 of 9 clusters tested, page test-filled on template v0.1. 14 proposed fixes not applied. No change scan or commitment pass yet.
 - **Indonesia Emas 2045** (pilot 2, RPJPN 2025-2045 / UU 59/2024, in force, early-horizon variant, paired with the superseded 2017 deck): register validated (35 claims, 87 goal rows, 37 commitments); clusters A, B, D evidenced; change scan run once (X1-X12); **page draft 0.1 complete** to spec v0.2. No rating has been reviewed by a person.
 - **Brand v0.1** built as a design system artifact (tokens, 15 components, logo SVGs): https://claude.ai/artifact/DRZLvr6GwRJSaThHXB2pe5. Four brand decisions confirmed by the owner; the rest is draft for review.
-- No website code exists yet. Tokens and logos are in `brand/`; the 15 components are static HTML/CSS (prefix `nz-`) still only in the artifact, no JS bundle.
+- No website code exists yet. Tokens (JSON and generated CSS) and logos are in `brand/`; the 15 components are static HTML/CSS (prefix `nz-`) still only in the artifact, no JS bundle.
 
 ## Next steps, in order
 
