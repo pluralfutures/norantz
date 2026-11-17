@@ -47,10 +47,9 @@ Everything unresolved, half-finished or ambiguous at handover, 18 November 2026.
 | 2 | Licence for reviews and data | None proposed (a Creative Commons licence suggested) | Data and citation, Terms |
 | 3 | Election policy | None proposed | Editorial standards, España 2050 launch |
 | 4 | Right-of-reply process | None proposed (also spec gap §16) | For report authors |
-| 5 | Legal notice (*aviso legal*, *Impressum*): required where Plural Futures is established? | Check jurisdiction | Legal |
+| 5 | Spanish lawyer to confirm the legal pages (S13) and which language version binds | Spanish text binds | Legal |
 | 6 | Email provider and analytics tool | Cookie-free analytics, so no banner | Sign-up, Privacy, Cookies |
-| 7 | English at the root, or `/en/` as well | English at the root | Addresses |
-| 8 | Review-state marks on the map (solid Sky, dotted Sky, Loam outline) | Test with readers | Map |
+| 7 | Review-state marks on the map (solid Sky, dotted Sky, Loam outline) | Test with readers | Map |
 
 ## 3. Method (`claude/scenario-review-method.md` v0.2)
 

@@ -2,7 +2,7 @@
 
 Version 0.1, 17 November 2026. Draft for review.
 
-The structure of the whole public site: which pages exist, what each holds, how they link, and the address pattern. The page for one reviewed report is specified separately in `claude/report-page-spec.md`. Decisions behind this doc are S5 to S12 in `docs/decisions.md`.
+The structure of the whole public site: which pages exist, what each holds, how they link, and the address pattern. The page for one reviewed report is specified separately in `claude/report-page-spec.md`. Decisions behind this doc are S5 to S13 in `docs/decisions.md`.
 
 ## Site map
 
@@ -29,7 +29,7 @@ The structure of the whole public site: which pages exist, what each holds, how 
 /legal/terms/             Terms of use
 /legal/cookies/           Cookies
 /legal/accessibility/     Accessibility statement
-/legal/notice/            Legal notice, if required (see open items)
+/legal/notice/            Legal notice (aviso legal)
 ```
 
 Every path above also exists under `/es/` and `/id/` (see Languages).
@@ -148,7 +148,17 @@ One page, three routes: general contact, suggest a report (feeds the catalogue),
 
 ### Legal
 
-Privacy, terms of use, cookies, accessibility statement. A legal notice (*aviso legal*, *Impressum*) if Plural Futures' place of establishment requires one. Cookie-free analytics would let the cookie page be short and avoid a banner.
+Plural Futures is registered in Spain (S13), so Spanish law sets the legal pages. To be confirmed by a Spanish lawyer before launch:
+
+| Page | Basis | Holds |
+| --- | --- | --- |
+| Legal notice (*aviso legal*) | Ley 34/2002 (LSSI-CE), art. 10 | Company name, registered address, email, NIF, Registro Mercantil details |
+| Privacy | GDPR and Ley Orgánica 3/2018 (LOPDGDD) | Controller, purposes (email sign-up, contact forms), legal basis, retention, processors (email provider), rights, complaint to the AEPD |
+| Cookies | LSSI-CE art. 22.2, AEPD guidance | What is set. Cookie-free analytics avoids a consent banner. |
+| Terms of use | — | Use of the site, the licence for reviews and data, no-advice line, governing law |
+| Accessibility statement | Good practice; check whether Ley 11/2023 applies | Conformance level, known limits, contact |
+
+All legal pages exist in English, Spanish and Indonesian; the Spanish text is the binding one (to confirm).
 
 Utility pages: 404, and a search across reports (later).
 
@@ -157,7 +167,7 @@ Utility pages: 404, and a search across reports (later).
 | Point | Decision or default |
 | --- | --- |
 | Languages at launch | English, Spanish, Indonesian (S8) |
-| Addresses | English at the root; `/es/` and `/id/` prefixes (S8). English at the root is proposed, not yet confirmed. |
+| Addresses | English at the root, no `/en/`; `/es/` and `/id/` prefixes (S8). |
 | What is translated | All site pages. Report pages in English and the report's own language (method decision 12). |
 | Report slugs | Kept the same across languages, so the switch maps one address to another. |
 | Language switch | On every page; goes to the same page in the other language, or to that language's Reports page if no translation exists. |
@@ -173,8 +183,7 @@ Utility pages: 404, and a search across reports (later).
 | 4 | Funding and selection policy | About: funding |
 | 5 | Election policy | Editorial standards, España 2050 launch |
 | 6 | Right-of-reply process | For report authors |
-| 7 | Legal notice requirement and jurisdiction | Legal |
+| 7 | Spanish lawyer to confirm the legal pages, and which language version binds | Legal |
 | 8 | Email provider and analytics tool | Email sign-up, Privacy, Cookies |
-| 9 | English at the root, or `/en/` too | Addresses |
-| 10 | Test the review-state marks with readers | Map |
-| 11 | Shared taxonomy (method decision 10) | Themes, comparison view |
+| 9 | Test the review-state marks with readers | Map |
+| 10 | Shared taxonomy (method decision 10) | Themes, comparison view |
