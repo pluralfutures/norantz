@@ -2,7 +2,7 @@
 
 Version 0.1, 16 November 2026. Findings from one test fill.
 
-The report page template was filled with the España 2050 pilot to see where it breaks. Of 17 sections, 2 filled cleanly, 7 filled with strain, 4 filled in part and 4 broke or stayed empty. The filled page is `espana-2050-page-draft.md`.
+The report page template was filled with the España 2050 pilot to see where it breaks. Of 17 sections, 2 filled cleanly, 7 filled with strain, 4 filled in part and 4 broke or stayed empty. The filled page was `espana-2050-page-draft.md` version 0.1 (git history, commit `0fd0026`); that file is now draft 0.2, rebuilt to spec v0.2 and brand v0.1.
 
 The test used only what the pilot already held: the assumption register doc (clusters 1 to 4) and the fiscal and housing evidence review (clusters 5 and 6). Nothing was looked up again. Where the page needed a judgement the pilot never made, a trial one was written and tagged.
 
