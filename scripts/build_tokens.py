@@ -103,10 +103,12 @@ def build(data):
     w = L.append
     w(f"/* {data['name']} — generated from tokens.json by scripts/build_tokens.py. Do not edit. */")
     w("")
-    w(f"/* Default theme: {first} ({color['themes'][0]['name']}). Other themes: set data-theme on any element. */")
+    w(f"/* Default theme: {first} ({color['themes'][0]['name']}). The site follows the reader's")
+    w("   prefers-color-scheme setting; data-theme on any element overrides it for that subtree. */")
     w(":root {")
     for n, v in by_theme[first]:
         w(f"  {var(n)}: {v};")
+    w(f"  color-scheme: {first};")
     w("")
     for n, v in plain:
         w(f"  {var(n)}: {v};")
@@ -118,14 +120,31 @@ def build(data):
         for rn, rv in rows:
             w(f"  {var(rn)}: {rv};")
     w("}")
+    w("")
+    w(f"/* Force the default theme inside a subtree (or on <html> to ignore the system setting). */")
+    w(f'[data-theme="{first}"] {{')
+    for n, v in by_theme[first]:
+        w(f"  {var(n)}: {v};")
+    w(f"  color-scheme: {first};")
+    w("}")
     for t, meta in zip(theme_ids[1:], color["themes"][1:]):
         w("")
-        w(f"/* {meta['name']} theme: covers, closers, social cards, data view at night. Opt-in only. */")
+        w(f"/* {meta['name']} theme, set explicitly: covers, closers, social cards, the data view. */")
         w(f'[data-theme="{t}"] {{')
         for n, v in by_theme[t]:
             w(f"  {var(n)}: {v};")
         w(f"  color-scheme: {t};")
         w("}")
+        if t == "dark":
+            w("")
+            w(f"/* {meta['name']} theme from the reader's system setting, unless the page forces a theme. */")
+            w("@media (prefers-color-scheme: dark) {")
+            w('  :root:not([data-theme]) {')
+            for n, v in by_theme[t]:
+                w(f"    {var(n)}: {v};")
+            w(f"    color-scheme: {t};")
+            w("  }")
+            w("}")
 
     w("")
     w("/* Type styles as classes. Usage notes come from tokens.json. */")

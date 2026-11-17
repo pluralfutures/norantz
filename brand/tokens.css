@@ -1,6 +1,7 @@
 /* Norantz — generated from tokens.json by scripts/build_tokens.py. Do not edit. */
 
-/* Default theme: light (Paper). Other themes: set data-theme on any element. */
+/* Default theme: light (Paper). The site follows the reader's
+   prefers-color-scheme setting; data-theme on any element overrides it for that subtree. */
 :root {
   --nz-paper: #FBF7F1;
   --nz-paper-2: #F4ECE0;
@@ -33,6 +34,7 @@
   --nz-spectrum-soft-3: #F6BACB;
   --nz-spectrum-soft-4: #F6C9B8;
   --nz-shadow-2: 0 14px 40px -18px rgba(36,26,23,0.28);
+  color-scheme: light;
 
   --nz-space-1: 4px;
   --nz-space-2: 8px;
@@ -137,7 +139,43 @@
   --nz-source-weight: 400;
 }
 
-/* Ink theme: covers, closers, social cards, data view at night. Opt-in only. */
+/* Force the default theme inside a subtree (or on <html> to ignore the system setting). */
+[data-theme="light"] {
+  --nz-paper: #FBF7F1;
+  --nz-paper-2: #F4ECE0;
+  --nz-paper-3: #F0EEF4;
+  --nz-surface: #FFFFFF;
+  --nz-ink: #241A17;
+  --nz-ink-2: #5C4D47;
+  --nz-ink-3: #766760;
+  --nz-line: #E7DCD0;
+  --nz-line-2: #D7C9BC;
+  --nz-sky: #42C0EB;
+  --nz-sky-ink: #0E6A8C;
+  --nz-sky-wash: #E2F4FB;
+  --nz-on-sky: #241A17;
+  --nz-loam: #96685C;
+  --nz-loam-ink: #6E4A40;
+  --nz-loam-wash: #EFE6E2;
+  --nz-ember: #EB6541;
+  --nz-ember-ink: #C44A2A;
+  --nz-bloom: #EB426D;
+  --nz-bloom-ink: #C72753;
+  --nz-sprout: #42EBB9;
+  --nz-sprout-ink: #0B7656;
+  --nz-scenario-wash-1: #FBE7DE;
+  --nz-scenario-wash-2: #FBE2E9;
+  --nz-scenario-wash-3: #E2FAF1;
+  --nz-focus-ring: var(--nz-sky-ink);
+  --nz-spectrum-soft-1: #BCF1DE;
+  --nz-spectrum-soft-2: #BAE6F5;
+  --nz-spectrum-soft-3: #F6BACB;
+  --nz-spectrum-soft-4: #F6C9B8;
+  --nz-shadow-2: 0 14px 40px -18px rgba(36,26,23,0.28);
+  color-scheme: light;
+}
+
+/* Ink theme, set explicitly: covers, closers, social cards, the data view. */
 [data-theme="dark"] {
   --nz-paper: #241A17;
   --nz-paper-2: #2E2420;
@@ -171,6 +209,44 @@
   --nz-spectrum-soft-4: #5E3122;
   --nz-shadow-2: 0 14px 40px -18px rgba(0,0,0,0.6);
   color-scheme: dark;
+}
+
+/* Ink theme from the reader's system setting, unless the page forces a theme. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --nz-paper: #241A17;
+    --nz-paper-2: #2E2420;
+    --nz-paper-3: #2A2328;
+    --nz-surface: #2E2420;
+    --nz-ink: #FBF7F1;
+    --nz-ink-2: #D7C9BC;
+    --nz-ink-3: #A8978E;
+    --nz-line: #3E322D;
+    --nz-line-2: #5C4D47;
+    --nz-sky: #42C0EB;
+    --nz-sky-ink: #7FD3F1;
+    --nz-sky-wash: #12384A;
+    --nz-on-sky: #241A17;
+    --nz-loam: #C9A79C;
+    --nz-loam-ink: #D9C4BD;
+    --nz-loam-wash: #3A2C27;
+    --nz-ember: #EB6541;
+    --nz-ember-ink: #F08A6C;
+    --nz-bloom: #EB426D;
+    --nz-bloom-ink: #F27394;
+    --nz-sprout: #42EBB9;
+    --nz-sprout-ink: #5FE3BC;
+    --nz-scenario-wash-1: #3F2A22;
+    --nz-scenario-wash-2: #3F2229;
+    --nz-scenario-wash-3: #163A30;
+    --nz-focus-ring: var(--nz-sky-ink);
+    --nz-spectrum-soft-1: #1E5A49;
+    --nz-spectrum-soft-2: #1B4E62;
+    --nz-spectrum-soft-3: #5E2537;
+    --nz-spectrum-soft-4: #5E3122;
+    --nz-shadow-2: 0 14px 40px -18px rgba(0,0,0,0.6);
+    color-scheme: dark;
+  }
 }
 
 /* Type styles as classes. Usage notes come from tokens.json. */

@@ -27,7 +27,6 @@ Everything unresolved, half-finished or ambiguous at handover, 18 November 2026.
 ### Not yet built
 
 - Logo SVGs and `tokens.json` are now in `brand/` (checksums match the artifact). `brand/tokens.css` is generated from the tokens by `scripts/build_tokens.py`. Still to do: export the 15 component previews and `components/bundle.css`, which are only in the artifact.
-- **Dark theme switching.** `tokens.css` makes the dark theme opt-in (`data-theme="dark"`), matching the brand use (covers, closers, social cards, data view at night). Whether the site should also follow the reader's `prefers-color-scheme` setting is not decided.
 - Fonts are hosted (Google Fonts), no files. Decide whether to self-host (all three faces are open-licence; check before shipping).
 - Components are static HTML/CSS previews (`bundle.css`, prefix `nz-`); no JavaScript bundle, no site code, no chart library chosen.
 - Not designed: home page, country and theme indexes, cross-report comparison view, method page, social cards beyond the rules, deck template.

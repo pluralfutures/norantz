@@ -27,7 +27,7 @@ Keep `tokens.json` in step with the design-system artifact (https://claude.ai/ar
 
 - Every token is a variable named `--nz-<token>`: `var(--nz-sky-ink)`, `var(--nz-space-5)`, `var(--nz-radius)`.
 - Type styles are both variables (`--nz-body-size`, `--nz-body-line`, `--nz-body-weight`, `--nz-body-family`, plus `-tracking` and `-style` where set) and classes (`.nz-type-body`, `.nz-type-h2`, `.nz-type-label`). `.nz-type-label` adds uppercase; `.nz-type-data` adds tabular figures.
-- The light theme ("Paper") is the default on `:root`. The dark theme ("Ink") is **opt-in**: put `data-theme="dark"` on a cover, closer, social card or data view. There is deliberately no automatic `prefers-color-scheme` switch; whether the site follows the reader's system setting is open (`docs/open-questions.md` §1).
+- **Themes.** The page follows the reader's system setting: Paper (light) by default, Ink (dark) when the device is in dark mode (`docs/decisions.md` B15). `data-theme="dark"` or `data-theme="light"` on any element forces that theme for its subtree; on `<html>` it overrides the system setting for the whole page. Tested in Chrome on 18 Nov 2026 under both system settings.
 - The class prefix `nz-` matches the component stylesheet in the artifact (`components/bundle.css`), which is not yet in the repo.
 
 Fonts are loaded from Google Fonts here; self-hosting is open (`docs/open-questions.md` §1).

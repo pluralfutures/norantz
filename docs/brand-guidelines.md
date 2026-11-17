@@ -229,7 +229,7 @@ Belongs to plurality. Three places only: (1) home hero and deck cover; (2) the b
 
 ### Dark theme
 
-Warm ink `#241A17` as ground. Sky stays `#42C0EB`; `sky-ink` lightens to `#7FD3F1`; Loam lightens to `#C9A79C`. For closers, covers, social cards and the data view at night.
+Warm ink `#241A17` as ground. Sky stays `#42C0EB`; `sky-ink` lightens to `#7FD3F1`; Loam lightens to `#C9A79C`. The site follows the reader's system setting: Ink when the device is in dark mode, Paper otherwise (confirmed 18 Nov 2026, `decisions.md` B15). Covers, closers, social cards and the data view may force Ink with `data-theme="dark"`; `data-theme="light"` forces Paper.
 
 ---
 
