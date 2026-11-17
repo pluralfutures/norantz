@@ -25,7 +25,7 @@ The repo mirrors the claude.ai project layout, except that the Indonesia analysi
 
 | Path | What it holds |
 | --- | --- |
-| `CLAUDE.md`, `docs/` | This handover: brand, decisions, open questions |
+| `CLAUDE.md`, `docs/` | This handover: brand, decisions, open questions; `docs/site-architecture.md` is the site map, page list and address pattern (v0.1) |
 | `Indonesia-Emas-2045-Analysis/` | Indonesia register, source pack, evidence clusters A/B/D, change scan, page draft 0.1. `register.md`, `source-pack.md` and `evidence-cluster-a.md` are byte-identical duplicates of the `indonesia-*` files |
 | `claude/scenario-review-method.md` | **The method, v0.2.** Stages N1-N9 (visions) and E1-E8 (scenario sets), register classes, status scales, change scan, required-rate test, 20 open decisions |
 | `claude/report-page-spec.md` | **Public page spec, v0.2.** 18 sections (0-17) in four parts, design principles, open questions |
@@ -90,6 +90,7 @@ Source-extraction schema (agreed, keep it): one record per page or slide; number
 - **España 2050** (pilot 1, hybrid, quantified, advisory): 102-item register, 6 of 9 clusters tested, page test-filled on template v0.1. 14 proposed fixes not applied. No change scan or commitment pass yet.
 - **Indonesia Emas 2045** (pilot 2, RPJPN 2025-2045 / UU 59/2024, in force, early-horizon variant, paired with the superseded 2017 deck): register validated (35 claims, 87 goal rows, 37 commitments); clusters A, B, D evidenced; change scan run once (X1-X12); **page draft 0.1 complete** to spec v0.2. No rating has been reviewed by a person.
 - **Brand v0.1** built as a design system artifact (tokens, 15 components, logo SVGs): https://claude.ai/artifact/DRZLvr6GwRJSaThHXB2pe5. Five brand decisions confirmed by the owner (B1-B4, and B15: the site follows the reader's dark-mode setting); the rest is draft for review.
+- **Site architecture v0.1** (`docs/site-architecture.md`, decisions S5-S12): the catalogue section is "Reports" with a list and map of every report found, reviewed or not; country pages; method, about, corrections, right-of-reply, press, data, email sign-up, FAQ, contact and legal pages; fixed version addresses; English, Spanish and Indonesian from launch (`/es/`, `/id/`). Not yet designed visually.
 - No website code exists yet. Tokens (JSON and generated CSS) and logos are in `brand/`; the 15 components are static HTML/CSS (prefix `nz-`) still only in the artifact, no JS bundle.
 
 ## Next steps, in order
@@ -100,6 +101,7 @@ Source-extraction schema (agreed, keep it): one record per page or slide; number
 4. Update the template and the España page to spec v0.3; rebuild one page in the brand system to test the iceberg and status rules visually.
 5. Indonesia clusters C, E, F, G; then pilot 3 (Vietnam 2035 or AmBisyon Natin 2040, classified from the primary text).
 6. Settle the name risk (trademark and domain check) before buying a domain.
+7. Close method decision 15 (scope) before the map launches; settle the site open items in `docs/open-questions.md` §2a (basemap, licence, election policy, right of reply, legal notice).
 
 Ask the owner before changing anything listed as confirmed in `docs/decisions.md`.
 

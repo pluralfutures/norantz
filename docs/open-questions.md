@@ -29,7 +29,7 @@ Everything unresolved, half-finished or ambiguous at handover, 18 November 2026.
 - Logo SVGs and `tokens.json` are now in `brand/` (checksums match the artifact). `brand/tokens.css` is generated from the tokens by `scripts/build_tokens.py`. Still to do: export the 15 component previews and `components/bundle.css`, which are only in the artifact.
 - Fonts are hosted (Google Fonts), no files. Decide whether to self-host (all three faces are open-licence; check before shipping).
 - Components are static HTML/CSS previews (`bundle.css`, prefix `nz-`); no JavaScript bundle, no site code, no chart library chosen.
-- Not designed: home page, country and theme indexes, cross-report comparison view, method page, social cards beyond the rules, deck template.
+- Not designed visually: home page, country and theme indexes, cross-report comparison view, method page, social cards beyond the rules, deck template. Their structure and content are in `docs/site-architecture.md` v0.1.
 - No reader has seen any of it laid out or on a phone.
 
 ## 2. Name and launch
@@ -37,7 +37,20 @@ Everything unresolved, half-finished or ambiguous at handover, 18 November 2026.
 1. **Trademark and domain check before buying a domain.** A Gipuzkoa camper-van maker trades as Norantz (4×4 line Ipar; still launching models in 2026). `norantz.org` hosts an academic database on northern Basque grammar; a Berria demolinguistic projection also uses the word in its title. Searches were partial (the first was autocorrected). Needs a trademark lawyer; vehicles and research services usually sit in different classes. Fallback name not chosen.
 2. **Native-speaker check** of Norantz's connotations has not been done.
 3. **España 2050 launch timing.** The original brief (16 Nov) was to release the España 2050 review before the Spanish general election, for PR. Nothing since confirms the date or whether this still holds. A pre-election release of a review of a government report raises neutrality questions the site's design depends on (method decision 4, "care around elections" in the 16 Nov website brief). Owner to decide.
-4. **Funding and selection transparency** (raised in the 16 Nov website brief: visible funding, why these reports and not others) has no design or policy yet.
+4. **Funding and selection transparency** (raised in the 16 Nov website brief: visible funding, why these reports and not others) has a page in the site architecture (`/about/funding/`) but no policy yet.
+
+## 2a. Site (`docs/site-architecture.md` v0.1)
+
+| # | Question | Proposed default | Blocks |
+| --- | --- | --- | --- |
+| 1 | Basemap convention for disputed borders (South China Sea, Kashmir, Western Sahara and others) | Choose one convention and state it under the map | Map |
+| 2 | Licence for reviews and data | None proposed (a Creative Commons licence suggested) | Data and citation, Terms |
+| 3 | Election policy | None proposed | Editorial standards, España 2050 launch |
+| 4 | Right-of-reply process | None proposed (also spec gap §16) | For report authors |
+| 5 | Legal notice (*aviso legal*, *Impressum*): required where Plural Futures is established? | Check jurisdiction | Legal |
+| 6 | Email provider and analytics tool | Cookie-free analytics, so no banner | Sign-up, Privacy, Cookies |
+| 7 | English at the root, or `/en/` as well | English at the root | Addresses |
+| 8 | Review-state marks on the map (solid Sky, dotted Sky, Loam outline) | Test with readers | Map |
 
 ## 3. Method (`claude/scenario-review-method.md` v0.2)
 
@@ -58,10 +71,10 @@ Decisions 1, 2 and 15 should be closed first: 1 and 2 change ratings already mad
 | 9 | Country source packs | Build and approve per country before the evidence pass; shared foresight/risk pack for the change scan | Indonesia pack built, not approved. Shared pack has one entry (WEF Global Risks 2026). España has none written down. |
 | 10 | Cross-report taxonomy | Shared top level, report-specific clusters beneath; change-scan domains to match | Not drafted. Blocks "related reports". |
 | 11 | Public layer | Short findings page plus register | Assumed. |
-| 12 | Languages | Report's own language and English at minimum | Both drafts English only. |
+| 12 | Languages | Report's own language and English at minimum | Site languages set by decision S8 (English, Spanish, Indonesian; `/es/`, `/id/`). Report pages: still the default. Both drafts English only. |
 | 13 | Refresh cadence | Fixed cycle, dated versions | No cycle set. Indonesia proposes next review after BPS full-year 2026 release (5 Feb 2027). |
 | 14 | Media as evidence | Out of ratings; standing check and candidates only | Confirmed in practice; needs a written line on **media as a carrier of official figures** (both pilots reached Tier-1 figures through news pages). |
-| 15 | Scope | Include long-horizon visions; exclude ordinary medium-term plans | Assumed by all work. |
+| 15 | Scope | Include long-horizon visions; exclude ordinary medium-term plans | Assumed by all work. **Blocks the map** (S7): the catalogue makes the scope public. |
 | 16 | Proxies for qualitative goals | Prefer government-adopted indicators; label every proxy; human validation | Untested (pilot 3 would test it). |
 | 17 | Superseded visions | Reduced review | Used for Indonesia's 2017 deck. |
 | 18 | Change-scan size and repeatability | Fixed sources and domains; two independent runs; at most twelve published | **Only one run** done (Indonesia). |
