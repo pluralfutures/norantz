@@ -1,3 +1,7 @@
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
 # Norantz
 
 *Towards where?* A second reading of national futures. An endorsed sub-brand of Plural Futures ("Norantz, by Plural Futures").
@@ -34,8 +38,19 @@ The repo mirrors the claude.ai project layout, except that the Indonesia analysi
 | `brand/tokens.json`, `brand/logos/` | Design tokens (colour, type, spacing, radius, stroke, shadow, opacity) and the 8 logo SVGs, exported byte-identical from the design-system artifact on 18 Nov. `tokens.json` is the source of truth |
 | `brand/tokens.css`, `scripts/build_tokens.py` | CSS variables (`--nz-*`) and type classes (`.nz-type-*`) **generated** from `tokens.json`; never edit the CSS by hand. Usage in `brand/README.md` |
 | `claude/norantz-brand-guideline.md` | One-page brand summary (full version now in `docs/brand-guidelines.md`) |
-| `Indonesia-*/` | Source extractions: `chunks.jsonl`, `slides.md`, `*-figures.json`, `glossary.json`, `README.md` per document |
+| `Indonesia-*/` | Source extractions, one folder per document. The 2017 oration, the RPJPN draft and the keynote hold `chunks.jsonl` (plus `slides.md`, `*-figures.json`, `glossary.json`, `README.md` where present). The enacted UU 59/2024 and the RPJMN 2025-2029 are single text-layer files (`uu59-2024-lampiran-text.md`, `ringkasan-text.md`) whose headers give source URL, page layout and citation form |
 | `ASEAN National Foresight Scenario Reports.md` | Secondary synthesis of ASEAN reports (stored as text; the original name ended `.docx`) |
+
+## Commands
+
+There is no website code, package manager, test suite or linter yet. The only build step is the token generator (Python 3, standard library only):
+
+```bash
+python3 scripts/build_tokens.py          # regenerate brand/tokens.css from brand/tokens.json
+python3 scripts/build_tokens.py --check  # exit 1 if tokens.css is stale
+```
+
+Run `--check` after any change to `brand/tokens.json`. The three duplicate pairs in `Indonesia-Emas-2045-Analysis/` must stay byte-identical: edit both, then confirm with `cmp register.md indonesia-2045-register.md` (and likewise `source-pack.md` / `indonesia-source-pack.md`, `evidence-cluster-a.md` / `indonesia-2045-evidence-cluster-a.md`).
 
 Source-extraction schema (agreed, keep it): one record per page or slide; numbers verbatim from the PDF text layer; anything read off a chart or image prefixed `~` and **never rated**; keep both `pdf_page` and printed page; visual descriptions in Indonesian and English describe logic, not colour.
 
@@ -74,7 +89,7 @@ Source-extraction schema (agreed, keep it): one record per page or slide; number
 - **Method v0.2** and **page spec v0.2** written; most open decisions have proposed defaults, few are agreed.
 - **España 2050** (pilot 1, hybrid, quantified, advisory): 102-item register, 6 of 9 clusters tested, page test-filled on template v0.1. 14 proposed fixes not applied. No change scan or commitment pass yet.
 - **Indonesia Emas 2045** (pilot 2, RPJPN 2025-2045 / UU 59/2024, in force, early-horizon variant, paired with the superseded 2017 deck): register validated (35 claims, 87 goal rows, 37 commitments); clusters A, B, D evidenced; change scan run once (X1-X12); **page draft 0.1 complete** to spec v0.2. No rating has been reviewed by a person.
-- **Brand v0.1** built as a design system artifact (tokens, 15 components, logo SVGs): https://claude.ai/artifact/DRZLvr6GwRJSaThHXB2pe5. Four brand decisions confirmed by the owner; the rest is draft for review.
+- **Brand v0.1** built as a design system artifact (tokens, 15 components, logo SVGs): https://claude.ai/artifact/DRZLvr6GwRJSaThHXB2pe5. Five brand decisions confirmed by the owner (B1-B4, and B15: the site follows the reader's dark-mode setting); the rest is draft for review.
 - No website code exists yet. Tokens (JSON and generated CSS) and logos are in `brand/`; the 15 components are static HTML/CSS (prefix `nz-`) still only in the artifact, no JS bundle.
 
 ## Next steps, in order
@@ -87,3 +102,5 @@ Source-extraction schema (agreed, keep it): one record per page or slide; number
 6. Settle the name risk (trademark and domain check) before buying a domain.
 
 Ask the owner before changing anything listed as confirmed in `docs/decisions.md`.
+
+**Keep the decision record current.** Whenever a decision is made or changes, in the same commit: add or amend its row in `docs/decisions.md` (status, date, why, what was rejected), remove or update the matching item in `docs/open-questions.md`, and update this file wherever it states the point (brand short form, evidence rules, where things stand, next steps).

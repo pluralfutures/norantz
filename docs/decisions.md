@@ -129,6 +129,7 @@ All of D1-D4 and the two working rules were **confirmed by the owner on 17 Novem
 | R1 | **Repo `pluralfutures/norantz`; project files merged straight to `main`** (fast-forward from `add-project-files`, 17 Nov). | Confirmed ("Merge it directly") | No one else had changed `main`. A pull request was offered and not chosen. |
 | R2 | The ASEAN synthesis is stored as **`ASEAN National Foresight Scenario Reports.md`**. | Adopted | The project held it as plain text under a `.docx` name, which would not open in Word. |
 | R3 | **Move the work into the repo and continue in Claude Code** (this handover). | Confirmed (18 Nov) | Owner's instruction. |
+| R4 | **Update `docs/decisions.md` and `CLAUDE.md` whenever a decision is made or changes**, in the same commit, and clear the matching item from `docs/open-questions.md`. | Confirmed (owner's instruction, first Claude Code session) | Keeps the handover true as work moves on; later sessions start from `CLAUDE.md`. |
 
 ## 10. Things we said no to (one list)
 
