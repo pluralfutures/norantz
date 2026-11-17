@@ -30,7 +30,9 @@ Everything unresolved, half-finished or ambiguous at handover, 18 November 2026.
 - Fonts are hosted (Google Fonts), no files. Decide whether to self-host (all three faces are open-licence; check before shipping).
 - Components are static HTML/CSS previews (`bundle.css`, prefix `nz-`); no JavaScript bundle, no site code, no chart library chosen.
 - Not designed: home page, country and theme indexes, cross-report comparison view, method page, social cards beyond the rules, deck template.
-- No reader has seen any of it laid out or on a phone.
+- One page is laid out (`pages/espana-2050/index.html`, 18 Nov) and checked in Chromium at desktop and phone widths, light and dark. No reader has seen it.
+- **`bundle.css` uses unprefixed variables** (`--paper`, `--sky-ink`), but `brand/tokens.css` generates `--nz-*`. The bundle cannot run on the repo tokens as is; `pages/report-page.css` is a port. Decide which naming leads before exporting the bundle.
+- **ScenarioCards preview gives a vision's goal an Ember band and its comparison path a Bloom band.** Brand §4 keeps Ember out of data and scenario inks for scenario-set pages. The España page uses Loam for both cards. Decide which rule leads.
 
 ## 2. Name and launch
 
@@ -120,8 +122,8 @@ Commissioner, political moment and decision questions (§3, §4); a rubric for w
 ### Out of step
 
 - `claude/report-page-template.md` is still **v0.1** (17 sections, old numbering, "Scenarios are not predictions" fixed text that is wrong for visions).
-- `claude/espana-2050-page-draft.md` follows template v0.1.
-- Only the Indonesia draft follows spec v0.2.
+- `claude/espana-2050-page-draft.md` is now draft 0.2 on spec v0.2 (18 Nov). Its eight "notes from the rebuild" are proposals for spec v0.3 and brand v0.2.
+- The Indonesia draft and España draft 0.2 follow spec v0.2; the template does not.
 
 ## 5. Indonesia Emas 2045 (half-finished)
 
