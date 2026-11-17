@@ -31,6 +31,7 @@ The repo mirrors the claude.ai project layout, except that the Indonesia analysi
 | `claude/handoff-indonesia-2045-2026-11-17.md` | Confirmed Indonesia decisions (§3) and the order of work |
 | `claude/uu59-2024-enacted-annex-reconciliation.md`, `claude/perpres-12-2025-rpjmn-standing-check.md`, `claude/visi-2045-oration-2017-extraction-plan.md` | Indonesia version control, standing check, 2017-deck extraction plan |
 | `BahanPaparanMPPN-VisiIndonesia2045-25September2017.pdf` | The 2017 oration deck PDF (the only source PDF in the repo) |
+| `brand/tokens.json`, `brand/logos/` | Design tokens (colour, type, spacing, radius, stroke, shadow, opacity) and the 8 logo SVGs, exported byte-identical from the design-system artifact on 18 Nov |
 | `claude/norantz-brand-guideline.md` | One-page brand summary (full version now in `docs/brand-guidelines.md`) |
 | `Indonesia-*/` | Source extractions: `chunks.jsonl`, `slides.md`, `*-figures.json`, `glossary.json`, `README.md` per document |
 | `ASEAN National Foresight Scenario Reports.md` | Secondary synthesis of ASEAN reports (stored as text; the original name ended `.docx`) |
@@ -73,16 +74,15 @@ Source-extraction schema (agreed, keep it): one record per page or slide; number
 - **España 2050** (pilot 1, hybrid, quantified, advisory): 102-item register, 6 of 9 clusters tested, page test-filled on template v0.1. 14 proposed fixes not applied. No change scan or commitment pass yet.
 - **Indonesia Emas 2045** (pilot 2, RPJPN 2025-2045 / UU 59/2024, in force, early-horizon variant, paired with the superseded 2017 deck): register validated (35 claims, 87 goal rows, 37 commitments); clusters A, B, D evidenced; change scan run once (X1-X12); **page draft 0.1 complete** to spec v0.2. No rating has been reviewed by a person.
 - **Brand v0.1** built as a design system artifact (tokens, 15 components, logo SVGs): https://claude.ai/artifact/DRZLvr6GwRJSaThHXB2pe5. Four brand decisions confirmed by the owner; the rest is draft for review.
-- No website code exists yet. Components are static HTML/CSS (prefix `nz-`), no JS bundle.
+- No website code exists yet. Tokens and logos are in `brand/`; the 15 components are static HTML/CSS (prefix `nz-`) still only in the artifact, no JS bundle.
 
 ## Next steps, in order
 
-1. Export the logo SVGs and `tokens.json` from the design-system artifact into the repo (`docs/open-questions.md` §1, §7).
-2. Indonesia: verify the "verify at source" figures, run the second change-scan collection, recover the missing change-scan URLs, then a human review of every "weakened", "behind" and "not supported" rating.
-3. Fold the Indonesia method notes (handoff §7: proposals 21-23, standing-check departures, definition drift, baseline replacement) and the seven spec notes at the end of the page draft into method v0.3 and spec v0.3.
-4. Close method decisions 1 (thresholds), 2 (horizon split) and 15 (scope) first; then re-rate España 2050.
-5. Update the template and the España page to spec v0.3; rebuild one page in the brand system to test the iceberg and status rules visually.
-6. Indonesia clusters C, E, F, G; then pilot 3 (Vietnam 2035 or AmBisyon Natin 2040, classified from the primary text).
-7. Settle the name risk (trademark and domain check) before buying a domain.
+1. Indonesia: verify the "verify at source" figures, run the second change-scan collection, recover the missing change-scan URLs, then a human review of every "weakened", "behind" and "not supported" rating.
+2. Fold the Indonesia method notes (handoff §7: proposals 21-23, standing-check departures, definition drift, baseline replacement) and the seven spec notes at the end of the page draft into method v0.3 and spec v0.3.
+3. Close method decisions 1 (thresholds), 2 (horizon split) and 15 (scope) first; then re-rate España 2050.
+4. Update the template and the España page to spec v0.3; rebuild one page in the brand system to test the iceberg and status rules visually.
+5. Indonesia clusters C, E, F, G; then pilot 3 (Vietnam 2035 or AmBisyon Natin 2040, classified from the primary text).
+6. Settle the name risk (trademark and domain check) before buying a domain.
 
 Ask the owner before changing anything listed as confirmed in `docs/decisions.md`.

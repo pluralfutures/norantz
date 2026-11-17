@@ -147,7 +147,7 @@ Lower case, monoline, geometric, drawn on a 40-unit x-height with a 7-unit strok
 | `norantz-lockup-ink.svg` | Mark + wordmark, for paper | Default sign-off |
 | `norantz-lockup-paper.svg` | Mark + wordmark, for ink | Sign-off on ink |
 
-The SVGs live in the artifact's asset store (group "Logos"); they are not yet in this repo.
+The SVGs are in `brand/logos/`, exported byte-identical from the artifact's asset store on 18 November 2026. `brand/tokens.json` holds every value in §4, §5 and §7.
 
 ### Rules
 

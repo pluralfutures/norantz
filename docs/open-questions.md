@@ -26,8 +26,7 @@ Everything unresolved, half-finished or ambiguous at handover, 18 November 2026.
 
 ### Not yet built
 
-- Logo SVGs (8 files) sit only in the design-system artifact's asset store. Export them into the repo (`assets/logos/` suggested).
-- `tokens.json` is in the artifact only; export it and generate CSS variables from it.
+- Logo SVGs and `tokens.json` are now in `brand/` (checksums match the artifact). Still to do: generate CSS variables from the tokens, and export the 15 component previews and `components/bundle.css`, which are only in the artifact.
 - Fonts are hosted (Google Fonts), no files. Decide whether to self-host (all three faces are open-licence; check before shipping).
 - Components are static HTML/CSS previews (`bundle.css`, prefix `nz-`); no JavaScript bundle, no site code, no chart library chosen.
 - Not designed: home page, country and theme indexes, cross-report comparison view, method page, social cards beyond the rules, deck template.
