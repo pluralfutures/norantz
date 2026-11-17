@@ -1,0 +1,206 @@
+{
+ "APBN": {
+  "id": "Anggaran Pendapatan dan Belanja Negara",
+  "en": "state budget"
+ },
+ "APK": {
+  "id": "Angka Partisipasi Kasar",
+  "en": "gross enrolment ratio"
+ },
+ "AFOLU": {
+  "id": "Agriculture, Forestry and Other Land Use",
+  "en": "agriculture, forestry and other land use (GHG sector)"
+ },
+ "ALKI": {
+  "id": "Alur Laut Kepulauan Indonesia",
+  "en": "Indonesian archipelagic sea lanes"
+ },
+ "ASN": {
+  "id": "Aparatur Sipil Negara",
+  "en": "civil service / civil servants"
+ },
+ "BABS": {
+  "id": "Buang Air Besar Sembarangan",
+  "en": "open defecation"
+ },
+ "Bappenas": {
+  "id": "Badan Perencanaan Pembangunan Nasional",
+  "en": "National Development Planning Agency"
+ },
+ "BAU": {
+  "id": "Business-As-Usual",
+  "en": "business-as-usual (baseline scenario)"
+ },
+ "BOT/BOL/BOO": {
+  "id": "Build-Operate-Transfer / -Lease / -Own",
+  "en": "PPP contract forms"
+ },
+ "BUMN": {
+  "id": "Badan Usaha Milik Negara",
+  "en": "state-owned enterprise"
+ },
+ "DAS": {
+  "id": "Daerah Aliran Sungai",
+  "en": "river basin / watershed"
+ },
+ "DEN": {
+  "id": "Dewan Energi Nasional",
+  "en": "National Energy Council"
+ },
+ "EBT": {
+  "id": "Energi Baru dan Terbarukan",
+  "en": "new and renewable energy"
+ },
+ "EoDB": {
+  "id": "Ease of Doing Business",
+  "en": "World Bank Ease of Doing Business ranking"
+ },
+ "ERP": {
+  "id": "Electronic Road Pricing",
+  "en": "electronic road pricing"
+ },
+ "FSM": {
+  "id": "Faecal Sludge Management",
+  "en": "faecal sludge management"
+ },
+ "GERD": {
+  "id": "Gross Expenditure on R&D",
+  "en": "gross domestic expenditure on R&D"
+ },
+ "GK": {
+  "id": "Garis Kemiskinan",
+  "en": "poverty line (0,8 GK = 80% of the poverty line)"
+ },
+ "GRK": {
+  "id": "Gas Rumah Kaca",
+  "en": "greenhouse gas"
+ },
+ "HAM": {
+  "id": "Hak Asasi Manusia",
+  "en": "human rights"
+ },
+ "IKLH": {
+  "id": "Indeks Kualitas Lingkungan Hidup",
+  "en": "environmental quality index"
+ },
+ "IPPU": {
+  "id": "Industrial Processes and Product Use",
+  "en": "industrial processes and product use (GHG sector)"
+ },
+ "Iptek": {
+  "id": "Ilmu Pengetahuan dan Teknologi",
+  "en": "science and technology"
+ },
+ "ITS": {
+  "id": "Intelligent Transport System",
+  "en": "intelligent transport system"
+ },
+ "KBI": {
+  "id": "Kawasan Barat Indonesia",
+  "en": "Western Indonesia (Sumatra, Java, Bali, Kalimantan)"
+ },
+ "KTI": {
+  "id": "Kawasan Timur Indonesia",
+  "en": "Eastern Indonesia"
+ },
+ "Kehati": {
+  "id": "Keanekaragaman Hayati",
+  "en": "biodiversity"
+ },
+ "KPBU": {
+  "id": "Kerjasama Pemerintah dengan Badan Usaha",
+  "en": "public-private partnership (PPP)"
+ },
+ "MEF": {
+  "id": "Minimum Essential Force",
+  "en": "minimum essential (defence) force"
+ },
+ "MER": {
+  "id": "Market Exchange Rate",
+  "en": "market exchange rate"
+ },
+ "MIT": {
+  "id": "Middle Income Trap",
+  "en": "middle-income trap"
+ },
+ "MTOE": {
+  "id": "Million Tonnes of Oil Equivalent",
+  "en": "million tonnes of oil equivalent"
+ },
+ "NMT": {
+  "id": "Non-Motorised Transport",
+  "en": "non-motorised transport"
+ },
+ "NTT": {
+  "id": "Nusa Tenggara Timur",
+  "en": "East Nusa Tenggara province"
+ },
+ "OMSP": {
+  "id": "Operasi Militer Selain Perang",
+  "en": "military operations other than war"
+ },
+ "PDB": {
+  "id": "Produk Domestik Bruto",
+  "en": "gross domestic product (GDP)"
+ },
+ "PINA": {
+  "id": "Pembiayaan Investasi Non Anggaran Pemerintah",
+  "en": "non-government-budget investment financing scheme"
+ },
+ "PKN/PKW": {
+  "id": "Pusat Kegiatan Nasional / Wilayah",
+  "en": "national / regional activity centre (spatial plan city tiers)"
+ },
+ "PLTA": {
+  "id": "Pembangkit Listrik Tenaga Air",
+  "en": "hydropower plant"
+ },
+ "PLTN": {
+  "id": "Pembangkit Listrik Tenaga Nuklir",
+  "en": "nuclear power plant"
+ },
+ "PPP": {
+  "id": "Purchasing Power Parity",
+  "en": "purchasing power parity"
+ },
+ "PwC": {
+  "id": "PricewaterhouseCoopers",
+  "en": "PwC 'The World in 2050' (2017) projections"
+ },
+ "RPJPN": {
+  "id": "Rencana Pembangunan Jangka Panjang Nasional",
+  "en": "national long-term development plan"
+ },
+ "RT": {
+  "id": "Rumah Tangga",
+  "en": "household"
+ },
+ "RUEN": {
+  "id": "Rencana Umum Energi Nasional",
+  "en": "national energy general plan (2017, Perpres 22/2017)"
+ },
+ "SDM": {
+  "id": "Sumber Daya Manusia",
+  "en": "human resources"
+ },
+ "TFR": {
+  "id": "Total Fertility Rate",
+  "en": "total fertility rate"
+ },
+ "TOD": {
+  "id": "Transit Oriented Development",
+  "en": "transit-oriented development"
+ },
+ "TPT": {
+  "id": "Tingkat Pengangguran Terbuka",
+  "en": "open unemployment rate"
+ },
+ "WPP": {
+  "id": "Wilayah Pengelolaan Perikanan",
+  "en": "fisheries management area"
+ },
+ "Wisman": {
+  "id": "Wisatawan Mancanegara",
+  "en": "foreign tourists"
+ }
+}

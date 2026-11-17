@@ -1,0 +1,2620 @@
+{
+ "1": {
+  "event": "Orasi Ilmiah Fakultas Ekonomi dan Bisnis, Universitas Indonesia",
+  "place": "Jakarta",
+  "date": "2017-09-26",
+  "speaker": "Menteri PPN / Kepala Bappenas"
+ },
+ "2": {
+  "sections": [
+   "Visi Indonesia dan Impian Indonesia 2015–2085",
+   "Demografi Indonesia",
+   "Skenario Pertumbuhan Ekonomi Indonesia 2016–2045",
+   "Pembangunan SDM dan Penguasaan IPTEK",
+   "Pembangunan Ekonomi Berkelanjutan",
+   "Pemerataan Pembangunan",
+   "Ketahanan Nasional dan Tata Kelola Kepemerintahan"
+  ]
+ },
+ "3": {
+  "vision_2045": [
+   "Berdaulat",
+   "Maju",
+   "Adil dan Makmur"
+  ],
+  "national_goals_uud1945": [
+   "melindungi segenap bangsa Indonesia dan seluruh tumpah darah Indonesia",
+   "memajukan kesejahteraan umum",
+   "mencerdaskan kehidupan bangsa",
+   "ikut melaksanakan ketertiban dunia berdasarkan kemerdekaan, perdamaian abadi, dan keadilan sosial"
+  ],
+  "impian_indonesia_2015_2085": {
+   "source": "handwritten note, Merauke 30 Dec 2015, signed Joko Widodo (read from photo)",
+   "items_id": [
+    "Sumber daya manusia Indonesia yang kecerdasannya mengungguli bangsa-bangsa lain di dunia",
+    "Masyarakat Indonesia yang menjunjung tinggi pluralisme, berbudaya, religius dan menjunjung tinggi nilai-nilai etika",
+    "Indonesia menjadi pusat pendidikan, teknologi dan peradaban dunia",
+    "Masyarakat dan aparatur pemerintah yang bebas dari perilaku korupsi",
+    "Terbangunnya infrastruktur yang merata di seluruh Indonesia",
+    "Indonesia menjadi negara yang mandiri dan negara yang paling berpengaruh di Asia Pasifik",
+    "Indonesia menjadi barometer pertumbuhan ekonomi dunia"
+   ]
+  }
+ },
+ "4": {
+  "pillars": [
+   {
+    "no": 1,
+    "id": "Pembangunan SDM dan Penguasaan Ilmu Pengetahuan dan Teknologi",
+    "en": "Human resource development and mastery of science and technology"
+   },
+   {
+    "no": 2,
+    "id": "Pembangunan Ekonomi Berkelanjutan",
+    "en": "Sustainable economic development"
+   },
+   {
+    "no": 3,
+    "id": "Pemerataan Pembangunan",
+    "en": "Equitable development"
+   },
+   {
+    "no": 4,
+    "id": "Ketahanan Nasional dan Tata Kelola Kepemerintahan",
+    "en": "National resilience and governance"
+   }
+  ],
+  "foundation": "Pancasila",
+  "context": "Megatren dunia"
+ },
+ "5": {
+  "megatrends": [
+   "Perubahan Demografi",
+   "Urbanisasi Global",
+   "Geoekonomi Dunia",
+   "Perubahan Geopolitik",
+   "Perdagangan Internasional",
+   "Kemajuan Teknologi",
+   "Keuangan Global",
+   "Perubahan Iklim",
+   "Persaingan Sumber Daya Alam",
+   "Kelas Pendapatan Menengah"
+  ],
+  "count": 10
+ },
+ "6": {
+  "world_population_2045_bn": 9.45,
+  "top10_2045_mn": [
+   [
+    "India",
+    1674
+   ],
+   [
+    "China",
+    1375
+   ],
+   [
+    "USA",
+    381
+   ],
+   [
+    "Nigeria",
+    362
+   ],
+   [
+    "Indonesia",
+    318
+   ],
+   [
+    "Pakistan",
+    295
+   ],
+   [
+    "Brasil",
+    238
+   ],
+   [
+    "Bangladesh",
+    200
+   ],
+   [
+    "Ethiopia",
+    177
+   ],
+   [
+    "Congo",
+    175
+   ]
+  ],
+  "top10_2085_mn": [
+   [
+    "India",
+    1722
+   ],
+   [
+    "China",
+    1087
+   ],
+   [
+    "Nigeria",
+    658
+   ],
+   [
+    "USA",
+    436
+   ],
+   [
+    "Pakistan",
+    363
+   ],
+   [
+    "Congo",
+    339
+   ],
+   [
+    "Indonesia",
+    322
+   ],
+   [
+    "Tanzania",
+    253
+   ],
+   [
+    "Ethiopia",
+    240
+   ],
+   [
+    "Brasil",
+    215
+   ]
+  ],
+  "indonesia_rank": {
+   "2045": 5,
+   "2085": 7
+  },
+  "population_by_region_mn": {
+   "columns": [
+    2015,
+    2030,
+    2045,
+    2050,
+    2100
+   ],
+   "Dunia": [
+    7349,
+    8501,
+    9454,
+    9725,
+    11213
+   ],
+   "Afrika": [
+    1186,
+    1679,
+    2268,
+    2478,
+    4387
+   ],
+   "Asia": [
+    4393,
+    4923,
+    5218,
+    5267,
+    4889
+   ],
+   "Eropa": [
+    738,
+    734,
+    714,
+    707,
+    646
+   ],
+   "Amerika Latin & Karibia": [
+    634,
+    721,
+    774,
+    784,
+    721
+   ],
+   "Amerika Utara": [
+    358,
+    396,
+    425,
+    483,
+    500
+   ],
+   "Oceania": [
+    39,
+    47,
+    54,
+    57,
+    71
+   ]
+  },
+  "growth_rate_chart": {
+   "period": "1960-2100",
+   "unit": "%/yr",
+   "series": [
+    "Dunia",
+    "Afrika",
+    "Asia",
+    "Eropa",
+    "Latin & Karibia",
+    "Amerika Utara",
+    "Oceania"
+   ],
+   "approx_values": {
+    "Afrika": {
+     "1980": "~2.8",
+     "2045": "~1.8",
+     "2100": "~0.7"
+    },
+    "Dunia": {
+     "1970": "~2.0",
+     "2045": "~0.6",
+     "2100": "~0.1"
+    },
+    "Eropa": {
+     "1960": "~1.0",
+     "2030": "~0.0",
+     "2100": "~-0.2"
+    }
+   }
+  },
+  "source": "UN population projections (not stated on slide; see slide 7 footnote: UN Population Prospect 2010-2085)"
+ },
+ "7": {
+  "indicators_2010_vs_2045": {
+   "jumlah_penduduk_mn": [
+    238.5,
+    318.7
+   ],
+   "total_fertility_rate": [
+    2.5,
+    1.9
+   ],
+   "harapan_hidup_years": [
+    69.8,
+    72.8
+   ],
+   "lansia_65plus_mn": [
+    11.9,
+    42.8
+   ],
+   "rasio_ketergantungan_pct": [
+    51.1,
+    50.2
+   ],
+   "penduduk_perkotaan_pct": [
+    49.9,
+    69.1
+   ]
+  },
+  "dependency_ratio_curve": {
+   "2010": 50.5,
+   "2015": 48.6,
+   "2020": 47.7,
+   "2025": 47.2,
+   "2028-2031": 46.9,
+   "2035": 47.3,
+   "2040": 48.4,
+   "2045": 50.1,
+   "note": "year mapping of labelled points read from chart position"
+  },
+  "asean_productive_age_share_pct": {
+   "Indonesia": 41,
+   "Philippines": 19,
+   "Viet Nam": 14,
+   "Lainnya": 11,
+   "Myanmar": 8,
+   "Thailand": 7,
+   "source": "raster pie, labels read from image"
+  },
+  "expected_conditions": [
+   "Pembangunan berpusat pada manusia",
+   "Pemanfaatan bonus demografi dan bonus demografi kedua",
+   "Pengendalian urbanisasi dan pengelolaan migrasi",
+   "Pertumbuhan penduduk dan persebarannya yang seimbang",
+   "Perlindungan sosial yang komprehensif dan berkelanjutan",
+   "Peran strategis penduduk produktif Indonesia dalam pembangunan internasional",
+   "Terjaganya nilai-nilai keluarga dan hubungan yang erat antar generasi"
+  ],
+  "sources": [
+   "Perhitungan Proyeksi Penduduk Indonesia 2010-2045",
+   "UN Population Prospect 2010-2085"
+  ]
+ },
+ "8": {
+  "population_share_by_region_pct": {
+   "Sumatera": [
+    21,
+    23
+   ],
+   "Jawa": [
+    59,
+    55
+   ],
+   "Kalimantan": [
+    6,
+    7
+   ],
+   "Sulawesi": [
+    7,
+    8
+   ],
+   "Bali_Nusa_Tenggara": [
+    4,
+    4
+   ],
+   "Maluku_Papua": [
+    3,
+    3
+   ],
+   "years": [
+    2010,
+    2045
+   ],
+   "source": "read from raster map labels"
+  },
+  "population_thousands_and_density": {
+   "columns": [
+    "2010",
+    "2045"
+   ],
+   "Sumatera": {
+    "pop": [
+     50860,
+     72407
+    ],
+    "density_per_km2": [
+     106,
+     151
+    ]
+   },
+   "Jawa Bali": {
+    "pop": [
+     140941,
+     176177
+    ],
+    "density_per_km2": [
+     1042,
+     1303
+    ]
+   },
+   "Kalimantan": {
+    "pop": [
+     13851,
+     22159
+    ],
+    "density_per_km2": [
+     25,
+     41
+    ]
+   },
+   "Sulawesi": {
+    "pop": [
+     17437,
+     23967
+    ],
+    "density_per_km2": [
+     92,
+     127
+    ]
+   },
+   "Nusa Tenggara": {
+    "pop": [
+     9222,
+     13701
+    ],
+    "density_per_km2": [
+     137,
+     204
+    ]
+   },
+   "Maluku Papua": {
+    "pop": [
+     6207,
+     10277
+    ],
+    "density_per_km2": [
+     13,
+     21
+    ]
+   }
+  },
+  "urban_share_pct": {
+   "2010": 49.9,
+   "2045": 69.1
+  },
+  "java_urban_share_2035_pct": "~90",
+  "jakarta_bandung_mega_urban_population_mn": 76,
+  "rural_majority_regions": [
+   "NTT",
+   "Sulawesi Barat",
+   "Maluku"
+  ],
+  "sources": [
+   "Perhitungan Proyeksi Penduduk Indonesia 2010-2045",
+   "UN Population Prospect 2010-2085"
+  ]
+ },
+ "9": {
+  "scenarios": {
+   "baseline": {
+    "label": "Skenario Dasar (Business-As-Usual)",
+    "conditions_id": [
+     "Gejolak global berpengaruh besar dan harga komoditas tinggi",
+     "atau Pertumbuhan ekonomi dunia rendah dan harga komoditas rendah"
+    ]
+   },
+   "high": {
+    "label": "Skenario Tinggi",
+    "conditions_id": [
+     "Reformasi struktural berjalan sesuai harapan",
+     "pertumbuhan ekonomi dunia relatif tinggi"
+    ]
+   }
+  },
+  "table": {
+   "columns": [
+    "1986-2015 actual",
+    "2016-2045 baseline",
+    "2016-2045 high"
+   ],
+   "rows": [
+    {
+     "indicator": "Pertumbuhan Ekonomi (%/th)",
+     "values": [
+      5.1,
+      5.1,
+      6.4
+     ]
+    },
+    {
+     "indicator": "Peringkat PDB Dunia",
+     "values": [
+      16,
+      8,
+      4
+     ]
+    },
+    {
+     "indicator": "PDB per kapita (USD)",
+     "values": [
+      3378,
+      19794,
+      28934
+     ]
+    },
+    {
+     "indicator": "Pertumbuhan Investasi (%/th)",
+     "values": [
+      6.4,
+      5.4,
+      7.3
+     ],
+     "share_of_gdp_pct": [
+      32.8,
+      33.1,
+      39.0
+     ]
+    },
+    {
+     "indicator": "Pertumbuhan Ekspor (%/th)",
+     "values": [
+      7.0,
+      5.6,
+      7.9
+     ],
+     "openness_X_plus_M_over_GDP_pct": [
+      34.0,
+      34.0,
+      54.0
+     ]
+    },
+    {
+     "indicator": "Pertumbuhan Industri (%/th)",
+     "values": [
+      6.3,
+      5.2,
+      7.8
+     ],
+     "share_of_gdp_pct": [
+      21.0,
+      22.5,
+      32.0
+     ]
+    },
+    {
+     "indicator": "Pertumbuhan Pertanian (%/th)",
+     "values": [
+      3.1,
+      3.0,
+      3.0
+     ],
+     "share_of_gdp_pct": [
+      13.5,
+      7.8,
+      6.5
+     ]
+    }
+   ]
+  },
+  "comparable_to": [
+   "RPJPN 2025-2045 draft Grafik 4.2.1 / Gambar 4.2.1 (growth path, manufacturing share)",
+   "RPJPN Tabel 4.2.2 (economic indicators 2025 baseline / 2045 target)"
+  ]
+ },
+ "10": {
+  "phases": [
+   {
+    "phase": 1,
+    "years": "2016-2025",
+    "theme_id": "Penguatan Struktur Ekonomi",
+    "avg_growth_pct": 6.0
+   },
+   {
+    "phase": 2,
+    "years": "2026-2035",
+    "theme_id": "Percepatan Pertumbuhan Berbasis Inovasi",
+    "avg_growth_pct": 7.0
+   },
+   {
+    "phase": 3,
+    "years": "2036-2045",
+    "theme_id": "Modernisasi Ekonomi Berbasis Kualitas dan Berkelanjutan",
+    "avg_growth_pct": 6.3
+   }
+  ],
+  "gdp_per_capita_usd": {
+   "2015": 3377,
+   "2020": 4719,
+   "2025": 6701,
+   "2030": 9715,
+   "2035": 14214,
+   "2040": 20460,
+   "2045": 28934
+  },
+  "growth_by_period_pct": {
+   "2015-2020": 5.5,
+   "2020-2025": 6.5,
+   "2025-2030": 7.0,
+   "2030-2035": 7.0,
+   "2035-2040": 6.5,
+   "2040-2045": 6.0
+  },
+  "middle_income_trap_exit_year": 2034,
+  "high_income_target_year": 2035,
+  "gdp_rank_target_2045": 4,
+  "comparable_to": [
+   "RPJPN 2025-2045 draft: MIT exit 2038 (baseline) / 2041 (lower) vs 2034 here; three-phase structure vs RPJPN's four 5-year phases"
+  ]
+ },
+ "11": {
+  "basis": "MER",
+  "unit": "USD billion",
+  "bappenas": {
+   "source": "Estimasi Bappenas berdasarkan skenario profil demografi yang baru",
+   "2015": [
+    {
+     "rank": 1,
+     "country": "USA",
+     "gdp_usd_bn": 17947
+    },
+    {
+     "rank": 2,
+     "country": "China",
+     "gdp_usd_bn": 10866
+    },
+    {
+     "rank": 3,
+     "country": "Jepang",
+     "gdp_usd_bn": 4123
+    },
+    {
+     "rank": 4,
+     "country": "Jerman",
+     "gdp_usd_bn": 3356
+    },
+    {
+     "rank": 5,
+     "country": "Inggris",
+     "gdp_usd_bn": 2849
+    },
+    {
+     "rank": 6,
+     "country": "Prancis",
+     "gdp_usd_bn": 2422
+    },
+    {
+     "rank": 7,
+     "country": "Brazil",
+     "gdp_usd_bn": 1775
+    },
+    {
+     "rank": 8,
+     "country": "Italia",
+     "gdp_usd_bn": 1815
+    },
+    {
+     "rank": 9,
+     "country": "India",
+     "gdp_usd_bn": 2074
+    },
+    {
+     "rank": 10,
+     "country": "Rusia",
+     "gdp_usd_bn": 1305
+    },
+    {
+     "rank": 11,
+     "country": "Kanada",
+     "gdp_usd_bn": 1551
+    },
+    {
+     "rank": 12,
+     "country": "Australia",
+     "gdp_usd_bn": 1340
+    },
+    {
+     "rank": 13,
+     "country": "Korea Selatan",
+     "gdp_usd_bn": 1378
+    },
+    {
+     "rank": 14,
+     "country": "Spanyol",
+     "gdp_usd_bn": 1199
+    },
+    {
+     "rank": 15,
+     "country": "Meksiko",
+     "gdp_usd_bn": 1144
+    },
+    {
+     "rank": 16,
+     "country": "INDONESIA",
+     "gdp_usd_bn": 889
+    }
+   ],
+   "2030": [
+    {
+     "rank": 1,
+     "country": "USA",
+     "gdp_usd_bn": 33514
+    },
+    {
+     "rank": 2,
+     "country": "China",
+     "gdp_usd_bn": 32987
+    },
+    {
+     "rank": 3,
+     "country": "India",
+     "gdp_usd_bn": 7284
+    },
+    {
+     "rank": 4,
+     "country": "Jepang",
+     "gdp_usd_bn": 6124
+    },
+    {
+     "rank": 5,
+     "country": "Jerman",
+     "gdp_usd_bn": 5473
+    },
+    {
+     "rank": 6,
+     "country": "Inggris",
+     "gdp_usd_bn": 5284
+    },
+    {
+     "rank": 7,
+     "country": "Prancis",
+     "gdp_usd_bn": 4168
+    },
+    {
+     "rank": 8,
+     "country": "Brazil",
+     "gdp_usd_bn": 3219
+    },
+    {
+     "rank": 9,
+     "country": "INDONESIA",
+     "gdp_usd_bn": 2880
+    },
+    {
+     "rank": 10,
+     "country": "Kanada",
+     "gdp_usd_bn": 2876
+    },
+    {
+     "rank": 11,
+     "country": "Italia",
+     "gdp_usd_bn": 2859
+    },
+    {
+     "rank": 12,
+     "country": "Australia",
+     "gdp_usd_bn": 2710
+    },
+    {
+     "rank": 13,
+     "country": "Korea Selatan",
+     "gdp_usd_bn": 2588
+    },
+    {
+     "rank": 14,
+     "country": "Rusia",
+     "gdp_usd_bn": 2287
+    },
+    {
+     "rank": 15,
+     "country": "Spanyol",
+     "gdp_usd_bn": 2162
+    },
+    {
+     "rank": 16,
+     "country": "Meksiko",
+     "gdp_usd_bn": 2000
+    }
+   ],
+   "2045": [
+    {
+     "rank": 1,
+     "country": "China",
+     "gdp_usd_bn": 70907
+    },
+    {
+     "rank": 2,
+     "country": "USA",
+     "gdp_usd_bn": 56284
+    },
+    {
+     "rank": 3,
+     "country": "India",
+     "gdp_usd_bn": 18536
+    },
+    {
+     "rank": 4,
+     "country": "INDONESIA",
+     "gdp_usd_bn": 9313
+    },
+    {
+     "rank": 5,
+     "country": "Inggris",
+     "gdp_usd_bn": 9045
+    },
+    {
+     "rank": 6,
+     "country": "Jepang",
+     "gdp_usd_bn": 8148
+    },
+    {
+     "rank": 7,
+     "country": "Jerman",
+     "gdp_usd_bn": 7976
+    },
+    {
+     "rank": 8,
+     "country": "Prancis",
+     "gdp_usd_bn": 6532
+    },
+    {
+     "rank": 9,
+     "country": "Brazil",
+     "gdp_usd_bn": 5232
+    },
+    {
+     "rank": 10,
+     "country": "Australia",
+     "gdp_usd_bn": 5148
+    },
+    {
+     "rank": 11,
+     "country": "Kanada",
+     "gdp_usd_bn": 4909
+    },
+    {
+     "rank": 12,
+     "country": "Korea Selatan",
+     "gdp_usd_bn": 4258
+    },
+    {
+     "rank": 13,
+     "country": "Italia",
+     "gdp_usd_bn": 3959
+    },
+    {
+     "rank": 14,
+     "country": "Rusia",
+     "gdp_usd_bn": 3589
+    },
+    {
+     "rank": 15,
+     "country": "Meksiko",
+     "gdp_usd_bn": 3260
+    },
+    {
+     "rank": 16,
+     "country": "Spanyol",
+     "gdp_usd_bn": 3130
+    }
+   ]
+  },
+  "pwc": {
+   "source": "Estimasi Price Waterhouse Coopers (2017)",
+   "2016": [
+    {
+     "rank": 1,
+     "country": "USA",
+     "gdp_usd_bn": 18562
+    },
+    {
+     "rank": 2,
+     "country": "China",
+     "gdp_usd_bn": 11392
+    },
+    {
+     "rank": 3,
+     "country": "Jepang",
+     "gdp_usd_bn": 4730
+    },
+    {
+     "rank": 4,
+     "country": "Jerman",
+     "gdp_usd_bn": 3495
+    },
+    {
+     "rank": 5,
+     "country": "Inggris",
+     "gdp_usd_bn": 2650
+    },
+    {
+     "rank": 6,
+     "country": "Prancis",
+     "gdp_usd_bn": 2488
+    },
+    {
+     "rank": 7,
+     "country": "India",
+     "gdp_usd_bn": 2251
+    },
+    {
+     "rank": 8,
+     "country": "Italia",
+     "gdp_usd_bn": 1852
+    },
+    {
+     "rank": 9,
+     "country": "Brazil",
+     "gdp_usd_bn": 1770
+    },
+    {
+     "rank": 10,
+     "country": "Kanada",
+     "gdp_usd_bn": 1532
+    },
+    {
+     "rank": 11,
+     "country": "Korea Selatan",
+     "gdp_usd_bn": 1404
+    },
+    {
+     "rank": 12,
+     "country": "Rusia",
+     "gdp_usd_bn": 1268
+    },
+    {
+     "rank": 13,
+     "country": "Australia",
+     "gdp_usd_bn": 1257
+    },
+    {
+     "rank": 14,
+     "country": "Spanyol",
+     "gdp_usd_bn": 1252
+    },
+    {
+     "rank": 15,
+     "country": "Meksiko",
+     "gdp_usd_bn": 1064
+    },
+    {
+     "rank": 16,
+     "country": "INDONESIA",
+     "gdp_usd_bn": 941
+    }
+   ],
+   "2030": [
+    {
+     "rank": 1,
+     "country": "China",
+     "gdp_usd_bn": 26499
+    },
+    {
+     "rank": 2,
+     "country": "USA",
+     "gdp_usd_bn": 23475
+    },
+    {
+     "rank": 3,
+     "country": "India",
+     "gdp_usd_bn": 7841
+    },
+    {
+     "rank": 4,
+     "country": "Jepang",
+     "gdp_usd_bn": 5468
+    },
+    {
+     "rank": 5,
+     "country": "Jerman",
+     "gdp_usd_bn": 4347
+    },
+    {
+     "rank": 6,
+     "country": "Inggris",
+     "gdp_usd_bn": 3530
+    },
+    {
+     "rank": 7,
+     "country": "Prancis",
+     "gdp_usd_bn": 3186
+    },
+    {
+     "rank": 8,
+     "country": "Brazil",
+     "gdp_usd_bn": 2969
+    },
+    {
+     "rank": 9,
+     "country": "INDONESIA",
+     "gdp_usd_bn": 2449
+    },
+    {
+     "rank": 10,
+     "country": "Italia",
+     "gdp_usd_bn": 2278
+    },
+    {
+     "rank": 11,
+     "country": "Korea Selatan",
+     "gdp_usd_bn": 2278
+    },
+    {
+     "rank": 12,
+     "country": "Meksiko",
+     "gdp_usd_bn": 2143
+    },
+    {
+     "rank": 13,
+     "country": "Rusia",
+     "gdp_usd_bn": 2111
+    },
+    {
+     "rank": 14,
+     "country": "Kanada",
+     "gdp_usd_bn": 2030
+    },
+    {
+     "rank": 15,
+     "country": "Spanyol",
+     "gdp_usd_bn": 1863
+    },
+    {
+     "rank": 16,
+     "country": "Australia",
+     "gdp_usd_bn": 1716
+    }
+   ],
+   "2050": [
+    {
+     "rank": 1,
+     "country": "China",
+     "gdp_usd_bn": 49853
+    },
+    {
+     "rank": 2,
+     "country": "USA",
+     "gdp_usd_bn": 34102
+    },
+    {
+     "rank": 3,
+     "country": "India",
+     "gdp_usd_bn": 28021
+    },
+    {
+     "rank": 4,
+     "country": "INDONESIA",
+     "gdp_usd_bn": 7275
+    },
+    {
+     "rank": 5,
+     "country": "Jepang",
+     "gdp_usd_bn": 6779
+    },
+    {
+     "rank": 6,
+     "country": "Brazil",
+     "gdp_usd_bn": 6532
+    },
+    {
+     "rank": 7,
+     "country": "Jerman",
+     "gdp_usd_bn": 6138
+    },
+    {
+     "rank": 8,
+     "country": "Meksiko",
+     "gdp_usd_bn": 5563
+    },
+    {
+     "rank": 9,
+     "country": "Inggris",
+     "gdp_usd_bn": 5369
+    },
+    {
+     "rank": 10,
+     "country": "Rusia",
+     "gdp_usd_bn": 5127
+    },
+    {
+     "rank": 11,
+     "country": "Prancis",
+     "gdp_usd_bn": 4705
+    },
+    {
+     "rank": 12,
+     "country": "Turki",
+     "gdp_usd_bn": 4087
+    },
+    {
+     "rank": 13,
+     "country": "Korea Selatan",
+     "gdp_usd_bn": 3539
+    },
+    {
+     "rank": 14,
+     "country": "Arab Saudi",
+     "gdp_usd_bn": 3495
+    },
+    {
+     "rank": 15,
+     "country": "Nigeria",
+     "gdp_usd_bn": 3282
+    },
+    {
+     "rank": 16,
+     "country": "Italia",
+     "gdp_usd_bn": 3115
+    }
+   ]
+  }
+ },
+ "12": {
+  "basis": "PPP",
+  "unit": "USD billion",
+  "bappenas": {
+   "source": "Estimasi Bappenas berdasarkan skenario profil demografi yang baru",
+   "2015": [
+    {
+     "rank": 1,
+     "country": "China",
+     "gdp_usd_bn": 19327
+    },
+    {
+     "rank": 2,
+     "country": "USA",
+     "gdp_usd_bn": 17947
+    },
+    {
+     "rank": 3,
+     "country": "India",
+     "gdp_usd_bn": 8006
+    },
+    {
+     "rank": 4,
+     "country": "Jepang",
+     "gdp_usd_bn": 4827
+    },
+    {
+     "rank": 5,
+     "country": "Jerman",
+     "gdp_usd_bn": 3834
+    },
+    {
+     "rank": 6,
+     "country": "Rusia",
+     "gdp_usd_bn": 3645
+    },
+    {
+     "rank": 7,
+     "country": "Brazil",
+     "gdp_usd_bn": 3164
+    },
+    {
+     "rank": 8,
+     "country": "INDONESIA",
+     "gdp_usd_bn": 2847
+    },
+    {
+     "rank": 9,
+     "country": "Inggris",
+     "gdp_usd_bn": 2671
+    },
+    {
+     "rank": 10,
+     "country": "Prancis",
+     "gdp_usd_bn": 2649
+    },
+    {
+     "rank": 11,
+     "country": "Meksiko",
+     "gdp_usd_bn": 2228
+    },
+    {
+     "rank": 12,
+     "country": "Italia",
+     "gdp_usd_bn": 2171
+    },
+    {
+     "rank": 13,
+     "country": "Kanada",
+     "gdp_usd_bn": 1954
+    },
+    {
+     "rank": 14,
+     "country": "Korea Selatan",
+     "gdp_usd_bn": 1847
+    },
+    {
+     "rank": 15,
+     "country": "Spanyol",
+     "gdp_usd_bn": 1614
+    },
+    {
+     "rank": 16,
+     "country": "Australia",
+     "gdp_usd_bn": 1245
+    }
+   ],
+   "2030": [
+    {
+     "rank": 1,
+     "country": "China",
+     "gdp_usd_bn": 45701
+    },
+    {
+     "rank": 2,
+     "country": "USA",
+     "gdp_usd_bn": 33514
+    },
+    {
+     "rank": 3,
+     "country": "India",
+     "gdp_usd_bn": 25235
+    },
+    {
+     "rank": 4,
+     "country": "INDONESIA",
+     "gdp_usd_bn": 6979
+    },
+    {
+     "rank": 5,
+     "country": "Jepang",
+     "gdp_usd_bn": 6836
+    },
+    {
+     "rank": 6,
+     "country": "Jerman",
+     "gdp_usd_bn": 5675
+    },
+    {
+     "rank": 7,
+     "country": "Inggris",
+     "gdp_usd_bn": 5041
+    },
+    {
+     "rank": 8,
+     "country": "Rusia",
+     "gdp_usd_bn": 4946
+    },
+    {
+     "rank": 9,
+     "country": "Prancis",
+     "gdp_usd_bn": 4088
+    },
+    {
+     "rank": 10,
+     "country": "Meksiko",
+     "gdp_usd_bn": 4085
+    },
+    {
+     "rank": 11,
+     "country": "Brazil",
+     "gdp_usd_bn": 3995
+    },
+    {
+     "rank": 12,
+     "country": "Korea Selatan",
+     "gdp_usd_bn": 3423
+    },
+    {
+     "rank": 13,
+     "country": "Italia",
+     "gdp_usd_bn": 3084
+    },
+    {
+     "rank": 14,
+     "country": "Kanada",
+     "gdp_usd_bn": 2876
+    },
+    {
+     "rank": 15,
+     "country": "Spanyol",
+     "gdp_usd_bn": 2637
+    },
+    {
+     "rank": 16,
+     "country": "Australia",
+     "gdp_usd_bn": 2133
+    }
+   ],
+   "2045": [
+    {
+     "rank": 1,
+     "country": "China",
+     "gdp_usd_bn": 83447
+    },
+    {
+     "rank": 2,
+     "country": "USA",
+     "gdp_usd_bn": 56284
+    },
+    {
+     "rank": 3,
+     "country": "India",
+     "gdp_usd_bn": 55397
+    },
+    {
+     "rank": 4,
+     "country": "INDONESIA",
+     "gdp_usd_bn": 17474
+    },
+    {
+     "rank": 5,
+     "country": "Jepang",
+     "gdp_usd_bn": 10689
+    },
+    {
+     "rank": 6,
+     "country": "Inggris",
+     "gdp_usd_bn": 8629
+    },
+    {
+     "rank": 7,
+     "country": "Jerman",
+     "gdp_usd_bn": 8328
+    },
+    {
+     "rank": 8,
+     "country": "Prancis",
+     "gdp_usd_bn": 6414
+    },
+    {
+     "rank": 9,
+     "country": "Rusia",
+     "gdp_usd_bn": 6039
+    },
+    {
+     "rank": 10,
+     "country": "Meksiko",
+     "gdp_usd_bn": 5955
+    },
+    {
+     "rank": 11,
+     "country": "Korea Selatan",
+     "gdp_usd_bn": 5527
+    },
+    {
+     "rank": 12,
+     "country": "Kanada",
+     "gdp_usd_bn": 4945
+    },
+    {
+     "rank": 13,
+     "country": "Brazil",
+     "gdp_usd_bn": 4506
+    },
+    {
+     "rank": 14,
+     "country": "Italia",
+     "gdp_usd_bn": 4270
+    },
+    {
+     "rank": 15,
+     "country": "Spanyol",
+     "gdp_usd_bn": 3817
+    },
+    {
+     "rank": 16,
+     "country": "Australia",
+     "gdp_usd_bn": 3747
+    }
+   ]
+  },
+  "pwc": {
+   "source": "Estimasi Price Waterhouse Coopers (2017)",
+   "2016": [
+    {
+     "rank": 1,
+     "country": "China",
+     "gdp_usd_bn": 21269
+    },
+    {
+     "rank": 2,
+     "country": "USA",
+     "gdp_usd_bn": 18562
+    },
+    {
+     "rank": 3,
+     "country": "India",
+     "gdp_usd_bn": 8721
+    },
+    {
+     "rank": 4,
+     "country": "Jepang",
+     "gdp_usd_bn": 4932
+    },
+    {
+     "rank": 5,
+     "country": "Jerman",
+     "gdp_usd_bn": 3979
+    },
+    {
+     "rank": 6,
+     "country": "Rusia",
+     "gdp_usd_bn": 3745
+    },
+    {
+     "rank": 7,
+     "country": "Brazil",
+     "gdp_usd_bn": 3135
+    },
+    {
+     "rank": 8,
+     "country": "INDONESIA",
+     "gdp_usd_bn": 3028
+    },
+    {
+     "rank": 9,
+     "country": "Inggris",
+     "gdp_usd_bn": 2788
+    },
+    {
+     "rank": 10,
+     "country": "Prancis",
+     "gdp_usd_bn": 2737
+    },
+    {
+     "rank": 11,
+     "country": "Meksiko",
+     "gdp_usd_bn": 2307
+    },
+    {
+     "rank": 12,
+     "country": "Italia",
+     "gdp_usd_bn": 2221
+    },
+    {
+     "rank": 13,
+     "country": "Korea Selatan",
+     "gdp_usd_bn": 1929
+    },
+    {
+     "rank": 14,
+     "country": "Turki",
+     "gdp_usd_bn": 1906
+    },
+    {
+     "rank": 15,
+     "country": "Arab Saudi",
+     "gdp_usd_bn": 1731
+    },
+    {
+     "rank": 16,
+     "country": "Spanyol",
+     "gdp_usd_bn": 1690
+    }
+   ],
+   "2030": [
+    {
+     "rank": 1,
+     "country": "China",
+     "gdp_usd_bn": 38008
+    },
+    {
+     "rank": 2,
+     "country": "USA",
+     "gdp_usd_bn": 23475
+    },
+    {
+     "rank": 3,
+     "country": "India",
+     "gdp_usd_bn": 19511
+    },
+    {
+     "rank": 4,
+     "country": "Jepang",
+     "gdp_usd_bn": 5606
+    },
+    {
+     "rank": 5,
+     "country": "INDONESIA",
+     "gdp_usd_bn": 5424
+    },
+    {
+     "rank": 6,
+     "country": "Rusia",
+     "gdp_usd_bn": 4736
+    },
+    {
+     "rank": 7,
+     "country": "Jerman",
+     "gdp_usd_bn": 4707
+    },
+    {
+     "rank": 8,
+     "country": "Brazil",
+     "gdp_usd_bn": 4439
+    },
+    {
+     "rank": 9,
+     "country": "Meksiko",
+     "gdp_usd_bn": 3661
+    },
+    {
+     "rank": 10,
+     "country": "Inggris",
+     "gdp_usd_bn": 3638
+    },
+    {
+     "rank": 11,
+     "country": "Prancis",
+     "gdp_usd_bn": 3377
+    },
+    {
+     "rank": 12,
+     "country": "Turki",
+     "gdp_usd_bn": 2996
+    },
+    {
+     "rank": 13,
+     "country": "Arab Saudi",
+     "gdp_usd_bn": 2755
+    },
+    {
+     "rank": 14,
+     "country": "Korea Selatan",
+     "gdp_usd_bn": 2651
+    },
+    {
+     "rank": 15,
+     "country": "Italia",
+     "gdp_usd_bn": 2541
+    },
+    {
+     "rank": 16,
+     "country": "Iran",
+     "gdp_usd_bn": 2354
+    }
+   ],
+   "2050": [
+    {
+     "rank": 1,
+     "country": "China",
+     "gdp_usd_bn": 58499
+    },
+    {
+     "rank": 2,
+     "country": "India",
+     "gdp_usd_bn": 44128
+    },
+    {
+     "rank": 3,
+     "country": "USA",
+     "gdp_usd_bn": 34102
+    },
+    {
+     "rank": 4,
+     "country": "INDONESIA",
+     "gdp_usd_bn": 10502
+    },
+    {
+     "rank": 5,
+     "country": "Brazil",
+     "gdp_usd_bn": 7540
+    },
+    {
+     "rank": 6,
+     "country": "Rusia",
+     "gdp_usd_bn": 7131
+    },
+    {
+     "rank": 7,
+     "country": "Meksiko",
+     "gdp_usd_bn": 6863
+    },
+    {
+     "rank": 8,
+     "country": "Jepang",
+     "gdp_usd_bn": 6779
+    },
+    {
+     "rank": 9,
+     "country": "Jerman",
+     "gdp_usd_bn": 6138
+    },
+    {
+     "rank": 10,
+     "country": "Inggris",
+     "gdp_usd_bn": 5369
+    },
+    {
+     "rank": 11,
+     "country": "Turki",
+     "gdp_usd_bn": 5184
+    },
+    {
+     "rank": 12,
+     "country": "Prancis",
+     "gdp_usd_bn": 4705
+    },
+    {
+     "rank": 13,
+     "country": "Arab Saudi",
+     "gdp_usd_bn": 4694
+    },
+    {
+     "rank": 14,
+     "country": "Nigeria",
+     "gdp_usd_bn": 4348
+    },
+    {
+     "rank": 15,
+     "country": "Mesir",
+     "gdp_usd_bn": 4333
+    },
+    {
+     "rank": 16,
+     "country": "Pakistan",
+     "gdp_usd_bn": 4236
+    }
+   ]
+  }
+ },
+ "13": {
+  "pillar": 1,
+  "sub_sections": [
+   "Pendidikan",
+   "Ilmu Pengetahuan dan Teknologi",
+   "Kesehatan",
+   "Kebudayaan"
+  ]
+ },
+ "14": {
+  "targets": [
+   {
+    "id": "Rata-rata lama sekolah 12 tahun",
+    "value": 12,
+    "unit": "years",
+    "by": "2026-2035"
+   },
+   {
+    "id": "APK pendidikan tinggi",
+    "value": 60,
+    "unit": "%",
+    "by": 2045
+   },
+   {
+    "id": "Porsi tenaga kerja lulusan pendidikan menengah ke atas",
+    "value": 90,
+    "unit": "%",
+    "by": 2045
+   },
+   {
+    "id": "Proporsi lulusan profesional bidang ilmu teknik meningkat"
+   },
+   {
+    "id": "Pendidikan vokasi demand-driven"
+   }
+  ],
+  "engineers_total": {
+   "source": "raster chart, values read from image",
+   "Vietnam": 800000,
+   "Indonesia": 750000,
+   "Filipina": 500000,
+   "Thailand": 276000,
+   "Myanmar": 205000,
+   "Singapura": 150000,
+   "Malaysia": 100000
+  },
+  "engineers_per_million_and_professional": {
+   "source": "raster chart, values read from image",
+   "columns": [
+    "per_1m_population",
+    "professional_engineers"
+   ],
+   "Indonesia": [
+    3038,
+    9000
+   ],
+   "Malaysia": [
+    3375,
+    11170
+   ],
+   "Myanmar": [
+    3844,
+    50
+   ],
+   "Thailand": [
+    4121,
+    23000
+   ],
+   "Filipina": [
+    5170,
+    14250
+   ],
+   "Vietnam": [
+    8917,
+    null
+   ],
+   "Singapura": [
+    28235,
+    3490
+   ]
+  },
+  "indonesia_professional_engineers": {
+   "total_engineers": 750000,
+   "professional": "~9000"
+  },
+  "comparable_to": [
+   "RPJPN Tabel 4.1.1 (rata-rata lama sekolah, APK PT)"
+  ]
+ },
+ "15": {
+  "targets": [
+   {
+    "id": "Pengeluaran R&D (GERD) % PDB",
+    "baseline_2013": 0.08,
+    "target_2045": "1.5-2.0",
+    "unit": "% of GDP"
+   },
+   {
+    "id": "Indonesia sebagai Pusat Pengembangan Iptek di Kawasan Asia dan Dunia",
+    "focus_areas": [
+     "Ilmu Pengetahuan Benua Maritim dan Teknologi Kemaritiman",
+     "Pusat Biodiversitas",
+     "Teknologi Material",
+     "Pusat Studi Kebencanaan dan Mitigasi Bencana"
+    ]
+   }
+  ],
+  "gerd_pct_gdp": {
+   "Indonesia (2013)": 0.08,
+   "Korea Selatan (2013)": 4.14,
+   "Malaysia (2012)": 1.12,
+   "Singapura (2012)": 1.99,
+   "Thailand (2011)": 0.39
+  },
+  "global_competitiveness_index": {
+   "columns": [
+    "no",
+    "country",
+    "score",
+    "rank"
+   ],
+   "rows": [
+    [
+     1,
+     "Switzerland",
+     5.81,
+     1
+    ],
+    [
+     2,
+     "Singapura",
+     5.72,
+     2
+    ],
+    [
+     3,
+     "Korea",
+     5.03,
+     26
+    ],
+    [
+     4,
+     "Malaysia",
+     5.16,
+     18
+    ],
+    [
+     5,
+     "China",
+     4.95,
+     28
+    ],
+    [
+     6,
+     "Thailand",
+     4.64,
+     32
+    ],
+    [
+     7,
+     "Indonesia",
+     4.52,
+     37
+    ],
+    [
+     8,
+     "Philippines",
+     4.36,
+     47
+    ],
+    [
+     9,
+     "India",
+     4.52,
+     55
+    ],
+    [
+     10,
+     "Vietnam",
+     4.31,
+     56
+    ]
+   ],
+   "note": "as printed; Korea rank 26 vs Malaysia 18 ordering and India score 4.52 are as on slide"
+  },
+  "comparable_to": [
+   "RPJPN Tabel 4.2.2 (GERD % PDB target)"
+  ]
+ },
+ "16": {
+  "model": "Triple Helix -> N-helix",
+  "actors": [
+   "Pemerintah",
+   "Perguruan Tinggi",
+   "Industri (Swasta)",
+   "Masyarakat",
+   "N-pemangku kepentingan"
+  ],
+  "requirements": [
+   "Penelitian yang dihasilkan dapat diaplikasikan untuk pembangunan bangsa",
+   "Perguruan tinggi responsif terhadap kebutuhan industri",
+   "Insentif bagi universitas dan industri untuk mendorong kegiatan R&D"
+  ]
+ },
+ "17": {
+  "disease_burden_share_pct": {
+   "1990": {
+    "penyakit_tidak_menular": 37,
+    "penyakit_menular": 56,
+    "cedera": 7
+   },
+   "2015": {
+    "penyakit_tidak_menular": 57,
+    "penyakit_menular": 30,
+    "cedera": 13
+   },
+   "source": "Double Burden of Diseases & WHO NCD Country Profiles, 2014"
+  },
+  "cause_of_death_projection_pct": {
+   "columns": [
+    2015,
+    2030
+   ],
+   "HIV_TB_malaria_other_communicable": [
+    19.2,
+    12.9
+   ],
+   "maternal_perinatal_nutrition": [
+    6.0,
+    3.2
+   ],
+   "cardiovascular_cancer_other_NCD": [
+    63.5,
+    72.5
+   ],
+   "injuries": [
+    11.3,
+    11.4
+   ],
+   "source": "WHO, 2012"
+  },
+  "nutrition_baseline_2013": {
+   "balita_stunting_pct": 37.2,
+   "obesitas_dewasa_pct": 15.4,
+   "anemia_ibu_hamil_pct": 37.1,
+   "source": "Riset Kesehatan Dasar 2013"
+  },
+  "comparable_to": [
+   "RPJPN Tabel 4.1.1 (stunting, UHH)"
+  ]
+ },
+ "18": {
+  "goals": [
+   "Peningkatan usia harapan hidup",
+   "Peningkatan kualitas hidup",
+   "Peningkatan sistem kesehatan yang lebih baik"
+  ],
+  "priorities": [
+   "Akselerasi Penyelesaian Permasalahan Gizi",
+   "Mengakhiri kasus baru HIV/AIDS, tuberkulosis, dan malaria",
+   "Akses fasilitas pelayanan kesehatan yang berkualitas dan merata",
+   "Sistem pelayanan kesehatan penduduk usia lanjut berkualitas",
+   "Perilaku hidup sehat di masyarakat yang menjadi budaya"
+  ]
+ },
+ "19": {
+  "dynamics": [
+   "Kemajemukan, Toleransi, dan Kohesi Sosial",
+   "Globalisasi dan Identitas Budaya Bangsa",
+   "Otonomi dan Identitas Kedaerahan",
+   "Gotong Royong sebagai Identitas Budaya Bangsa"
+  ],
+  "milestones": [
+   {
+    "year": 2015,
+    "id": "Mantapnya budaya dan karakter bangsa melalui pengembangan nilai-nilai luhur budaya bangsa, dan penyerapan nilai baru yang positif dan produktif"
+   },
+   {
+    "year": "2025-2045",
+    "id": "Meningkatnya peran kebudayaan dalam pembangunan melalui kapitalisasi nilai-nilai luhur budaya bangsa dan pengembangan etos kerja"
+   },
+   {
+    "year": 2085,
+    "id": "Makin mantapnya posisi dan peran kebudayaan Indonesia di tingkat regional dan internasional sebagai pusat kebudayaan dan peradaban dunia"
+   }
+  ],
+  "reference": "Visi 2025 (RPJPN 2005-2025): masyarakat berakhlak mulia, bermoral, beretika, berbudaya, beradab, berfalsafah Pancasila",
+  "source": "all text read from raster image"
+ },
+ "20": {
+  "pillar": 2,
+  "sub_sections": [
+   "Pembangunan Infrastruktur",
+   "Ketahanan Energi",
+   "Investasi",
+   "Ketenagakerjaan",
+   "Industri",
+   "Ekonomi Kreatif",
+   "Pariwisata",
+   "Kemaritiman",
+   "Ketahanan Pangan",
+   "Perdagangan Luar Negeri",
+   "Komitmen Lingkungan Hidup"
+  ]
+ },
+ "21": {
+  "map_layers": [
+   "Ruas Jalan Utama",
+   "Ruas Kereta Api",
+   "PKN/Kota Besar",
+   "PKW/Kota Sedang",
+   "Kota Pelabuhan",
+   "Aerotropolis",
+   "Waduk / PLTA",
+   "PLTN",
+   "Airport & Perintis",
+   "Jalur Palapa Ring"
+  ],
+  "directions": [
+   "Meningkatkan Konektivitas Fisik dan Virtual",
+   "Memenuhi Prasarana Dasar",
+   "Antisipasi terhadap Perubahan Iklim",
+   "Mendorong Pemerataan Pembangunan antar Wilayah",
+   "Mendukung Pembangunan Perkotaan dan Perdesaan"
+  ],
+  "notable": "PLTN (nuclear power plant) symbol appears on the map, consistent with slide 23's mention of possible nuclear energy"
+ },
+ "22": {
+  "financing_scenario_share_pct": {
+   "Pemerintah": 35,
+   "BUMN": 25,
+   "KPBU": 25,
+   "Swasta murni": 15
+  },
+  "instruments": {
+   "Pemerintah": [
+    "APBN",
+    "Surat Utang/Obligasi",
+    "Availability Payment"
+   ],
+   "BUMN": [
+    "Pasar Modal",
+    "Obligasi",
+    "Penugasan Pemerintah"
+   ],
+   "KPBU": [
+    "Konvensional: BOT, BOL, BOO, dst.",
+    "Aliansi Strategis",
+    "PINA"
+   ],
+   "Swasta murni": [
+    "Solicited (agenda pemerintah)",
+    "Unsolicited (inisiatif swasta)"
+   ]
+  },
+  "enablers": [
+   "Hukum & Peraturan",
+   "Institusi",
+   "Partisipasi Masyarakat",
+   "Tata Kelola"
+  ],
+  "vehicles": [
+   "Korporasi Strategis",
+   "Special Delivery Unit"
+  ]
+ },
+ "23": {
+  "targets": {
+   "columns": [
+    2025,
+    2050
+   ],
+   "peran_energi": "Sebagai modal pembangunan",
+   "bauran_EBT_pct": [
+    23,
+    31
+   ],
+   "penyediaan_energi_MTOE": [
+    ">400",
+    ">1000"
+   ],
+   "pembangkit_listrik_GW": [
+    ">115",
+    ">430"
+   ],
+   "listrik_per_kapita_kWh_per_yr": [
+    2500,
+    7000
+   ],
+   "rasio_elektrifikasi_pct": [
+    "~100",
+    "~100"
+   ]
+  },
+  "energy_mix_pct": {
+   "2015": {
+    "total_MTOE": 166,
+    "minyak_bumi": 46,
+    "batubara": 26,
+    "gas_bumi": 23,
+    "EBT": 5
+   },
+   "2025": {
+    "total_MTOE": 412,
+    "batubara": 30,
+    "minyak_bumi": 25,
+    "EBT": 23,
+    "gas_bumi": 22
+   },
+   "2050": {
+    "total_MTOE": 1030,
+    "EBT": 31,
+    "batubara": 25,
+    "gas_bumi": 24,
+    "minyak_bumi": 20
+   }
+  },
+  "nuclear": "kemungkinan pemanfaatan energi nuklir (possible use of nuclear energy)",
+  "source": "RUEN (Rencana Umum Energi Nasional), DEN, 2016",
+  "comparable_to": [
+   "RPJPN Tabel 4.5.1 / Grafik 4.5.1 (EBT share, emissions)"
+  ]
+ },
+ "24": {
+  "targets": {
+   "investment_share_gdp_pct_2045": 39,
+   "ease_of_doing_business_rank_target": 10,
+   "indonesia_as_investor_country_by": 2045
+  },
+  "policies": [
+   "Pemberian Kemudahan dan Fasilitas Investasi Sektor Strategis",
+   "Perbaikan Sistem dan Layanan Perizinan",
+   "Peningkatan Kepastian Hukum dan Deregulasi",
+   "Penggiatan Investasi Hijau"
+  ],
+  "comparable_to": [
+   "slide 9: investment share 39.0% of GDP under high scenario"
+  ]
+ },
+ "25": {
+  "targets_2045": {
+   "tingkat_pengangguran_terbuka_pct": "3-4",
+   "unskilled_workers": 0,
+   "share_tenaga_kerja_non_pertanian_pct": 89,
+   "share_tenaga_kerja_formal_pct": 85
+  },
+  "strategies": [
+   "Reformasi ketenagakerjaan yang lebih fleksibel",
+   "Perlatihan berbasis kompetensi yang mengikuti demand industri",
+   "Transformasi ke industri manufaktur",
+   "Peningkatan produktivitas pertanian",
+   "Transisi tenaga kerja dari informal ke formal"
+  ],
+  "comparable_to": [
+   "RPJPN Tabel 4.2.2 (TPT, pekerja formal)"
+  ]
+ },
+ "26": {
+  "targets_2045": {
+   "industry_growth_pct_per_yr": 8.1,
+   "industry_share_gdp_pct": 32
+  },
+  "strategy": "Modernisasi industri dengan perbaikan integrasi supply-chain dari hulu ke hilir",
+  "pillars": [
+   "Penguatan Pilar",
+   "Diversifikasi Nilai Tambah",
+   "Inovasi"
+  ],
+  "comparable_to": [
+   "slide 9: industry growth 7.8%/yr and 32.0% of GDP (high scenario) — note 8.1% here",
+   "RPJPN Gambar 4.2.1 (manufacturing share path 21.9 -> 30.0 -> 28.0%)"
+  ]
+ },
+ "27": {
+  "vision": "Indonesia sebagai Pusat Ekonomi Kreatif dan Digital kelas Dunia",
+  "strategies": [
+   "Peningkatan kompetensi SDM kreatif",
+   "Penyediaan fasilitas inovasi dan start-up kelas dunia",
+   "Pengembangan skala industri kreatif berorientasi ekspor",
+   "Penguatan 10 kota/klaster kreatif dan digital kelas dunia"
+  ],
+  "creative_digital_clusters_target": 10
+ },
+ "28": {
+  "targets_2045": {
+   "wisman_mn": 85,
+   "foreign_exchange_growth_pct_per_yr": 4.9
+  },
+  "potential": {
+   "suku_bangsa": 300,
+   "bahasa": 742,
+   "pulau": 17100,
+   "taman_nasional": 51,
+   "primata_species": 35,
+   "primata_endemic_pct": 25,
+   "burung_share_world_pct": 17,
+   "burung_endemic_pct": 26,
+   "kupu_kupu": 121,
+   "kupu_kupu_endemic_pct": 44,
+   "mamalia_share_world_pct": 12
+  },
+  "challenges": [
+   "Optimalisasi potensi wisata",
+   "Adaptasi perubahan pasar",
+   "Peningkatan market share wisman"
+  ],
+  "comparable_to": [
+   "RPJPN Tabel 4.2.2 (wisman / tourism indicators)"
+  ]
+ },
+ "29": {
+  "target_2045": {
+   "fisheries_marine_tourism_sea_transport_share_gdp_pct": 30
+  },
+  "strategies": [
+   "Pemantapan sistem tatakelola 11 Wilayah Pengelolaan Perikanan (WPP)",
+   "Industrialisasi Perikanan menuju dunia",
+   "Pembangunan struktur armada perikanan modern yang ocean-going",
+   "Pengembangan wisata bahari kelas dunia",
+   "Pengembangan water-front city kota pesisir"
+  ],
+  "sea_paradigm": [
+   "Beranda Depan",
+   "Pusat Peradaban",
+   "Pusat Pertumbuhan Ekonomi",
+   "Alat Pemersatu Bangsa"
+  ],
+  "WPP_count": 11
+ },
+ "30": {
+  "goals": [
+   "Ketahanan pangan yang mandiri dan berkelanjutan",
+   "Swasembada karbohidrat dan protein",
+   "Kesejahteraan petani"
+  ],
+  "strategies": [
+   "Pengembangan Infrastruktur Pertanian",
+   "Pembangunan SDM pertanian yang cerdas dan unggul",
+   "Pemenuhan produk pertanian berstandar internasional",
+   "Modernisasi industri pertanian",
+   "Peningkatan daya saing global produk pangan dan pertanian"
+  ]
+ },
+ "31": {
+  "phases": [
+   {
+    "phase": 1,
+    "id": "Penguatan Pranata Ekspor",
+    "focus_id": "Perubahan struktur ekspor dari komoditas pada manufaktur dan jasa",
+    "world_market_share_pct": 1.5,
+    "world_rank": 16
+   },
+   {
+    "phase": 2,
+    "id": "Percepatan Pertumbuhan Ekspor",
+    "focus_id": "Ekspor barang dan jasa bernilai tambah tinggi",
+    "world_market_share_pct": 1.7,
+    "world_rank": 13
+   },
+   {
+    "phase": 3,
+    "id": "Pemantapan Ekspor",
+    "focus_id": "Barang dan jasa berkualitas dunia dan berbasis inovasi",
+    "world_market_share_pct": 2.0,
+    "world_rank": 10
+   }
+  ],
+  "note": "phases correspond to the three periods on slide 10 (2016-2025, 2026-2035, 2036-2045), not labelled on this slide",
+  "comparable_to": [
+   "slide 9: export growth 7.9%/yr, openness 54%"
+  ]
+ },
+ "32": {
+  "targets": {
+   "emission_reduction_vs_baseline_pct": 41,
+   "IKLH_index": ">80",
+   "biodiversity": "termanfaatkan secara berkelanjutan"
+  },
+  "pillars": [
+   {
+    "id": "Penurunan Emisi GRK",
+    "focus": "Pembangunan rendah karbon pada sektor AFOLU (+peat)"
+   },
+   {
+    "id": "Kualitas Air dan Udara, serta Tutupan Hutan",
+    "focus": "Daya dukung dan daya tampung LH"
+   },
+   {
+    "id": "Keanekaragaman Hayati (Kehati)",
+    "focus": "modal dasar pembangunan"
+   }
+  ],
+  "baseline_emissions": {
+   "unit": "ribu ton CO2e (thousand tonnes)",
+   "2000": "~1000000",
+   "2030": "~2850000",
+   "sectors": [
+    "Energi dan transportasi",
+    "IPPU",
+    "Limbah",
+    "AFOLU (no peat)",
+    "Peat Dekomposisi",
+    "Peat Fire"
+   ],
+   "source": "raster chart, read from image"
+  },
+  "reduction_scenarios_2030": {
+   "unit": "MtCO2e",
+   "baseline_2030": "~2870",
+   "fair_scenario_reduction": {
+    "MtCO2e": 832,
+    "pct": 29
+   },
+   "ambitious_additional_reduction": {
+    "MtCO2e": 360,
+    "pct": 12
+   },
+   "total_pct": 41,
+   "label_near_2020": {
+    "MtCO2e": 467,
+    "pct": 26
+   },
+   "source": "raster chart, read from image"
+  },
+  "comparable_to": [
+   "RPJPN Grafik 4.5.1 (GHG pathway 1.50 -> 0.55 GtCO2e, NZE 2060)",
+   "NDC 2016: 29% unconditional / 41% conditional by 2030"
+  ]
+ },
+ "33": {
+  "pillar": 3,
+  "sub_sections": [
+   "Pemerataan Pendapatan",
+   "Pengentasan Kemiskinan",
+   "Kesejahteraan Petani",
+   "Pemerataan Pembangunan Daerah",
+   "Pemerataan Infrastruktur"
+  ]
+ },
+ "34": {
+  "targets": {
+   "poverty_rate_2045_pct": 0.02,
+   "extreme_poverty_0_8_GK_2045": 0
+  },
+  "assumption": "pertumbuhan ekonomi yang inklusif (merata ke seluruh desil pendapatan)",
+  "series_approx_total_pct": {
+   "note": "read off the chart axis (no labels); total of the three bands",
+   "2017": "~18.1",
+   "2018": "~16.3",
+   "2019": "~14.6",
+   "2020": "~13.2",
+   "2021": "~11.5",
+   "2022": "~9.9",
+   "2023": "~8.5",
+   "2024": "~7.3",
+   "2025": "~6.1",
+   "2027": "~4.1",
+   "2030": "~2.0",
+   "2035": "~0.5",
+   "2040": "~0.1",
+   "2045": "~0.02"
+  },
+  "bands_2017_approx_pct": {
+   "sangat_miskin_0_8_GK": "~3.2",
+   "miskin": "~5.9",
+   "rentan_miskin_1_2_GK": "~9.0"
+  },
+  "comparable_to": [
+   "RPJPN Tabel 4.1.1 (tingkat kemiskinan 2025 baseline / 2045 target)"
+  ]
+ },
+ "35": {
+  "scenarios": {
+   "with_redistribution": {
+    "2017": "~0.390",
+    "2020": "~0.378",
+    "2025": "~0.360",
+    "2030": "~0.347",
+    "2035": "~0.340",
+    "2040": "~0.347",
+    "2045": "~0.357",
+    "note": "ideal level reached ~2035, stays safe to 2045"
+   },
+   "without_redistribution": {
+    "2017": "~0.393",
+    "2025": "~0.393",
+    "2030": "~0.396",
+    "2035": "~0.405",
+    "2040": "~0.415",
+    "2045": "~0.425",
+    "note": "slide text: approaches 0.44 by 2045"
+   }
+  },
+  "kuznets_hypothesis_id": "Pembangunan ekonomi pada awalnya akan meningkatkan kesenjangan ekonomi; setelah tingkat pendapatan tertentu kesenjangan turun sejalan demokratisasi dan kesejahteraan rakyat",
+  "comparable_to": [
+   "RPJPN Tabel 4.1.1 (rasio Gini 2025 baseline / 2045 target)"
+  ]
+ },
+ "36": {
+  "baseline": {
+   "share_of_bottom_40pct_who_are_farmers_pct": 46.2,
+   "farm_households_with_land_under_0_5_ha_mn_2013": 14.6,
+   "farm_households_mn_2013": 26.1,
+   "farm_households_change_2003_2013_pct": -16.3
+  },
+  "strategies": [
+   "Reforma Agraria",
+   "Peningkatan kualitas SDM pertanian dan RT tani",
+   "Peningkatan kewirausahaan petani",
+   "Peningkatan akses terhadap sumber daya produktif",
+   "Penyempurnaan kelembagaan usaha petani",
+   "Integrasi kebijakan hulu on farm dan hilir",
+   "Peningkatan keterkaitan on farm dengan sektor pengolah dan jasa",
+   "Inovasi dan penerapan teknologi pangan dan pertanian"
+  ],
+  "outcomes": [
+   "Kesejahteraan petani meningkat",
+   "Petani sebagai pengusaha atau pekerja profesi"
+  ],
+  "target_2045": {
+   "farmer_productivity_multiple_vs_2015": 4.2
+  }
+ },
+ "37": {
+  "regional_share_pct": {
+   "years": [
+    1983,
+    2013,
+    2015,
+    2045
+   ],
+   "KBI_Kawasan_Barat_Indonesia": [
+    82.5,
+    80.1,
+    80.5,
+    74.9
+   ],
+   "KTI_Kawasan_Timur_Indonesia": [
+    17.5,
+    19.9,
+    19.5,
+    25.1
+   ],
+   "metric": "share of national economy (GDP), as labelled on slide"
+  },
+  "approach": "Afirmatif dalam alokasi dan distribusi sumberdaya pada daerah yang tertinggal",
+  "strategies": [
+   "Memperkuat dan memperluas basis-basis perekonomian wilayah timur Indonesia",
+   "Mengembangkan kota-kota baru dan pusat-pusat produksi dan perdagangan",
+   "Memperkuat keterkaitan antarwilayah",
+   "Membangun dan memperkuat rantai industri produk unggulan berbasis sumber daya lokal",
+   "Pengembangan pusat-pusat penelitian dan inovasi",
+   "Penyediaan prasarana dan sarana transportasi, informasi dan komunikasi",
+   "Pembangunan pembangkit dan jaringan listrik, pengelolaan sumber air baku dan jaringan air bersih"
+  ],
+  "comparable_to": [
+   "RPJPN Bab V regional targets (KTI share of GDP)"
+  ]
+ },
+ "38": {
+  "growth_targets_pct_per_yr_2016_2045": {
+   "Sumatera": 6.4,
+   "Kalimantan": 6.9,
+   "Sulawesi": 7.4,
+   "Maluku": 9.0,
+   "Papua": 8.3,
+   "Jawa": 6.1,
+   "Bali dan Nusa Tenggara": 7.2
+  },
+  "roles_id": {
+   "Sumatera": "pintu gerbang kawasan Asia; pusat produksi dan pengolahan hasil bumi",
+   "Kalimantan": "beranda negara; pusat pertambangan dan kehutanan",
+   "Sulawesi": "pintu gerbang KTI; pusat industri pangan; sumber kebudayaan dan keanekaragaman hayati",
+   "Maluku": "sumberdaya kelautan dan daratan; kawasan perbatasan berwawasan lingkungan",
+   "Papua": "sentra perikanan, pertanian/perkebunan, industri agro dan pangan, pariwisata bahari dan alam, pertambangan",
+   "Jawa": "pusat industri dan jasa nasional; penghubung pertanian dan non-pertanian",
+   "Bali dan Nusa Tenggara": "sentra pertanian, peternakan, perikanan; pusat pariwisata"
+  },
+  "principle": "Wilayah luar Jawa dan Kawasan Timur Indonesia tumbuh lebih tinggi",
+  "comparable_to": [
+   "RPJPN Bab V (Tabel regional growth targets per wilayah)"
+  ]
+ },
+ "39": {
+  "map_layers": [
+   "Kota Pelabuhan",
+   "Airport & Perintis",
+   "Jalur ALKI",
+   "Jalur Utama Pelayaran Domestik"
+  ],
+  "principles": [
+   "Sistem transportasi untuk mobilitas penduduk dan distribusi barang antarwilayah",
+   "Akses perekonomian KTI dimulai dari kota-kota pelabuhan dan jalur perdagangan internasional",
+   "Akses kawasan terpencil dan terluar melalui pelabuhan dan bandara perintis"
+  ]
+ },
+ "40": {
+  "urban_vs_rural": {
+   "fasilitas": [
+    "Complex",
+    "Compact"
+   ],
+   "mobilitas": [
+    "Tinggi",
+    "Rendah-Sedang"
+   ],
+   "kegiatan_ekonomi": [
+    "Perdagangan, Jasa, Industri",
+    "Pertanian, Pertambangan"
+   ],
+   "kendala_infrastruktur": [
+    "Keterbatasan Asset",
+    "Keterbatasan Akses"
+   ]
+  },
+  "urban_housing": [
+   "Peningkatan Rumah Vertikal",
+   "Rumah Bergerak/Terapung/Underground",
+   "Bahan Bangunan Murah produksi massal",
+   "Desain futuristik dan minimalis",
+   "Fast Develop (self-assembled/Knock-Down)",
+   "Hemat Energi – Solar cell",
+   "Housing System Information",
+   "Housing Career System",
+   "Pengendalian Tata Ruang"
+  ],
+  "urban_transport": {
+   "push": [
+    "Car Restriction (EeO, ERP, Parking Charge)",
+    "Vehicle Quota System"
+   ],
+   "pull": [
+    "Target Modal Split 60% Public Transport, 10% NMT",
+    "Coverage Area Public Transport 100%",
+    "ITS Public Transport",
+    "Transit Oriented Development"
+   ]
+  },
+  "rural": [
+   "Penguatan ciri khas budaya lokal/Local Wisdom",
+   "Peningkatan aksesibilitas transportasi"
+  ],
+  "targets": {
+   "public_transport_modal_split_pct": 60,
+   "NMT_modal_split_pct": 10,
+   "public_transport_coverage_pct": 100
+  }
+ },
+ "41": {
+  "home_ownership_pct": {
+   "years": [
+    2015,
+    2030,
+    2045
+   ],
+   "milik_sendiri": [
+    79.1,
+    73.59,
+    68.08
+   ],
+   "sewa_kontrak_lainnya": [
+    20.9,
+    26.41,
+    31.92
+   ]
+  },
+  "wastewater_handling_shares_approx_pct": {
+   "source": "area chart, read from image",
+   "2015": {
+    "BABS": "~10",
+    "tidak_ada_akses": "~10",
+    "cubluk_akses_dasar": "~10",
+    "tangki_septik_tanpa_FSM": "~60",
+    "tangki_septik_dengan_FSM": "~10",
+    "perpipaan": "~0"
+   },
+   "2045": {
+    "BABS": 0,
+    "tidak_ada_akses": 0,
+    "cubluk_akses_dasar": 0,
+    "tangki_septik_tanpa_FSM": "~0",
+    "tangki_septik_dengan_FSM": "~78",
+    "perpipaan": "~22"
+   }
+  },
+  "principles": [
+   "Akses prasarana dasar: perumahan, air minum, sanitasi, irigasi, perlindungan bencana dan perubahan iklim",
+   "Ketersediaan air baku via waduk dan sistem distribusi",
+   "Konservasi dan rehabilitasi DAS, danau, pantai didukung infrastruktur"
+  ],
+  "comparable_to": [
+   "RPJPN Tabel 4.1.1 / 4.5.1 (sanitasi layak, air minum)"
+  ]
+ },
+ "42": {
+  "pillar": 4,
+  "sub_sections": [
+   "Politik Dalam Negeri",
+   "Reformasi Birokrasi dan Kelembagaan",
+   "Pembangunan Hukum serta Pencegahan dan Pemberantasan Korupsi",
+   "Pertahanan dan Keamanan",
+   "Politik Luar Negeri"
+  ]
+ },
+ "43": {
+  "goal": "Terwujudnya Demokrasi Substansial",
+  "elements": [
+   "Menguatnya demokrasi di daerah dan meningkatnya partisipasi politik",
+   "Lembaga perwakilan yang efektif",
+   "Menguatnya dan meningkatnya peran parpol",
+   "Revitalisasi Pancasila",
+   "Perundangan bidang Politik yang harmonis",
+   "Sistem Presidensial yang efektif"
+  ]
+ },
+ "44": {
+  "phases": [
+   {
+    "years": "2016-2025",
+    "theme_id": "Infrastruktur birokrasi yang solid dan kokoh",
+    "items": [
+     "Struktur yang ramping",
+     "E-government",
+     "Human capital management",
+     "Budaya ASN yang melayani (citizen demand)",
+     "ASN berwawasan global",
+     "Merit-based system"
+    ]
+   },
+   {
+    "years": "2026-2035",
+    "theme_id": "Pemerintahan yang terbuka dan kolaboratif",
+    "items": [
+     "Struktur berbasis outcome",
+     "Open government",
+     "Pelayanan citizen centric",
+     "ASN yang kompetitif"
+    ]
+   },
+   {
+    "years": "2036-2045",
+    "theme_id": "Kelembagaan birokrasi yang andal dan modern",
+    "items": [
+     "Pemerintah sebagai regulator dan fasilitator (enabler)",
+     "Struktur fleksibel, adaptif, lintas sektor",
+     "People-driven",
+     "Internetworked government dan locally empowered",
+     "Tata kelola inklusif dan kolaboratif",
+     "ASN berkelas dunia",
+     "Pelayanan publik terjangkau, tepat, cepat, personal"
+    ]
+   }
+  ]
+ },
+ "45": {
+  "milestones": {
+   "columns": [
+    2025,
+    2035,
+    2045
+   ],
+   "Sasaran Pembangunan Hukum": [
+    "Integritas dan kompetensi Aparat Penegak Hukum dan Penyelenggara Negara",
+    "Penyelenggara negara dan warga negara yang taat hukum",
+    "Masyarakat yang berbudaya hukum"
+   ],
+   "Sasaran Pencegahan dan Pemberantasan Korupsi": [
+    "Perbaikan sistem di berbagai lini layanan publik",
+    "Penurunan korupsi dan praktik suap",
+    "Masyarakat yang anti korupsi"
+   ]
+  },
+  "comparable_to": [
+   "RPJPN Tabel 4.4.1 (IPK / indeks pembangunan hukum)"
+  ]
+ },
+ "46": {
+  "pillars": [
+   {
+    "id": "Nasionalisme dan Ketertiban Masyarakat Yang Inklusif",
+    "items": [
+     "Pembangunan identitas ke-Indonesiaan",
+     "Akses terhadap keadilan",
+     "Partisipasi dalam pembentukan kebijakan"
+    ]
+   },
+   {
+    "id": "Pertahanan Berdaya Gentar Tinggi",
+    "items": [
+     "Percepatan pemenuhan MEF (Minimum Essential Force)",
+     "Peningkatan kemampuan industri pertahanan",
+     "Kapabilitas tinggi dalam OMSP dan menghadapi ancaman era digital"
+    ]
+   },
+   {
+    "id": "Keamanan Insan yang Bermartabat",
+    "items": [
+     "Penegakan hukum berdasarkan HAM",
+     "Pengentasan kesenjangan sosial",
+     "Peningkatan ketahanan individu"
+    ]
+   }
+  ]
+ },
+ "47": {
+  "principle_id": "Politik luar negeri merupakan proyeksi dan cerminan dari kapasitas dan kapabilitas internal Indonesia",
+  "goals": {
+   "Negara yang mandiri": [
+    "Politik luar negeri bebas aktif",
+    "Mampu memenuhi sendiri the basic industrial goods",
+    "Bagian dari regional-global production and supply chain",
+    "Mencapai Minimum Essential Force (MEF)"
+   ],
+   "Indonesia salah satu negara paling berpengaruh di Asia Pasifik": [
+    "Maksimalisasi pencapaian kepentingan nasional",
+    "Menghasilkan gagasan untuk berkontribusi kepada regional order",
+    "Membentuk tatanan regional, mengelola konflik di kawasan, mengelola publik",
+    "Memimpin dan berkontribusi dalam forum kerjasama di kawasan"
+   ]
+  },
+  "comparable_to": [
+   "Impian Indonesia 2015-2085 item 6 (negara paling berpengaruh di Asia Pasifik) on slide 3"
+  ]
+ }
+}

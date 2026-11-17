@@ -1,0 +1,2915 @@
+[
+ {
+  "figure_id": "Grafik 1.1.1",
+  "pdf_page": 9,
+  "printed_page": 3,
+  "section": "1.1",
+  "type": "chart",
+  "title_id": "Pertumbuhan Ekonomi Indonesia 2005-2022 dan GNI Per Kapita",
+  "title_en": "Indonesia's Economic Growth 2005-2022 and GNI per Capita",
+  "labels_id": [
+   "GNI Per Kapita",
+   "GNI per kapita naik menjadi ± 6,5x lipat dalam 2 dekade terakhir (2001—2022)",
+   "Pertumbuhan Ekonomi Cenderung Stabil (persen yoy)"
+  ],
+  "structured_data": {
+   "gni_per_capita_usd": {
+    "2001": 710,
+    "2022": 4580,
+    "note": "area chart 2001-2022; y-axis 700-5200; only endpoints labelled; roughly 6.5x increase"
+   },
+   "gdp_growth_pct_yoy": {
+    "range": "2001-2022",
+    "2022": 5.31,
+    "note": "line chart; growth mostly 4-6.5% through 2019, dips to ~4.6% in 2009, falls to about -2.1% in 2020 (COVID-19), recovers to 3.7% in 2021 and 5.31% in 2022"
+   }
+  },
+  "visual_description_en": "Two panels. Left: dark-blue area chart of GNI per capita (US$) from 710 in 2001 to 4,580 in 2022, with callout 'GNI per capita rose about 6.5x in the last two decades (2001-2022)'. Right: line chart of annual GDP growth (% yoy) 2001-2022 on a -3 to 7 axis: stable around 5-6% for most of the period, sharp V-shaped dip to about -2 in 2020, back to 5.31 in 2022.",
+  "visual_description_id": "Dua panel. Kiri: grafik area GNI per kapita (US$) dari 710 (2001) menjadi 4.580 (2022), dengan keterangan 'GNI per kapita naik menjadi ± 6,5x lipat dalam 2 dekade terakhir'. Kanan: grafik garis pertumbuhan ekonomi tahunan (persen yoy) 2001-2022, relatif stabil 5-6 persen, turun tajam ke sekitar -2 pada 2020, kembali 5,31 pada 2022.",
+  "summary_en": "GNI per capita rose ~6.5-fold from US$710 (2001) to US$4,580 (2022) while annual GDP growth stayed around 5% except for the 2009 dip and the 2020 COVID-19 contraction; growth was 5.31% in 2022."
+ },
+ {
+  "figure_id": "Grafik 1.1.2",
+  "pdf_page": 10,
+  "printed_page": 4,
+  "section": "1.1",
+  "type": "table_graphic",
+  "title_id": "Struktur Ekonomi dan Struktur Tenaga Kerja",
+  "title_en": "Economic Structure and Employment Structure",
+  "structured_data": {
+   "economic_structure_pct_gdp": {
+    "columns": [
+     "2005",
+     "2022"
+    ],
+    "Pertanian": [
+     13.1,
+     12.4
+    ],
+    "Manufaktur": [
+     27.4,
+     18.3
+    ],
+    "Jasa-jasa": [
+     40.3,
+     41.7
+    ],
+    "Lainnya": [
+     19.2,
+     27.6
+    ]
+   },
+   "employment_structure_pct_total": {
+    "columns": [
+     "2005",
+     "2022"
+    ],
+    "Pertanian": [
+     44.0,
+     28.6
+    ],
+    "Manufaktur": [
+     12.7,
+     14.2
+    ],
+    "Jasa-jasa": [
+     37.3,
+     49.2
+    ],
+    "Lainnya": [
+     6.0,
+     8.0
+    ]
+   }
+  },
+  "visual_description_en": "Two side-by-side tables with arrows from 2005 to 2022. Left: share of GDP by sector; right: share of total employment by sector. Manufacturing's GDP share fell from 27.4% to 18.3% while 'other' rose from 19.2% to 27.6%; agriculture's employment share fell from 44.0% to 28.6% and services rose from 37.3% to 49.2%.",
+  "visual_description_id": "Dua tabel berdampingan dengan panah 2005→2022: struktur ekonomi (% PDB) dan struktur ketenagakerjaan (% total tenaga kerja) untuk pertanian, manufaktur, jasa-jasa, dan lainnya.",
+  "summary_en": "Between 2005 and 2022 manufacturing's share of GDP shrank from 27.4% to 18.3% (premature deindustrialisation signal), services held ~41%, while employment shifted from agriculture (44.0%→28.6%) to services (37.3%→49.2%); manufacturing employment barely rose (12.7%→14.2%)."
+ },
+ {
+  "figure_id": "Grafik 1.1.3",
+  "pdf_page": 11,
+  "printed_page": 5,
+  "section": "1.1",
+  "type": "chart",
+  "title_id": "Kemiskinan dan Ketimpangan Menurun",
+  "title_en": "Poverty and Inequality Declining",
+  "structured_data": {
+   "poverty_rate_pct": {
+    "2005": 15.97,
+    "2006": 17.75,
+    "2007": 16.58,
+    "2008": 15.42,
+    "2009": 14.15,
+    "2010": 13.33,
+    "2011": 12.36,
+    "2012": 11.66,
+    "2013": 11.47,
+    "2014": 10.96,
+    "2015": 11.13,
+    "2016": 10.7,
+    "2017": 10.12,
+    "2018": 9.66,
+    "2019": 9.22,
+    "2020": 10.19,
+    "2021": 9.71,
+    "2022": 9.57
+   },
+   "open_unemployment_rate_pct": {
+    "2005": 11.24,
+    "2006": 10.28,
+    "2007": 9.11,
+    "2008": 8.39,
+    "2009": 7.87,
+    "2010": 7.14,
+    "2011": 7.48,
+    "2012": 6.13,
+    "2013": 6.17,
+    "2014": 5.94,
+    "2015": 6.18,
+    "2016": 5.61,
+    "2017": 5.5,
+    "2018": 5.3,
+    "2019": 5.23,
+    "2020": 7.07,
+    "2021": 6.49,
+    "2022": 5.86
+   },
+   "gini_ratio": {
+    "2014": 0.414,
+    "2022": 0.381
+   },
+   "gdp_contribution_pct": {
+    "KBI_western_indonesia": {
+     "2014": 83.0,
+     "2022": 79.4
+    },
+    "KTI_eastern_indonesia": {
+     "2014": 17.0,
+     "2022": 20.6
+    }
+   }
+  },
+  "visual_description_en": "Line chart 2005-2022 with two series: poverty rate (blue, from 15.97 to 9.57, peak 17.75 in 2006, COVID bump 10.19 in 2020) and open unemployment rate (orange, from 11.24 to 5.86, COVID bump 7.07 in 2020). Inset callouts: Gini ratio 0.414 (2014) → 0.381 (2022); GDP contribution KBI 83% → 79.4%, KTI 17% → 20.6%.",
+  "visual_description_id": "Grafik garis 2005-2022: angka kemiskinan (persen) dan tingkat pengangguran terbuka (persen), dengan sisipan rasio Gini 2014→2022 dan kontribusi KBI/KTI terhadap PDB 2014→2022.",
+  "summary_en": "Poverty fell from 15.97% (2005) to 9.57% (2022) and open unemployment from 11.24% to 5.86%, both with a temporary COVID-19 rise in 2020; the Gini ratio improved from 0.414 (2014) to 0.381 (2022) and eastern Indonesia's (KTI) GDP share rose from 17% to 20.6%."
+ },
+ {
+  "figure_id": "Gambar 1.1.1",
+  "pdf_page": 12,
+  "printed_page": 6,
+  "section": "1.1",
+  "type": "infographic",
+  "title_id": "Perlindungan Sosial Berdasarkan Tahun Siklus Kehidupan",
+  "title_en": "Social Protection by Life-Cycle Stage",
+  "structured_data": {
+   "life_stages": [
+    "Usia Anak (0-5 tahun)",
+    "Usia Sekolah (6-18 tahun)",
+    "Usia Kerja/Produktif (19-59 tahun)",
+    "Lanjut Usia (60+ tahun)"
+   ],
+   "programmes_by_stage": {
+    "Usia Anak": [
+     "Asistensi Rehabilitasi Sosial Anak (anak usia di bawah 5 tahun)"
+    ],
+    "Usia Sekolah": [
+     "Program Indonesia Pintar (anak usia 6-21 tahun)",
+     "Program Bidik Misi & KIP Kuliah (anak usia sekolah)"
+    ],
+    "Usia Kerja/Produktif": [
+     "Kredit Usaha Rakyat / Pembiayaan Ultra Mikro",
+     "Pelatihan UMKM",
+     "Kelompok Usaha Bersama",
+     "Pelatihan Kerja & Prakerja"
+    ],
+    "Lanjut Usia": [
+     "Asistensi & Rehabilitasi Lanjut Usia (kelompok lansia)"
+    ],
+    "Usia Produktif dan Lansia": [
+     "Jaminan Hari Tua (JHT), Jaminan Kecelakaan Kerja (JKK), Jaminan Kematian (JK), Jaminan Pensiun (JP)"
+    ],
+    "Bantuan Keluarga": [
+     "Bantuan Bersyarat Anak Usia Sekolah; Ibu Hamil/Balita; Penyandang Disabilitas & Lansia (PKH)",
+     "Subsidi Energi",
+     "Bansos Pangan",
+     "RST/BSPS (rumah)"
+    ],
+    "Seluruh Kelompok Penduduk": [
+     "Dana Desa",
+     "Asistensi & Rehabilitasi Penyandang Disabilitas",
+     "Jaminan Kesehatan Nasional"
+    ]
+   }
+  },
+  "visual_description_en": "Life-cycle timeline infographic. Horizontal axis has four stages (child 0-5, school 6-18, working 19-59, elderly 60+); icons place each social-protection programme at the stage it serves, family-level benefits (PKH, energy subsidy, food aid, housing) span stages, and a yellow band at the bottom lists programmes covering the whole population (Dana Desa, disability assistance, JKN).",
+  "visual_description_id": "Infografik siklus hidup: empat tahap usia pada sumbu horizontal dengan ikon program perlindungan sosial yang ditempatkan sesuai kelompok sasaran; bantuan keluarga melintasi tahap; pita kuning di bawah berisi program untuk seluruh penduduk.",
+  "summary_en": "Maps Indonesia's existing social-protection programmes onto the life cycle: child social assistance (0-5), PIP and KIP Kuliah (school age), KUR/UMi, UMKM training, KUBE and Prakerja (working age), elderly assistance (60+), employment insurance (JHT/JKK/JK/JP), family benefits (PKH, energy subsidy, food aid, housing), and universal schemes (Dana Desa, disability assistance, JKN)."
+ },
+ {
+  "figure_id": "Grafik 1.1.4",
+  "pdf_page": 14,
+  "printed_page": 8,
+  "section": "1.1",
+  "type": "chart",
+  "title_id": "Indeks Pembangunan Manusia, Stunting, UHH Tahun 2005-2022",
+  "title_en": "Human Development Index, Stunting, Life Expectancy 2005-2022",
+  "structured_data": {
+   "hdi": {
+    "2010": 66.53,
+    "2022": 72.91,
+    "note": "line 2010-2022, only endpoints labelled, steady rise"
+   },
+   "stunting_prevalence_pct": {
+    "2013": 37.2,
+    "2022": 21.6,
+    "caption": "Terus menurun namun perlu akselerasi"
+   },
+   "life_expectancy_years": {
+    "2010": 69.81,
+    "2011": 70.01,
+    "2012": 70.2,
+    "2013": 70.4,
+    "2014": 70.59,
+    "2015": 70.78,
+    "2016": 70.9,
+    "2017": 71.06,
+    "2018": 71.2,
+    "2019": 71.34,
+    "2020": 71.47,
+    "2021": 71.57,
+    "2022": 71.85
+   }
+  },
+  "visual_description_en": "Three mini-panels: HDI line 2010-2022 rising from 66.53 to 72.91; stunting prevalence callout 37.2% (2013) → 21.6% (2022) with note 'still declining but needs acceleration'; life expectancy line 2010-2022 rising every year from 69.81 to 71.85 years.",
+  "visual_description_id": "Tiga panel: IPM 2010-2022 naik dari 66,53 ke 72,91; prevalensi stunting 37,2% (2013) → 21,6% (2022); umur harapan hidup 2010-2022 naik dari 69,81 ke 71,85 tahun.",
+  "summary_en": "HDI rose from 66.53 (2010) to 72.91 (2022), life expectancy from 69.81 to 71.85 years, and stunting prevalence fell from 37.2% (2013) to 21.6% (2022), which the plan notes still needs acceleration."
+ },
+ {
+  "figure_id": "Grafik 1.1.5",
+  "pdf_page": 16,
+  "printed_page": 10,
+  "section": "1.1",
+  "type": "chart",
+  "title_id": "Indeks Pembangunan Hukum Tahun 2015-2020",
+  "title_en": "Legal Development Index 2015-2020",
+  "structured_data": {
+   "legal_development_index": {
+    "2015": 0.48,
+    "2019": "~0.61 (peak, unlabelled)",
+    "2020": 0.54,
+    "unit": "nilai (index value, 0-1)"
+   }
+  },
+  "visual_description_en": "Single area/line chart. Legal Development Index rises from 0.48 in 2015 to a peak of roughly 0.6 in 2019, then falls to 0.54 in 2020.",
+  "visual_description_id": "Grafik garis/area tunggal: Indeks Pembangunan Hukum naik dari 0,48 (2015) ke puncak sekitar 0,6 (2019), lalu turun menjadi 0,54 (2020).",
+  "summary_en": "The Legal Development Index improved from 0.48 (2015) to about 0.6 (2019) but slipped back to 0.54 in 2020."
+ },
+ {
+  "figure_id": "Gambar 1.1.3",
+  "pdf_page": 18,
+  "printed_page": 13,
+  "section": "1.1",
+  "type": "infographic",
+  "title_id": "Pembangunan Non-Infrastruktur yang berhasil dicapai dalam sepuluh tahun terakhir",
+  "title_en": "Non-Infrastructure Development Achievements of the Last Ten Years",
+  "structured_data": {
+   "achievements": [
+    {
+     "name": "Perkuatan Reformasi Birokrasi",
+     "indicator": "Peringkat EODB (Ease of Doing Business rank)",
+     "from": {
+      "2015": 103
+     },
+     "to": {
+      "2020": 73
+     }
+    },
+    {
+     "name": "Perkuatan Program Kesejahteraan Sosial",
+     "indicator": "Prevalensi stunting (%)",
+     "from": {
+      "2015": 29.0
+     },
+     "to": {
+      "2022": 21.6
+     }
+    },
+    {
+     "name": "Hilirisasi sumber daya mineral (nikel)",
+     "indicator": "Ekspor nikel HS 75 (US$)",
+     "from": {
+      "2015": "800 juta (0.8 billion)"
+     },
+     "to": {
+      "2022": "6 miliar (6 billion)"
+     }
+    },
+    {
+     "name": "Penataan Destinasi Pariwisata Prioritas",
+     "indicator": "Wisatawan mancanegara (juta kunjungan)",
+     "from": {
+      "2014": 9.44
+     },
+     "to": {
+      "2019": 16.11
+     }
+    },
+    {
+     "name": "Penerapan kebijakan BBM satu harga",
+     "outcome": "Mengurangi perbedaan harga di seluruh Indonesia"
+    },
+    {
+     "name": "Pembangunan Ibu Kota Nusantara (IKN)",
+     "outcome": "Mengurangi ketimpangan KBI dan KTI"
+    }
+   ]
+  },
+  "visual_description_en": "Six-icon infographic in a blue frame: bureaucratic reform (EODB rank 103→73, 2015→2020), social welfare (stunting 29.0%→21.6%, 2015→2022), nickel downstreaming (HS 75 exports US$800 million→US$6 billion, 2015→2022), priority tourism destinations (foreign arrivals 9.44→16.11 million, 2014→2019), one-price fuel policy (reduces price gaps nationwide), and the new capital IKN (reduces western-eastern Indonesia inequality).",
+  "visual_description_id": "Infografik enam ikon: reformasi birokrasi (EODB 103→73), kesejahteraan sosial (stunting 29,0→21,6%), hilirisasi nikel (ekspor US$800 juta→US$6 miliar), destinasi pariwisata prioritas (wisman 9,44→16,11 juta), BBM satu harga, dan pembangunan IKN.",
+  "summary_en": "Headline non-infrastructure achievements 2014-2022: EODB rank 103→73, stunting 29.0%→21.6%, nickel exports US$0.8bn→US$6bn, foreign tourist arrivals 9.44→16.11 million, a single national fuel price, and the start of the new capital IKN to narrow the KBI-KTI gap."
+ },
+ {
+  "figure_id": "Grafik 1.2.1",
+  "pdf_page": 20,
+  "printed_page": 15,
+  "section": "1.2",
+  "type": "chart",
+  "title_id": "Rata-Rata Total Factor Productivity Index",
+  "title_en": "Average Total Factor Productivity Index",
+  "structured_data": {
+   "average_tfp_growth": [
+    {
+     "country": "Korea Selatan",
+     "period": "1971-1995",
+     "note": "saat menuju negara maju (while becoming a developed country)",
+     "value": 1.61
+    },
+    {
+     "country": "China",
+     "period": "2005-2019",
+     "value": 1.6
+    },
+    {
+     "country": "Indonesia",
+     "period": "2005-2019",
+     "value": -0.66
+    }
+   ]
+  },
+  "visual_description_en": "Three flag badges with average TFP figures: South Korea 1.61 (1971-1995, on its way to developed status), China 1.60 (2005-2019), Indonesia -0.66 (2005-2019).",
+  "visual_description_id": "Tiga lencana bendera dengan rata-rata TFP: Korea Selatan 1,61 (1971-1995), China 1,60 (2005-2019), Indonesia -0,66 (2005-2019).",
+  "summary_en": "Indonesia's average TFP growth 2005-2019 was negative (-0.66) versus +1.60 for China over the same period and +1.61 for South Korea during its 1971-1995 catch-up phase."
+ },
+ {
+  "figure_id": "Grafik 1.2.2",
+  "pdf_page": 20,
+  "printed_page": 15,
+  "section": "1.2",
+  "type": "chart",
+  "title_id": "Total Factor Productivity Index 2010-2019 (2010 = 1,0)",
+  "title_en": "Total Factor Productivity Index 2010-2019 (2010 = 1.0)",
+  "structured_data": {
+   "tfp_index_2019_approx": {
+    "India": "~1.20",
+    "China": "~1.15",
+    "Vietnam": "~1.13",
+    "Thailand": "~1.08",
+    "Malaysia": "~1.04",
+    "Indonesia": "~0.89"
+   },
+   "annotation": "Indonesia: rendah dan menurun (low and declining)",
+   "note": "values read from chart, approximate; axis 0.85-1.25"
+  },
+  "visual_description_en": "Line chart 2010-2019 indexed to 2010=1.0 for six countries. India climbs highest (~1.20), China and Vietnam ~1.13-1.15, Thailand ~1.08, Malaysia ~1.04, while Indonesia (dark red) declines steadily to ~0.89, annotated 'low and declining'.",
+  "visual_description_id": "Grafik garis TFP 2010-2019 (2010=1,0) untuk India, China, Vietnam, Thailand, Malaysia, dan Indonesia; Indonesia satu-satunya yang menurun (sekitar 0,89 pada 2019), diberi keterangan 'rendah dan menurun'.",
+  "summary_en": "Between 2010 and 2019 Indonesia was the only one of six Asian comparators whose TFP index fell (to roughly 0.89), while India (~1.20), China, Vietnam, Thailand and Malaysia all rose."
+ },
+ {
+  "figure_id": "Grafik 1.2.3",
+  "pdf_page": 21,
+  "printed_page": 16,
+  "section": "1.2",
+  "type": "chart",
+  "title_id": "Pertumbuhan Ekonomi Potensial Indonesia (1985-2024)",
+  "title_en": "Indonesia's Potential Economic Growth (1985-2024)",
+  "structured_data": {
+   "series": [
+    "Realisasi Pertumbuhan PDB (%, yoy)",
+    "Pertumbuhan Ekonomi Potensial (%, yoy)"
+   ],
+   "potential_growth_trend": {
+    "1985": "~9",
+    "1997": "~3 (trough)",
+    "2010": "~5.7 (local peak)",
+    "2024": "~3.3"
+   },
+   "actual_growth_events": {
+    "1998": "~-13 (Asian financial crisis)",
+    "2020": "~-2 (COVID-19)"
+   },
+   "note": "approximate readings; chart shows potential growth declining since ~2010"
+  },
+  "visual_description_en": "Line chart 1985-2024. Dark line = actual GDP growth with the 1998 crash to about -13% and the 2020 dip to about -2%; light-blue smooth line = potential growth, falling from ~9% in 1985 to ~3% around 1997-99, recovering to ~5.7% by 2010, then sliding to ~3.3% by 2024.",
+  "visual_description_id": "Grafik garis 1985-2024: realisasi pertumbuhan PDB (dengan kontraksi 1998 sekitar -13% dan 2020 sekitar -2%) dan pertumbuhan ekonomi potensial yang menurun dari ~9% (1985) ke ~3% (1997-99), naik ke ~5,7% (2010), lalu turun ke ~3,3% (2024).",
+  "summary_en": "Indonesia's estimated potential growth has trended down since about 2010, from roughly 5.7% to about 3.3% by 2024, well below the ~9% of the mid-1980s; actual growth tracks it apart from the 1998 and 2020 shocks."
+ },
+ {
+  "figure_id": "Grafik 1.2.4",
+  "pdf_page": 22,
+  "printed_page": 17,
+  "section": "1.2",
+  "type": "chart",
+  "title_id": "Kontribusi Manufaktur terhadap PDB (%PDB)",
+  "title_en": "Manufacturing Contribution to GDP (% of GDP)",
+  "structured_data": {
+   "manufacturing_share_gdp_pct": {
+    "2005": 27.41,
+    "2008": "~27.8 (peak)",
+    "2010": "~21.9",
+    "2015": "~21.0",
+    "2022": 18.34
+   },
+   "note": "annual series 2005-2022; only endpoints labelled; sharp drop 2009-2010 then gradual decline"
+  },
+  "visual_description_en": "Line/lollipop chart 2005-2022 of manufacturing's share of GDP: 27.41% in 2005, holding ~27-28% to 2008, dropping sharply in 2009-2010 to ~22%, then declining gradually to 18.34% in 2022.",
+  "visual_description_id": "Grafik garis 2005-2022 kontribusi manufaktur terhadap PDB: 27,41% (2005), turun tajam 2009-2010 ke ~22%, lalu menurun bertahap ke 18,34% (2022).",
+  "summary_en": "Manufacturing's share of GDP fell from 27.41% (2005) to 18.34% (2022), with the steepest fall around 2009-2010, evidence of premature deindustrialisation."
+ },
+ {
+  "figure_id": "Grafik 1.2.5",
+  "pdf_page": 22,
+  "printed_page": 17,
+  "section": "1.2",
+  "type": "chart",
+  "title_id": "Produktivitas Pertanian (Juta Rupiah/Pekerja)",
+  "title_en": "Agricultural Productivity (Million Rupiah per Worker)",
+  "structured_data": {
+   "agri_labour_productivity_mio_idr_per_worker": {
+    "2013": 28.45,
+    "2019": 38.21,
+    "2023": 36.87
+   },
+   "growth_pct": {
+    "2014": 1.8,
+    "2015": "~7",
+    "2017": 9.3,
+    "2020": -5.6,
+    "2021": "~4.5",
+    "2023": -0.6
+   },
+   "note": "bars/area = productivity (left axis 20-40), orange line = growth % (right axis -8% to 12%)"
+  },
+  "visual_description_en": "Combo chart 2013-2023: dark-blue area of agricultural labour productivity rising from Rp28.45 million/worker (2013) to a peak of Rp38.21 million (2019) and easing to Rp36.87 million (2023); orange line of annual growth, peaking at 9.3% (2017), collapsing to -5.6% (2020), ending at -0.6% (2023).",
+  "visual_description_id": "Grafik kombinasi 2013-2023: produktivitas tenaga kerja pertanian (juta rupiah/pekerja) naik dari 28,45 (2013) ke 38,21 (2019) lalu 36,87 (2023); garis pertumbuhan tahunan puncak 9,3% (2017), -5,6% (2020), -0,6% (2023).",
+  "summary_en": "Agricultural labour productivity rose from Rp28.45m to Rp38.21m per worker between 2013 and 2019 but has since stagnated (Rp36.87m in 2023), with growth negative in 2020 (-5.6%) and 2023 (-0.6%)."
+ },
+ {
+  "figure_id": "Grafik 1.2.6",
+  "pdf_page": 26,
+  "printed_page": 21,
+  "section": "1.2",
+  "type": "chart",
+  "title_id": "Nilai PISA Indonesia dan Rata-Rata OECD",
+  "title_en": "Indonesia's PISA Scores versus the OECD Average",
+  "structured_data": {
+   "pisa_scores": {
+    "Sains": {
+     "OECD": 489,
+     "Indonesia": 396
+    },
+    "Matematika": {
+     "OECD": 489,
+     "Indonesia": 379
+    },
+    "Membaca": {
+     "OECD": 487,
+     "Indonesia": 371
+    }
+   },
+   "note": "PISA 2018 values (edition not stated on chart)"
+  },
+  "visual_description_en": "Horizontal grouped bar chart: OECD average vs Indonesia for science (489 vs 396), mathematics (489 vs 379) and reading (487 vs 371).",
+  "visual_description_id": "Grafik batang horizontal: rata-rata OECD vs Indonesia untuk sains (489 vs 396), matematika (489 vs 379), membaca (487 vs 371).",
+  "summary_en": "Indonesia trails the OECD average by roughly 90-116 PISA points: science 396 vs 489, mathematics 379 vs 489, reading 371 vs 487."
+ },
+ {
+  "figure_id": "Grafik 1.2.7",
+  "pdf_page": 29,
+  "printed_page": 24,
+  "section": "1.2",
+  "type": "chart",
+  "title_id": "Kondisi Hiper Regulasi",
+  "title_en": "Hyper-Regulation Condition",
+  "structured_data": {
+   "jumlah_peraturan_perundang_undangan": {
+    "UU (laws)": 1733,
+    "Perpu (government regulations in lieu of law)": 170,
+    "PP (government regulations)": 4812,
+    "Perpres (presidential regulations)": 2288,
+    "Permen (ministerial regulations)": 18045,
+    "Perda (regional regulations)": 18661
+   },
+   "highlighted": "Permen (18,045) boxed in red dashed outline"
+  },
+  "visual_description_en": "Bar chart 'Jumlah PUU di Indonesia' (number of laws and regulations) by type: UU 1,733; Perpu 170; PP 4,812; Perpres 2,288; Permen 18,045 (highlighted with a red dashed box); Perda 18,661.",
+  "visual_description_id": "Grafik batang jumlah peraturan perundang-undangan: UU 1.733; Perpu 170; PP 4.812; Perpres 2.288; Permen 18.045 (disorot); Perda 18.661.",
+  "summary_en": "Indonesia's regulatory stock is dominated by ministerial regulations (18,045) and regional regulations (18,661), versus 1,733 laws, 4,812 government regulations and 2,288 presidential regulations, illustrating hyper-regulation."
+ },
+ {
+  "figure_id": "Gambar 2.1.1",
+  "pdf_page": 36,
+  "printed_page": 30,
+  "section": "2.1",
+  "type": "concept",
+  "title_id": "Megatren Global 2045",
+  "title_en": "Global Megatrends 2045",
+  "structured_data": {
+   "megatrends": [
+    {
+     "name": "Demografi Global",
+     "claim": "Penduduk dunia menjadi 9,45 miliar dan porsi lansia meningkat (Asia 55%)"
+    },
+    {
+     "name": "Geopolitik dan Geoekonomi",
+     "claim": "Eskalasi persaingan antarnegara dan kemunculan kekuatan baru; kontribusi ekonomi negara berkembang mencapai 71%"
+    },
+    {
+     "name": "Pertumbuhan Kelas Menengah",
+     "claim": "Jumlah middle dan upper income class lebih dari 90% (8,8 miliar)"
+    },
+    {
+     "name": "Persaingan Sumber Daya Alam",
+     "claim": "Peningkatan peranan ekonomi Asia dan penduduk di Afrika mendorong persaingan memperebutkan SDA"
+    },
+    {
+     "name": "Perubahan Iklim",
+     "claim": "Peningkatan suhu global disertai cuaca ekstrem dan bencana"
+    },
+    {
+     "name": "Tata Kelola Keuangan Global",
+     "claim": "Pergeseran kebijakan fiskal, CBDC, dan Fintech"
+    },
+    {
+     "name": "Luar Angkasa",
+     "claim": "Ekonomi antariksa; kelestarian antariksa; keamanan antariksa"
+    },
+    {
+     "name": "Urbanisasi Dunia",
+     "claim": "Penduduk perkotaan 65%; peranan terhadap PDB 70%"
+    },
+    {
+     "name": "Konstelasi Perdagangan Global",
+     "claim": "Perdagangan global tumbuh 3,4% per tahun"
+    },
+    {
+     "name": "Perkembangan Teknologi",
+     "claim": "Teknologi akan menggantikan sekitar 40% pekerjaan saat ini"
+    }
+   ]
+  },
+  "visual_description_en": "Ten-segment wheel labelled 'Megatren 2045' with an icon per segment and a headline claim for each: world population 9.45 billion with 55% of the elderly in Asia; developing economies 71% of global output; middle/upper class >90% (8.8 billion); natural-resource competition; climate change; shifting fiscal policy, CBDC and fintech; space economy/sustainability/security; 65% urban population producing 70% of GDP; global trade growth 3.4%/yr; technology replacing ~40% of current jobs.",
+  "visual_description_id": "Roda sepuluh segmen 'Megatren 2045' dengan ikon dan klaim utama tiap megatren (demografi, geopolitik-geoekonomi, kelas menengah, SDA, iklim, keuangan global, luar angkasa, urbanisasi, perdagangan, teknologi).",
+  "summary_en": "The plan's ten global megatrends to 2045 with their headline quantitative assumptions: population 9.45bn (Asia hosts 55% of elderly), developing economies 71% of world GDP, middle/upper class 8.8bn (>90%), urban share 65% producing 70% of GDP, trade growth 3.4%/yr, ~40% of today's jobs replaced by technology, plus resource competition, climate change, financial-governance shifts (CBDC, fintech) and outer space."
+ },
+ {
+  "figure_id": "Grafik 2.1.1",
+  "pdf_page": 37,
+  "printed_page": 31,
+  "section": "2.1.1",
+  "type": "chart",
+  "title_id": "Negara dengan Jumlah Penduduk Terbanyak Tahun 2025 dan 2045",
+  "title_en": "Most Populous Countries in 2025 and 2045",
+  "structured_data": {
+   "population_2025_million": {
+    "India": 1454.61,
+    "China": 1424.38,
+    "USA": 343.6,
+    "Indonesia": 285.2,
+    "Pakistan": 249.95,
+    "Nigeria": 234.57,
+    "Brazil": 218.8,
+    "Bangladesh": 176.42,
+    "Russia": 143.49,
+    "Japan": 121.96
+   },
+   "population_2045_million": {
+    "India": 1642.92,
+    "China": 1349.76,
+    "USA": 371.72,
+    "Nigeria": 349.6,
+    "Pakistan": 345.82,
+    "Indonesia": 324.05,
+    "Brazil": 231.12,
+    "Bangladesh": 200.71,
+    "Ethiopia": 198.49,
+    "D.R. Congo": 193.25
+   },
+   "indonesia_rank": {
+    "2025": 4,
+    "2045": 6
+   },
+   "notes_id": [
+    "India menjadi negara dengan penduduk terbesar (1,42 milyar) sejak 2023",
+    "China diperkirakan sudah negatif (-0,26%) pertumbuhannya 2021",
+    "Afrika dan Asia Selatan masih mengalami pertumbuhan penduduk cukup tinggi",
+    "Indonesia diperkirakan akan tergantikan oleh Nigeria dan Pakistan pada tahun 2045"
+   ]
+  },
+  "visual_description_en": "Two ranked horizontal bar charts (million people). 2025: India 1,454.61, China 1,424.38, USA 343.60, Indonesia 285.20 (4th), Pakistan, Nigeria, Brazil, Bangladesh, Russia, Japan. 2045: India 1,642.92, China 1,349.76, USA 371.72, Nigeria 349.60, Pakistan 345.82, Indonesia 324.05 (6th), Brazil, Bangladesh, Ethiopia, D.R. Congo (new entrants in red). Centre notes: India largest since 2023; China's growth already negative (-0.26%) in 2021; Africa and South Asia still growing fast; Indonesia overtaken by Nigeria and Pakistan by 2045.",
+  "visual_description_id": "Dua grafik batang peringkat penduduk (juta orang) 2025 dan 2045; Indonesia 285,20 juta (peringkat 4) pada 2025 dan 324,05 juta (peringkat 6) pada 2045, disalip Nigeria dan Pakistan; Ethiopia dan RD Kongo masuk 10 besar.",
+  "summary_en": "Indonesia is projected to grow from 285.2 million (2025, 4th largest) to 324.05 million (2045) but slip to 6th as Nigeria (349.6m) and Pakistan (345.8m) overtake it; India leads with 1.64 billion while China declines to 1.35 billion."
+ },
+ {
+  "figure_id": "Gambar 2.1.2",
+  "pdf_page": 40,
+  "printed_page": 35,
+  "section": "2.1.3",
+  "type": "concept",
+  "title_id": "Disrupsi Teknologi",
+  "title_en": "Technological Disruption",
+  "structured_data": {
+   "flow": [
+    "Disrupsi Teknologi",
+    "Inovasi baru",
+    "Mengubah perilaku pasar konsumen"
+   ]
+  },
+  "relationships": [
+   "Disrupsi Teknologi -> Inovasi baru -> Mengubah perilaku pasar konsumen"
+  ],
+  "visual_description_en": "Simple three-step arrow diagram: technological disruption → new innovation → changes consumer-market behaviour.",
+  "visual_description_id": "Diagram panah tiga langkah: disrupsi teknologi → inovasi baru → mengubah perilaku pasar konsumen.",
+  "summary_en": "Schematic: technological disruption produces new innovations which in turn change consumer-market behaviour."
+ },
+ {
+  "figure_id": "Grafik 2.1.2",
+  "pdf_page": 43,
+  "printed_page": 38,
+  "section": "2.1.5",
+  "type": "chart",
+  "title_id": "Share Ekonomi G7 dan E7 terhadap PDB Global",
+  "title_en": "G7 and E7 Shares of Global GDP",
+  "structured_data": {
+   "share_of_global_gdp_pct": {
+    "columns": [
+     "2000",
+     "2010",
+     "2020",
+     "2030",
+     "2040",
+     "2050"
+    ],
+    "G7": [
+     65,
+     50,
+     46,
+     40,
+     36,
+     33
+    ],
+    "E7": [
+     11,
+     22,
+     28,
+     33,
+     38,
+     41
+    ]
+   },
+   "crossover": "E7 overtakes G7 between 2030 and 2040"
+  },
+  "visual_description_en": "Two-line chart 2000-2050: G7 share of global GDP falls 65%→50%→46%→40%→36%→33%; E7 (emerging seven) share rises 11%→22%→28%→33%→38%→41%, crossing the G7 line in the 2030s.",
+  "visual_description_id": "Grafik dua garis 2000-2050: pangsa PDB global G7 turun dari 65% ke 33%, E7 naik dari 11% ke 41%, berpotongan pada dekade 2030-an.",
+  "summary_en": "The E7 emerging economies' share of world GDP is projected to rise from 11% (2000) to 41% (2050) while the G7's falls from 65% to 33%, with the crossover in the 2030s."
+ },
+ {
+  "figure_id": "Grafik 2.1.3",
+  "pdf_page": 45,
+  "printed_page": 40,
+  "section": "2.1.7",
+  "type": "chart",
+  "title_id": "Share Konsumsi Penduduk Kelas Menengah Global, 2000-2050",
+  "title_en": "Share of Global Middle-Class Consumption, 2000-2050",
+  "structured_data": {
+   "series": [
+    "China",
+    "India",
+    "Asia Lainnya",
+    "Jepang",
+    "Amerika Serikat",
+    "Uni Eropa",
+    "Lainnya"
+   ],
+   "approx_share_pct": {
+    "2000": {
+     "China": "~2",
+     "India": "~1",
+     "Asia Lainnya": "~8",
+     "Jepang": "~9",
+     "Amerika Serikat": "~25",
+     "Uni Eropa": "~35",
+     "Lainnya": "~20"
+    },
+    "2050": {
+     "China": "~22",
+     "India": "~32",
+     "Asia Lainnya": "~14",
+     "Jepang": "~3",
+     "Amerika Serikat": "~4",
+     "Uni Eropa": "~5",
+     "Lainnya": "~20"
+    }
+   },
+   "note": "stacked 100% area chart; values are visual estimates"
+  },
+  "visual_description_en": "Stacked 100% area chart 2000-2050 of global middle-class consumption by region. China (dark red) and India (orange) expand from a few percent to roughly a fifth and a third respectively; other Asia grows; Japan, the US and the EU shrink from a combined ~70% to ~12%; 'other' stays about 20%.",
+  "visual_description_id": "Grafik area bertumpuk 100% 2000-2050 pangsa konsumsi kelas menengah global: China dan India membesar tajam, Asia lainnya tumbuh, Jepang, AS, dan Uni Eropa menyusut.",
+  "summary_en": "By 2050 Asia, led by India and China, is projected to account for roughly two-thirds of global middle-class consumption, while the combined share of the US, EU and Japan shrinks to around a tenth."
+ },
+ {
+  "figure_id": "Grafik 2.2.1",
+  "pdf_page": 48,
+  "printed_page": 43,
+  "section": "2.2.1",
+  "type": "chart",
+  "title_id": "Rasio Ketergantungan Indonesia 2020-2050",
+  "title_en": "Indonesia's Dependency Ratio 2020-2050",
+  "structured_data": {
+   "dependency_ratio": {
+    "2020": 44.3,
+    "2035": 48.3,
+    "2050": 54.1
+   },
+   "note": "smooth rising curve; minimum (demographic-dividend window) around 2020-2022"
+  },
+  "visual_description_en": "Single green curve 2020-2050 of the dependency ratio, flat near 44.3 in the early 2020s, then rising to 48.3 in 2035 and 54.1 in 2050.",
+  "visual_description_id": "Kurva rasio ketergantungan 2020-2050: 44,3 (2020), 48,3 (2035), 54,1 (2050).",
+  "summary_en": "Indonesia's dependency ratio bottoms out around 44.3 in the early 2020s and is projected to climb to 48.3 by 2035 and 54.1 by 2050, meaning the demographic-dividend window closes during the RPJPN period."
+ },
+ {
+  "figure_id": "Gambar 2.2.1",
+  "pdf_page": 53,
+  "printed_page": 48,
+  "section": "2.2.3",
+  "type": "map",
+  "title_id": "Kawasan Hutan Indonesia",
+  "title_en": "Indonesia's Forest Estate",
+  "structured_data": {
+   "legend": {
+    "Hutan Konservasi": "purple",
+    "Hutan Lindung": "dark green",
+    "Hutan Produksi": "yellow",
+    "Hutan Produksi Konversi": "pink",
+    "Konservasi Perairan": "purple outline",
+    "Areal Penggunaan Lain": "white"
+   },
+   "note": "no figures on map; largest contiguous forest estate in Kalimantan and Papua"
+  },
+  "visual_description_en": "National map of Indonesia coloured by forest-estate category: conservation forest (purple), protection forest (dark green), production forest (yellow), convertible production forest (pink), marine conservation areas (purple outlines) and non-forest land (white). Kalimantan, Papua and Sumatra carry most of the forest estate; Java is mostly non-forest.",
+  "visual_description_id": "Peta kawasan hutan Indonesia: hutan konservasi, hutan lindung, hutan produksi, hutan produksi konversi, konservasi perairan, dan areal penggunaan lain. Kalimantan, Papua, dan Sumatera mendominasi kawasan hutan.",
+  "summary_en": "Map of Indonesia's forest estate by legal category, showing the concentration of conservation, protection and production forest in Kalimantan, Papua and Sumatra, with Java largely outside the forest estate."
+ },
+ {
+  "figure_id": "Grafik 2.3.1",
+  "pdf_page": 57,
+  "printed_page": 52,
+  "section": "2.3.1",
+  "type": "chart",
+  "title_id": "Emisi Gas Rumah Kaca Nasional (juta ton CO2e)",
+  "title_en": "National Greenhouse-Gas Emissions (million tonnes CO2e)",
+  "structured_data": {
+   "ghg_emissions_mtco2e_by_sector": {
+    "Energi": 584.28,
+    "Kehutanan dan Lahan": 183.43,
+    "Limbah": 126.8,
+    "Pertanian": 98.7,
+    "Industri dan Penggunaan Produk (IPPU)": 57.19
+   },
+   "total_mtco2e": 1050.4,
+   "year": "not stated on chart (latest inventory year referenced in text)"
+  },
+  "visual_description_en": "Pie chart of national GHG emissions by sector (million tonnes CO2e): energy 584.28 (over half), forestry and land use 183.43, waste 126.8, agriculture 98.7, industrial processes and product use 57.19.",
+  "visual_description_id": "Diagram lingkaran emisi GRK nasional per sektor (juta ton CO2e): energi 584,28; kehutanan dan lahan 183,43; limbah 126,8; pertanian 98,7; IPPU 57,19.",
+  "summary_en": "Energy is the largest source of Indonesia's GHG emissions at 584.28 MtCO2e (about 56% of a ~1,050 Mt total), followed by forestry/land use (183.43), waste (126.8), agriculture (98.7) and IPPU (57.19)."
+ },
+ {
+  "figure_id": "Grafik 2.3.2",
+  "pdf_page": 57,
+  "printed_page": 52,
+  "section": "2.3.1",
+  "type": "chart",
+  "title_id": "Proyeksi tren peningkatan emisi GRK (GtCO2e)",
+  "title_en": "Projected Trend of GHG Emission Increase (GtCO2e)",
+  "structured_data": {
+   "ghg_gtco2e": {
+    "2010": "~1.35",
+    "2015": "~1.65",
+    "2020": "~1.95",
+    "2025": "~2.2",
+    "2045": 2.27
+   },
+   "note": "baseline/BAU-style projection, oscillating around 2.1-2.35 from 2025 onward; axis 0-2.5"
+  },
+  "visual_description_en": "Green area chart 2010-2045 of total GHG emissions in GtCO2e rising from ~1.35 in 2010 to ~2.0 by 2020, then fluctuating between ~2.0 and ~2.35, ending at 2.27 in 2045.",
+  "visual_description_id": "Grafik area emisi GRK total (GtCO2e) 2010-2045: naik dari ~1,35 (2010) ke ~2,0 (2020), berfluktuasi 2,0-2,35, berakhir 2,27 (2045).",
+  "summary_en": "Without stronger mitigation, national GHG emissions are projected to plateau around 2.1-2.3 GtCO2e from the mid-2020s, reaching 2.27 GtCO2e in 2045, up from about 1.35 GtCO2e in 2010."
+ },
+ {
+  "figure_id": "Tabel 2.3.1",
+  "pdf_page": 61,
+  "printed_page": 56,
+  "section": "2.3.3",
+  "type": "table",
+  "title_id": "Proyeksi Status Daya Dukung dan Daya Tampung di Ekoregion pada Tahun 2045",
+  "title_en": "Projected Carrying-Capacity Status by Ecoregion in 2045",
+  "structured_data": {
+   "rows": [
+    {
+     "ekoregion": "Pulau Sumatera",
+     "status_2045_id": "Tingkat kerentanan wilayah pesisir sedang hingga tinggi, peningkatan laju deforestasi, serta luasan hutan di mana satwa tinggal mengalami penurunan dari 13,2 juta hektare di tahun 2000 menjadi 9,9 juta hektare di tahun 2045.",
+     "key_numbers": {
+      "wildlife_forest_ha_2000": "13.2 million",
+      "wildlife_forest_ha_2045": "9.9 million"
+     }
+    },
+    {
+     "ekoregion": "Pulau Jawa, Bali, dan Nusa Tenggara",
+     "status_2045_id": "Penurunan luas tutupan lahan dan ketersediaan air hingga pada level langka absolut, ditambah dengan 34 kota/kabupaten di wilayah pesisir Pulau Jawa memiliki kerentanan kawasan pesisir tinggi hingga sangat tinggi. Begitu pula dengan 16 kabupaten/kota di Kepulauan Bali dan Nusa Tenggara memerlukan perhatian khusus karena memiliki kawasan pesisir yang berada pada tingkat kerentanan sedang hingga sangat tinggi.",
+     "key_numbers": {
+      "java_coastal_districts_high_vulnerability": 34,
+      "bali_nt_coastal_districts_attention": 16,
+      "water": "absolute scarcity"
+     }
+    },
+    {
+     "ekoregion": "Pulau Kalimantan",
+     "status_2045_id": "Penurunan luas tutupan lahan paling masif mencapai 22 juta hektare pada tahun 2045 yang berdampak pada ketersediaan air dan penurunan satwa, serta sebagian besar wilayah pesisir akan mengalami tingkat kerentanan tinggi.",
+     "key_numbers": {
+      "land_cover_loss_ha_2045": "22 million"
+     }
+    },
+    {
+     "ekoregion": "Pulau Sulawesi",
+     "status_2045_id": "Luas tutupan hutan diproyeksikan akan berkurang sebesar 1,4 juta hektare, sementara kondisi ketersediaan air cenderung aman/tidak tertekan.",
+     "key_numbers": {
+      "forest_cover_loss_ha": "1.4 million",
+      "water": "safe / not stressed"
+     }
+    },
+    {
+     "ekoregion": "Kepulauan Maluku",
+     "status_2045_id": "Laju deforestasi cenderung rendah, dengan sebagian besar kawasan pesisir didominasi pada tingkat kerentanan tinggi hingga sangat tinggi.",
+     "key_numbers": {}
+    },
+    {
+     "ekoregion": "Pulau Papua",
+     "status_2045_id": "Meskipun tingkat penurunan ketersediaan air setiap tahunnya tidak terlalu signifikan, penurunan luas hutan di Pulau Papua sekitar 1,1 juta hektare tetap terjadi, di samping itu terdapat 14 kabupaten/kota yang memiliki pesisir pada tingkat kerentanan pesisir sedang hingga tinggi.",
+     "key_numbers": {
+      "forest_loss_ha": "1.1 million",
+      "coastal_districts_medium_high_vulnerability": 14
+     }
+    }
+   ],
+   "note": "Sulawesi cell repeats its sentence twice in the source (typesetting error)."
+  },
+  "visual_description_en": "Two-column table: ecoregion (island group) vs. narrative projection of carrying-capacity status in 2045, covering coastal vulnerability, deforestation, land-cover loss and water availability for Sumatra, Java-Bali-Nusa Tenggara, Kalimantan, Sulawesi, Maluku and Papua.",
+  "visual_description_id": "Tabel dua kolom: ekoregion dan proyeksi status daya dukung/daya tampung 2045 (kerentanan pesisir, deforestasi, tutupan lahan, ketersediaan air) untuk enam pulau besar.",
+  "summary_en": "By 2045 the plan projects: Sumatra's wildlife forest shrinking from 13.2m to 9.9m ha; Java-Bali-Nusa Tenggara reaching absolute water scarcity with 34 Javanese and 16 Bali-NT coastal districts highly vulnerable; Kalimantan losing up to 22m ha of land cover; Sulawesi losing 1.4m ha of forest but with water still safe; Maluku with low deforestation but highly vulnerable coasts; Papua losing ~1.1m ha of forest with 14 vulnerable coastal districts."
+ },
+ {
+  "figure_id": "Gambar 3.1.1",
+  "pdf_page": 65,
+  "printed_page": 60,
+  "section": "3.1",
+  "type": "concept",
+  "title_id": "Kerangka Pikir RPJPN",
+  "title_en": "RPJPN Conceptual Framework",
+  "structured_data": {
+   "headline": "STRATEGI 8/17/45 (17 Agustus 1945) BERLANDASKAN PANCASILA",
+   "visi_bernegara": "Merdeka, Bersatu, Berdaulat, Adil, dan Makmur",
+   "misi_bernegara": [
+    "Melindungi segenap bangsa Indonesia dan seluruh tumpah darah Indonesia",
+    "Memajukan kesejahteraan umum",
+    "Mencerdaskan kehidupan bangsa",
+    "Ikut melaksanakan ketertiban dunia yang berdasarkan kemerdekaan, perdamaian abadi dan keadilan sosial"
+   ],
+   "faktor_internal": {
+    "I. Modal Dasar": [
+     "Kependudukan",
+     "Modal Sosial dan Budaya",
+     "Kekayaan Alam",
+     "Kekuatan Maritim"
+    ],
+    "II. Capaian Pembangunan": []
+   },
+   "faktor_eksternal": [
+    "Megatren Global",
+    "Perubahan Iklim"
+   ],
+   "cascade": [
+    "Visi Indonesia Emas 2025-2045",
+    "5 Sasaran Visi Indonesia 2025-2045",
+    "8 Misi Pembangunan",
+    "17 Arah Pembangunan",
+    "45 Indikator Utama Pembangunan"
+   ],
+   "makna_8_17_45": {
+    "8": "8 misi",
+    "17": "17 arah",
+    "45": "45 indikator; 17-8-2045 = 100 tahun Indonesia merdeka; 5 Pancasila"
+   }
+  },
+  "relationships": [
+   "Visi Bernegara + Faktor Internal (Modal Dasar, Capaian Pembangunan) + Faktor Eksternal (Megatren Global, Perubahan Iklim) -> Visi Indonesia Emas 2025-2045",
+   "Visi Indonesia Emas -> 5 Sasaran Visi -> 8 Misi Pembangunan -> 17 Arah Pembangunan -> 45 Indikator Utama Pembangunan",
+   "8 Misi Pembangunan <-> Misi Bernegara (4 constitutional missions)"
+  ],
+  "visual_description_en": "Flow diagram titled 'Strategy 8/17/45 (17 August 1945) based on Pancasila'. The constitutional state vision (independent, united, sovereign, just, prosperous) plus internal factors (basic capital: population, social-cultural capital, natural wealth, maritime strength; development achievements) and external factors (global megatrends, climate change) feed the Indonesia Emas 2025-2045 vision, which cascades into 5 vision targets, 8 development missions, 17 development directions and 45 main indicators. A side box links the 8 missions to the four constitutional state missions; a callout explains 8/17/45 as echoing 17-8-2045, the centenary of independence, and 5 for Pancasila.",
+  "visual_description_id": "Diagram alur 'Strategi 8/17/45 berlandaskan Pancasila': visi bernegara, faktor internal (modal dasar, capaian pembangunan) dan faktor eksternal (megatren global, perubahan iklim) → Visi Indonesia Emas 2025-2045 → 5 sasaran → 8 misi → 17 arah → 45 indikator utama; 8 misi dikaitkan dengan 4 misi bernegara; makna 8/17/45 = 17-8-2045, 100 tahun merdeka.",
+  "summary_en": "The RPJPN logic: constitutional vision and missions, internal basic capital and past achievements, and external megatrends/climate change frame the Indonesia Emas 2045 vision, operationalised as 5 targets → 8 missions → 17 directions → 45 headline indicators (the '8/17/45' mnemonic for the 17 August 2045 centenary)."
+ },
+ {
+  "figure_id": "Gambar 3.3.1",
+  "pdf_page": 66,
+  "printed_page": 61,
+  "section": "3.3",
+  "type": "concept",
+  "title_id": "Visi Indonesia Emas 2045",
+  "title_en": "Indonesia Emas 2045 Vision",
+  "structured_data": {
+   "vision": "Negara Kesatuan Republik Indonesia yang Berdaulat, Maju, dan Berkelanjutan",
+   "nkri_description_id": "Negara kepulauan yang memiliki ciri nusantara serta memiliki ketangguhan politik, ekonomi, keamanan nasional, dan budaya/peradaban bahari sebagai poros maritim dunia.",
+   "pillars": {
+    "Berdaulat": [
+     "Ketahanan",
+     "Kesatuan",
+     "Mandiri",
+     "Aman"
+    ],
+    "Maju": [
+     "Berdaya",
+     "Modern",
+     "Tangguh",
+     "Inovatif",
+     "Adil"
+    ],
+    "Berkelanjutan": [
+     "Lestari dan seimbang antara pembangunan ekonomi, sosial, dan lingkungan"
+    ]
+   }
+  },
+  "visual_description_en": "Map of Indonesia above the label 'Negara Kesatuan Republik Indonesia' (an archipelagic state with national resilience and maritime civilisation as a global maritime axis), branching into three pillars with icons: Sovereign (resilience, unity, self-reliance, security), Advanced (empowered, modern, resilient, innovative, just) and Sustainable (balanced economic, social and environmental development).",
+  "visual_description_id": "Peta Indonesia dengan label NKRI, bercabang ke tiga pilar visi: Berdaulat (ketahanan, kesatuan, mandiri, aman), Maju (berdaya, modern, tangguh, inovatif, adil), Berkelanjutan (lestari dan seimbang ekonomi-sosial-lingkungan).",
+  "summary_en": "The 2045 vision is 'a Sovereign, Advanced and Sustainable Unitary State of the Republic of Indonesia': sovereign = resilient, united, self-reliant, secure; advanced = empowered, modern, resilient, innovative, just; sustainable = balanced economic, social and environmental development."
+ },
+ {
+  "figure_id": "Gambar 3.4.1",
+  "pdf_page": 73,
+  "printed_page": 66,
+  "section": "3.4",
+  "type": "infographic",
+  "title_id": "Lima Sasaran Utama Visi Indonesia Emas 2045",
+  "title_en": "Five Main Targets of the Indonesia Emas 2045 Vision",
+  "structured_data": {
+   "targets": [
+    {
+     "no": 1,
+     "sasaran_id": "Pendapatan per kapita setara negara maju",
+     "indicators": [
+      {
+       "name": "GNI per Capita (USD)",
+       "baseline_2025": "5.500-5.520",
+       "target_2045": 30300
+      },
+      {
+       "name": "Kontribusi PDB Maritim (%)",
+       "baseline_2025": 8.1,
+       "target_2045": 15.0
+      },
+      {
+       "name": "Kontribusi PDB Manufaktur (%)",
+       "baseline_2025": 20.8,
+       "target_2045": 28.0
+      }
+     ],
+     "source": "World Bank (2022); BPS (2022); diolah oleh Bappenas (2023)"
+    },
+    {
+     "no": 2,
+     "sasaran_id": "Kemiskinan menurun dan ketimpangan berkurang",
+     "indicators": [
+      {
+       "name": "Tingkat Kemiskinan (%)",
+       "baseline_2025": "7,0-8,0",
+       "target_2045": "0,5-0,8"
+      },
+      {
+       "name": "Rasio Gini (indeks)",
+       "baseline_2025": "0,379-0,382",
+       "target_2045": "0,290-0,320"
+      },
+      {
+       "name": "Kontribusi PDRB KTI (%)",
+       "baseline_2025": 21.4,
+       "target_2045": 28.5
+      }
+     ],
+     "source": "BPS (2022); diolah oleh Bappenas (2023)"
+    },
+    {
+     "no": 3,
+     "sasaran_id": "Kepemimpinan dan pengaruh di dunia internasional meningkat",
+     "indicators": [
+      {
+       "name": "Global Power Index (peringkat)",
+       "baseline_2025": "34 (2023)",
+       "target_2045": "15 besar (top 15)"
+      }
+     ],
+     "source": "Pareto Economics (2023); diolah oleh Bappenas (2023)"
+    },
+    {
+     "no": 4,
+     "sasaran_id": "Daya saing sumber daya manusia meningkat",
+     "indicators": [
+      {
+       "name": "Indeks Modal Manusia / Human Capital Index",
+       "baseline_2025": 0.56,
+       "target_2045": 0.73
+      }
+     ],
+     "source": "World Bank (2022); diolah oleh Bappenas (2023)"
+    },
+    {
+     "no": 5,
+     "sasaran_id": "Intensitas emisi GRK menurun menuju net zero emission",
+     "indicators": [
+      {
+       "name": "Penurunan Intensitas Emisi GRK (%)",
+       "baseline_2025": 38.6,
+       "target_2045": 93.5
+      }
+     ],
+     "source": "KLHS (2022); diolah oleh Bappenas (2023)"
+    }
+   ]
+  },
+  "visual_description_en": "Five numbered cards, each with a 2025 baseline and 2045 target table: (1) income per capita on a par with developed countries - GNI per capita US$5,500-5,520 → 30,300; maritime GDP share 8.1% → 15.0%; manufacturing GDP share 20.8% → 28.0%; (2) poverty and inequality - poverty 7.0-8.0% → 0.5-0.8%; Gini 0.379-0.382 → 0.290-0.320; eastern Indonesia GRDP share 21.4% → 28.5%; (3) global leadership - Global Power Index rank 34 (2023) → top 15; (4) human-resource competitiveness - Human Capital Index 0.56 → 0.73; (5) GHG intensity toward net zero - reduction in emission intensity 38.6% → 93.5%.",
+  "visual_description_id": "Lima kartu sasaran dengan baseline 2025 dan target 2045: GNI per kapita US$5.500-5.520 → 30.300; PDB maritim 8,1 → 15,0%; PDB manufaktur 20,8 → 28,0%; kemiskinan 7,0-8,0 → 0,5-0,8%; Gini 0,379-0,382 → 0,290-0,320; PDRB KTI 21,4 → 28,5%; Global Power Index peringkat 34 → 15 besar; Indeks Modal Manusia 0,56 → 0,73; penurunan intensitas emisi GRK 38,6 → 93,5%.",
+  "summary_en": "The five headline 2045 targets: GNI per capita US$30,300 (from ~US$5,500 in 2025), manufacturing 28% and maritime 15% of GDP, poverty 0.5-0.8%, Gini 0.29-0.32, eastern Indonesia 28.5% of GRDP, Global Power Index top-15 (from 34), Human Capital Index 0.73 (from 0.56), and a 93.5% cut in GHG emission intensity (from 38.6%)."
+ },
+ {
+  "figure_id": "Gambar 3.5.1",
+  "pdf_page": 75,
+  "printed_page": 68,
+  "section": "3.5",
+  "type": "concept",
+  "title_id": "Delapan Misi (Agenda) Pembangunan 2045",
+  "title_en": "Eight Development Missions (Agendas) 2045",
+  "structured_data": {
+   "groups": {
+    "Transformasi Indonesia": [
+     "1. Transformasi Sosial",
+     "2. Transformasi Ekonomi",
+     "3. Transformasi Tata Kelola"
+    ],
+    "Landasan Transformasi": [
+     "4. Supremasi Hukum, Stabilitas, dan Kepemimpinan Indonesia",
+     "5. Ketahanan Sosial Budaya dan Ekologi"
+    ],
+    "Kerangka Implementasi Transformasi": [
+     "6. Pembangunan Kewilayahan yang Merata dan Berkeadilan",
+     "7. Sarana dan Prasarana yang Berkualitas dan Ramah Lingkungan",
+     "8. Kesinambungan Pembangunan"
+    ]
+   }
+  },
+  "relationships": [
+   "Transformasi Indonesia (Misi 1-3) rests on Landasan Transformasi (Misi 4-5) and is delivered through Kerangka Implementasi Transformasi (Misi 6-8)"
+  ],
+  "visual_description_en": "Three stacked boxes: 'Transformasi Indonesia' (missions 1 social, 2 economic, 3 governance transformation); 'Landasan Transformasi' (4 rule of law, stability and Indonesian leadership; 5 socio-cultural and ecological resilience); 'Kerangka Implementasi Transformasi' (6 equitable regional development; 7 quality, environmentally friendly infrastructure; 8 development continuity).",
+  "visual_description_id": "Tiga kotak bertumpuk: Transformasi Indonesia (misi 1-3), Landasan Transformasi (misi 4-5), Kerangka Implementasi Transformasi (misi 6-8).",
+  "summary_en": "The eight 2045 missions are grouped as three transformations (social, economic, governance), two foundations (rule of law/stability/leadership; socio-cultural and ecological resilience) and three implementation frames (equitable regional development, quality green infrastructure, development continuity)."
+ },
+ {
+  "figure_id": "Gambar 3.5.2",
+  "pdf_page": 76,
+  "printed_page": 69,
+  "section": "3.5",
+  "type": "concept",
+  "title_id": "17 (Tujuh Belas) Arah (Tujuan) Pembangunan",
+  "title_en": "The 17 Development Directions (Goals)",
+  "structured_data": {
+   "arah_pembangunan": {
+    "Misi 1. Transformasi Sosial": {
+     "IE1": "Kesehatan untuk Semua",
+     "IE2": "Pendidikan Berkualitas yang Merata",
+     "IE3": "Perlindungan Sosial yang Adaptif"
+    },
+    "Misi 2. Transformasi Ekonomi": {
+     "IE4": "Iptek, Inovasi, dan Produktivitas Ekonomi",
+     "IE5": "Penerapan Ekonomi Hijau",
+     "IE6": "Transformasi Digital",
+     "IE7": "Integrasi Ekonomi Domestik dan Global",
+     "IE8": "Perkotaan dan Perdesaan sebagai Pusat Pertumbuhan Ekonomi"
+    },
+    "Misi 3. Transformasi Tata Kelola": {
+     "IE9": "Regulasi dan Tata Kelola yang Berintegritas dan Adaptif"
+    },
+    "Misi 4. Supremasi Hukum, Stabilitas, dan Kepemimpinan Indonesia": {
+     "IE10": "Hukum Berkeadilan, Keamanan Nasional Tangguh, dan Demokrasi Substansial",
+     "IE11": "Stabilitas Ekonomi Makro",
+     "IE12": "Ketangguhan Diplomasi dan Pertahanan Berdaya Gentar Kawasan"
+    },
+    "Misi 5. Ketahanan Sosial Budaya dan Ekologi": {
+     "IE13": "Beragama Maslahat dan Berkebudayaan Maju",
+     "IE14": "Keluarga Berkualitas, Kesetaraan Gender, dan Masyarakat Inklusif",
+     "IE15": "Lingkungan Hidup Berkualitas",
+     "IE16": "Berketahanan Energi, Air, dan Kemandirian Pangan",
+     "IE17": "Resiliensi terhadap Bencana dan Perubahan Iklim"
+    },
+    "Kerangka Implementasi Transformasi": [
+     "Misi 6. Mewujudkan Pembangunan Kewilayahan yang Merata dan Berkeadilan",
+     "Misi 7. Mewujudkan Sarana dan Prasarana yang Berkualitas dan Ramah Lingkungan",
+     "Misi 8. Mewujudkan Kesinambungan Pembangunan"
+    ]
+   }
+  },
+  "relationships": [
+   "Misi 1 -> IE1, IE2, IE3",
+   "Misi 2 -> IE4, IE5, IE6, IE7, IE8",
+   "Misi 3 -> IE9",
+   "Misi 4 -> IE10, IE11, IE12",
+   "Misi 5 -> IE13, IE14, IE15, IE16, IE17",
+   "Misi 6, 7, 8 = implementation framework (no IE codes)"
+  ],
+  "visual_description_en": "Matrix of the 17 development directions (coded IE1-IE17, 'Indonesia Emas') under missions 1-5, arranged in three bands: Transformasi Indonesia (missions 1-3, IE1-IE9), Landasan Transformasi (missions 4-5, IE10-IE17) and Kerangka Implementasi Transformasi (missions 6-8 as full-width bars).",
+  "visual_description_id": "Matriks 17 arah pembangunan (IE1-IE17) di bawah misi 1-5, dalam tiga pita: Transformasi Indonesia (IE1-IE9), Landasan Transformasi (IE10-IE17), Kerangka Implementasi Transformasi (misi 6-8).",
+  "summary_en": "The 17 development directions IE1-IE17 map onto missions 1-5 (3 social, 5 economic, 1 governance, 3 law/stability/leadership, 5 socio-cultural/ecological), while missions 6-8 (regional equity, infrastructure, continuity) form the implementation framework; these IE codes are the structure of Bab IV."
+ },
+ {
+  "figure_id": "Gambar 3.6.1",
+  "pdf_page": 83,
+  "printed_page": 76,
+  "section": "3.6",
+  "type": "concept",
+  "title_id": "Pentahapan Implementasi RPJPN 2025-2045",
+  "title_en": "Phasing of RPJPN 2025-2045 Implementation",
+  "structured_data": {
+   "phases": [
+    {
+     "tahap": 1,
+     "period": "2025-2029",
+     "theme_id": "Perkuatan Fondasi Transformasi",
+     "theme_en": "Strengthening the foundations of transformation"
+    },
+    {
+     "tahap": 2,
+     "period": "2030-2034",
+     "theme_id": "Akselerasi Transformasi",
+     "theme_en": "Accelerating transformation"
+    },
+    {
+     "tahap": 3,
+     "period": "2035-2039",
+     "theme_id": "Ekspansi Global",
+     "theme_en": "Global expansion"
+    },
+    {
+     "tahap": 4,
+     "period": "2040-2045",
+     "theme_id": "Perwujudan Indonesia Emas",
+     "theme_en": "Realising Golden Indonesia"
+    }
+   ]
+  },
+  "visual_description_en": "Four hexagonal milestones on a timeline: Phase 1 2025-2029 'strengthen the foundations of transformation', Phase 2 2030-2034 'accelerate transformation', Phase 3 2035-2039 'global expansion', Phase 4 2040-2045 'realise Indonesia Emas'.",
+  "visual_description_id": "Empat tonggak heksagonal: Tahap 1 2025-2029 Perkuatan Fondasi Transformasi; Tahap 2 2030-2034 Akselerasi Transformasi; Tahap 3 2035-2039 Ekspansi Global; Tahap 4 2040-2045 Perwujudan Indonesia Emas.",
+  "summary_en": "RPJPN 2025-2045 is implemented in four five-year phases aligned with RPJMN cycles: foundations (2025-29), acceleration (2030-34), global expansion (2035-39) and realisation of Indonesia Emas (2040-45)."
+ },
+ {
+  "figure_id": "Gambar 3.7.1",
+  "pdf_page": 83,
+  "printed_page": 76,
+  "section": "3.7",
+  "type": "concept",
+  "title_id": "Kerangka Upaya Transformatif Super Prioritas (Game Changers)",
+  "title_en": "Framework of the 20 Super-Priority Transformative Efforts (Game Changers)",
+  "structured_data": {
+   "game_changers": {
+    "Transformasi Sosial": {
+     "1": "Percepatan wajib belajar 13 tahun (1 tahun prasekolah dan 12 tahun pendidikan dasar dan menengah)",
+     "2": "Peningkatan partisipasi pendidikan tinggi dan lulusan STEAM berkualitas termasuk pemanfaatan dana abadi pendidikan",
+     "3": "Restrukturisasi kewenangan pengelolaan tenaga pendidikan dan kesehatan seperti guru, tenaga medis, dan tenaga kesehatan",
+     "4": "Investasi pelayanan kesehatan primer, penuntasan stunting, serta eliminasi penyakit menular dan penyakit tropis terabaikan (terutama tuberkulosis dan kusta)",
+     "5": "Penuntasan kemiskinan dengan satu sistem Regsosek dan perlindungan sosial adaptif terintegrasi"
+    },
+    "Transformasi Ekonomi": {
+     "6": "Peningkatan anggaran IPTEKIN nasional menuju komersialisasi oleh industri",
+     "7": "Industrialisasi: hilirisasi industri berbasis SDA unggulan, industri padat karya terampil, padat teknologi dan inovasi, serta berorientasi ekspor",
+     "8": "Percepatan transisi energi berkeadilan menuju pemanfaatan energi baru dan terbarukan secara berkelanjutan didukung jaringan listrik terintegrasi serta transportasi hijau",
+     "9": "Superplatform untuk percepatan transformasi digital dan produksi talenta digital",
+     "10": "Integrasi infrastruktur konektivitas dengan kawasan pertumbuhan ekonomi",
+     "11": "Pembangunan Ibu Kota Nusantara (IKN)"
+    },
+    "Transformasi Tata Kelola": {
+     "12": "Pembentukan lembaga tunggal pengelola regulasi, transformasi manajemen ASN (terutama sistem penggajian tunggal dan pensiun), serta pemberantasan korupsi",
+     "13": "Penguatan integritas partai politik"
+    },
+    "Supremasi Hukum, Stabilitas, dan Kepemimpinan Indonesia": {
+     "14": "Transformasi sistem penuntutan menuju single prosecution system dan transformasi lembaga kejaksaan sebagai advocaat generaal",
+     "15": "Transformasi industri pertahanan menuju kemandirian melalui skema inovatif untuk adopsi teknologi dan penguatan value chain industri nasional",
+     "16": "Reformasi perencanaan dan fiskal: perencanaan dan pengendalian pembangunan berbasis risiko; penerapan aturan fiskal adaptif; reformasi APBN; serta transformasi kelembagaan perencanaan dan fiskal",
+     "17": "Reformasi subsidi terutama energi terbarukan dan pupuk tepat sasaran"
+    },
+    "Ketahanan Sosial Budaya dan Ekologi": {
+     "18": "Penguatan karakter dan jati diri bangsa",
+     "19": "Reformasi pengelolaan sampah terintegrasi dari hulu ke hilir",
+     "20": "Ketahanan energi dan air serta kemandirian pangan dengan pendekatan terpadu FEW Nexus (food, energy, water)"
+    }
+   }
+  },
+  "visual_description_en": "Five-petal diagram around '20 Game Changers (Upaya Transformatif Super Prioritas)', listing the 20 efforts by mission group: 5 social (13-year compulsory schooling, higher-education/STEAM, teacher and health-worker management, primary care/stunting/TB-leprosy, poverty with Regsosek), 6 economic (R&D budget, industrialisation/downstreaming, just energy transition, digital superplatform, connectivity integration, IKN), 2 governance (single regulatory body, civil-service pay and anti-corruption; political-party integrity), 4 law/stability (single prosecution system, defence industry, planning and fiscal reform, subsidy reform) and 3 socio-ecological (national character, waste management, FEW-nexus resilience).",
+  "visual_description_id": "Diagram lima kelopak '20 Game Changers' yang mendaftar 20 upaya transformatif super prioritas menurut kelompok misi: 5 sosial, 6 ekonomi, 2 tata kelola, 4 supremasi hukum/stabilitas, 3 ketahanan sosial budaya dan ekologi.",
+  "summary_en": "The 20 game changers, the plan's highest-priority bets: 13-year compulsory education, STEAM higher education, centralised management of teachers and health workers, primary care and stunting/TB elimination, Regsosek-based poverty eradication, higher R&D spending, resource downstreaming and export industrialisation, just energy transition, a digital superplatform, connectivity-growth-area integration, IKN, a single regulatory agency plus civil-service and anti-corruption reform, party integrity, a single prosecution system, defence-industry self-reliance, planning/fiscal reform, targeted subsidy reform, national character, integrated waste management and FEW-nexus security."
+ },
+ {
+  "figure_id": "Gambar 4.1.1",
+  "pdf_page": 89,
+  "printed_page": 82,
+  "section": "4.1",
+  "type": "concept",
+  "title_id": "Tahapan Transformasi Sosial",
+  "title_en": "Phases of Social Transformation",
+  "structured_data": {
+   "phases": [
+    {
+     "tahap": 1,
+     "period": "2025-2029",
+     "label": "Perkuatan Fondasi Transformasi",
+     "focus_id": "Pemenuhan pelayanan dasar kesehatan, pendidikan, dan perlindungan sosial"
+    },
+    {
+     "tahap": 2,
+     "period": "2030-2034",
+     "label": "Akselerasi Transformasi",
+     "focus_id": "Percepatan pembangunan SDM berkualitas dan inklusif"
+    },
+    {
+     "tahap": 3,
+     "period": "2035-2039",
+     "label": "Ekspansi Global",
+     "focus_id": "Penguatan daya saing SDM dan keberlanjutan kesejahteraan"
+    },
+    {
+     "tahap": 4,
+     "period": "2040-2045",
+     "label": "Perwujudan Indonesia Emas",
+     "focus_id": "Manusia Indonesia yang Unggul"
+    }
+   ]
+  },
+  "visual_description_en": "Four-phase timeline for social transformation: 2025-29 fulfil basic health, education and social-protection services; 2030-34 accelerate quality, inclusive human development; 2035-39 strengthen HR competitiveness and sustain welfare; 2040-45 'excellent Indonesian people'.",
+  "visual_description_id": "Empat tahap transformasi sosial: 2025-29 pemenuhan pelayanan dasar; 2030-34 percepatan SDM berkualitas dan inklusif; 2035-39 daya saing SDM dan keberlanjutan kesejahteraan; 2040-45 manusia Indonesia unggul.",
+  "summary_en": "Social transformation proceeds from basic-service fulfilment (2025-29) through accelerated inclusive human development (2030-34) and HR competitiveness (2035-39) to 'excellent Indonesians' by 2045."
+ },
+ {
+  "figure_id": "Gambar 4.1.2",
+  "pdf_page": 89,
+  "printed_page": 82,
+  "section": "4.1",
+  "type": "concept",
+  "title_id": "Pembangunan Manusia Berdasarkan Siklus Hidup",
+  "title_en": "Human Development across the Life Cycle",
+  "structured_data": {
+   "life_stages": [
+    "Prenatal",
+    "Bayi 0-11 bulan",
+    "Balita 12-59 bulan",
+    "Usia dini 6 tahun",
+    "Anak usia sekolah dan remaja 7-18 tahun",
+    "Dewasa 19-59 tahun",
+    "Lansia 60 tahun ke atas"
+   ],
+   "interventions": {
+    "Prenatal-Balita": [
+     "Jaminan gizi 1000 HPK",
+     "Kesehatan ibu dan anak"
+    ],
+    "Bayi-Usia dini": [
+     "PAUD-HI sampai prenatal",
+     "Habilitasi dan Rehabilitasi Anak",
+     "Pola pengasuhan dan perlindungan dari perlakuan salah"
+    ],
+    "Usia dini-Remaja": [
+     "Wajib belajar 13 tahun"
+    ],
+    "Remaja-Dewasa": [
+     "Pendidikan dan pelatihan vokasi",
+     "Pendidikan tinggi"
+    ],
+    "Dewasa-Lansia": [
+     "Pembelajaran sepanjang hayat",
+     "Jaminan ketenagakerjaan"
+    ],
+    "Semua tahap": [
+     "Jaminan kesehatan nasional, pengendalian penyakit, bantuan gizi, bantuan sosial, asistensi dan rehabilitasi penyandang disabilitas"
+    ]
+   }
+  },
+  "visual_description_en": "Gantt-style life-cycle chart: an arrow of age bands (prenatal, 0-11 months, 12-59 months, 6 years, 7-18, 19-59, 60+) with horizontal bars showing which interventions cover which ages: 1,000-days nutrition and maternal-child health (prenatal to under-five), holistic early-childhood development, child habilitation and protective parenting (infancy to early childhood), 13-year compulsory schooling (6-18), vocational training and higher education (adolescence/adulthood), lifelong learning and employment insurance (adults and elderly), and a full-width bar for national health insurance, disease control, nutrition and social assistance and disability services.",
+  "visual_description_id": "Bagan siklus hidup: pita usia dari prenatal hingga lansia dengan batang intervensi (gizi 1000 HPK, KIA, PAUD-HI, wajib belajar 13 tahun, vokasi, pendidikan tinggi, pembelajaran sepanjang hayat, jaminan ketenagakerjaan, dan jaminan kesehatan/bantuan sosial untuk semua tahap).",
+  "summary_en": "The plan's human-development model sequences interventions by age: 1,000-days nutrition and maternal-child health, holistic early-childhood care, 13 years of compulsory schooling, vocational and higher education, lifelong learning and employment insurance, with universal health insurance and social assistance underpinning every stage."
+ },
+ {
+  "figure_id": "Gambar 4.1.3",
+  "pdf_page": 90,
+  "printed_page": 83,
+  "section": "4.1",
+  "type": "infographic",
+  "title_id": "Transformasi Sosial Menciptakan Manusia Indonesia Unggul",
+  "title_en": "Social Transformation Creates Excellent Indonesians",
+  "structured_data": {
+   "outcomes_2045": {
+    "SEHAT": [
+     "Sistem kesehatan yang tangguh dan responsif",
+     "Setiap penduduk berusia panjang dan hidup sehat",
+     "Stunting di bawah 5%",
+     "Tuberkulosis dan kusta tereliminasi",
+     "Usia Harapan Hidup (UHH) menjadi 80 tahun"
+    ],
+    "CERDAS DAN TERPELAJAR": [
+     "Pendidikan berkualitas dan merata yang menghasilkan SDM unggul, berkarakter, dan berdaya saing",
+     "Rata-rata Lama Sekolah (RLS) penduduk usia 15 tahun ke atas menjadi 12 tahun",
+     "Harapan Lama Sekolah (HLS) menjadi 14,81 tahun",
+     "Skor PISA meningkat",
+     "Persentase pekerja lulusan pendidikan menengah dan tinggi yang bekerja di bidang keahlian menengah tinggi sebesar 75%"
+    ],
+    "TERLINDUNGI DAN SEJAHTERA": [
+     "Melalui perlindungan sosial yang adaptif menuju kemiskinan 0%"
+    ]
+   }
+  },
+  "visual_description_en": "Three outcome cards: Healthy (resilient health system; stunting <5%; TB and leprosy eliminated; life expectancy 80 years), Smart and Educated (mean years of schooling 12; expected years of schooling 14.81; higher PISA; 75% of secondary/tertiary graduates in mid-to-high-skill jobs), Protected and Prosperous (adaptive social protection toward 0% poverty).",
+  "visual_description_id": "Tiga kartu hasil 2045: Sehat (stunting <5%, TB dan kusta tereliminasi, UHH 80 tahun), Cerdas dan Terpelajar (RLS 12 tahun, HLS 14,81 tahun, PISA meningkat, 75% pekerja terampil), Terlindungi dan Sejahtera (kemiskinan 0%).",
+  "summary_en": "2045 social-transformation end-states: life expectancy 80, stunting under 5%, TB and leprosy eliminated, 12 mean years of schooling, 14.81 expected years, higher PISA scores, 75% of educated workers in skilled jobs, and poverty driven toward zero through adaptive social protection."
+ },
+ {
+  "figure_id": "Tabel 4.1.1",
+  "pdf_page": 95,
+  "pdf_pages": [
+   95,
+   96
+  ],
+  "printed_page": 88,
+  "section": "4.1",
+  "type": "table",
+  "title_id": "Indikator Capaian Transformasi Sosial dalam RPJPN 2025-2045",
+  "title_en": "Social Transformation Achievement Indicators in RPJPN 2025-2045",
+  "structured_data": {
+   "columns": [
+    "Arah (tujuan) pembangunan",
+    "Indikator",
+    "Baseline 2025*",
+    "Sasaran 2045"
+   ],
+   "footnote": "*Baseline tahun 2025 merupakan proyeksi target (the 2025 baseline is a projected target, not an observed value)",
+   "rows": [
+    {
+     "arah": "IE1 Kesehatan untuk Semua",
+     "no": "1",
+     "indikator": "Usia Harapan Hidup (UHH) (tahun)",
+     "baseline_2025": 74.4,
+     "target_2045": 80.0
+    },
+    {
+     "arah": "IE1 Kesehatan untuk Semua",
+     "no": "2a",
+     "indikator": "Angka Kematian Ibu (per 100.000 kelahiran hidup)",
+     "baseline_2025": 122,
+     "target_2045": 16
+    },
+    {
+     "arah": "IE1 Kesehatan untuk Semua",
+     "no": "2b",
+     "indikator": "Prevalensi stunting (pendek dan sangat pendek) pada balita (%)",
+     "baseline_2025": 18.8,
+     "target_2045": 5.0
+    },
+    {
+     "arah": "IE1 Kesehatan untuk Semua",
+     "no": "3",
+     "indikator": "Insidensi Tuberkulosis (per 100.000 penduduk)",
+     "baseline_2025": 272,
+     "target_2045": 76
+    },
+    {
+     "arah": "IE1 Kesehatan untuk Semua",
+     "no": "4",
+     "indikator": "Cakupan kepesertaan jaminan kesehatan nasional (%)",
+     "baseline_2025": 98.0,
+     "target_2045": 99.5
+    },
+    {
+     "arah": "IE2 Pendidikan Berkualitas yang Merata",
+     "no": "5a-i",
+     "indikator": "Rata-rata nilai PISA: Membaca",
+     "baseline_2025": 396,
+     "target_2045": 485
+    },
+    {
+     "arah": "IE2 Pendidikan Berkualitas yang Merata",
+     "no": "5a-ii",
+     "indikator": "Rata-rata nilai PISA: Matematika",
+     "baseline_2025": 404,
+     "target_2045": 490
+    },
+    {
+     "arah": "IE2 Pendidikan Berkualitas yang Merata",
+     "no": "5a-iii",
+     "indikator": "Rata-rata nilai PISA: Sains",
+     "baseline_2025": 416,
+     "target_2045": 487
+    },
+    {
+     "arah": "IE2 Pendidikan Berkualitas yang Merata",
+     "no": "5b-i",
+     "indikator": "Rata-rata nilai asesmen nasional: Literasi Membaca",
+     "baseline_2025": 62.89,
+     "target_2045": 75.73
+    },
+    {
+     "arah": "IE2 Pendidikan Berkualitas yang Merata",
+     "no": "5b-ii",
+     "indikator": "Rata-rata nilai asesmen nasional: Numerasi",
+     "baseline_2025": 54.36,
+     "target_2045": 68.72
+    },
+    {
+     "arah": "IE2 Pendidikan Berkualitas yang Merata",
+     "no": "5c",
+     "indikator": "Rata-rata lama sekolah penduduk usia di atas 15 tahun (tahun)",
+     "baseline_2025": 9.33,
+     "target_2045": 12.0
+    },
+    {
+     "arah": "IE2 Pendidikan Berkualitas yang Merata",
+     "no": "5d",
+     "indikator": "Harapan Lama Sekolah (tahun)",
+     "baseline_2025": 13.32,
+     "target_2045": 14.81
+    },
+    {
+     "arah": "IE2 Pendidikan Berkualitas yang Merata",
+     "no": "6",
+     "indikator": "Angka Partisipasi Kasar (APK) Pendidikan Tinggi (%)",
+     "baseline_2025": 33.94,
+     "target_2045": 60.0
+    },
+    {
+     "arah": "IE2 Pendidikan Berkualitas yang Merata",
+     "no": "7",
+     "indikator": "Persentase pekerja lulusan pendidikan menengah dan tinggi yang bekerja di bidang keahlian menengah tinggi (%)",
+     "baseline_2025": 66.78,
+     "target_2045": 75.0
+    },
+    {
+     "arah": "IE3 Perlindungan Sosial yang Adaptif",
+     "no": "8",
+     "indikator": "Tingkat kemiskinan (%)",
+     "baseline_2025": "7,0-8,0",
+     "target_2045": "0,5-0,8"
+    },
+    {
+     "arah": "IE3 Perlindungan Sosial yang Adaptif",
+     "no": "9",
+     "indikator": "Cakupan kepesertaan Jaminan Sosial Ketenagakerjaan (%)",
+     "baseline_2025": 43.19,
+     "target_2045": 99.5
+    },
+    {
+     "arah": "IE3 Perlindungan Sosial yang Adaptif",
+     "no": "10",
+     "indikator": "Persentase penyandang disabilitas bekerja di sektor formal (%)",
+     "baseline_2025": 22.0,
+     "target_2045": 60.0
+    }
+   ]
+  },
+  "visual_description_en": "Four-column indicator table spanning two pages: development direction, indicator, 2025 baseline (projected) and 2045 target, for Health for All (5 indicators), Quality Equitable Education (indicators 5-7 with sub-items) and Adaptive Social Protection (indicators 8-10).",
+  "visual_description_id": "Tabel indikator empat kolom (arah pembangunan, indikator, baseline 2025, sasaran 2045) untuk Kesehatan untuk Semua, Pendidikan Berkualitas yang Merata, dan Perlindungan Sosial yang Adaptif; dua halaman.",
+  "summary_en": "The social-transformation scorecard (2025 projected baseline → 2045 target): life expectancy 74.4→80; MMR 122→16 per 100k; stunting 18.8%→5%; TB incidence 272→76 per 100k; JKN coverage 98→99.5%; PISA reading 396→485, maths 404→490, science 416→487; national assessment literacy 62.89→75.73, numeracy 54.36→68.72; mean schooling 9.33→12 years; expected schooling 13.32→14.81; tertiary GER 33.94→60%; skilled-job match 66.78→75%; poverty 7-8%→0.5-0.8%; employment social-security coverage 43.19→99.5%; disabled in formal work 22→60%."
+ },
+ {
+  "figure_id": "Grafik 4.2.1",
+  "pdf_page": 97,
+  "printed_page": 90,
+  "section": "4.2",
+  "type": "chart",
+  "title_id": "Trajektori GNI per Kapita Indonesia (US$)",
+  "title_en": "Indonesia's GNI per Capita Trajectory (US$)",
+  "structured_data": {
+   "history": {
+    "1993": "Indonesia keluar dari low income",
+    "1998-2002": "kembali ke low income akibat krisis",
+    "2019": "menjadi upper-middle income",
+    "2020": "kembali ke lower-middle income akibat COVID-19",
+    "2022": "masuk kembali ke upper-middle income",
+    "middle_income_trap": "30 tahun (1993-2022)"
+   },
+   "scenarios": [
+    {
+     "skenario": "Transformatif",
+     "rata_rata_pertumbuhan": "6%",
+     "tahun_keluar_MIT": 2041
+    },
+    {
+     "skenario": "Sangat Optimis",
+     "rata_rata_pertumbuhan": "7%",
+     "tahun_keluar_MIT": 2038
+    }
+   ],
+   "projection_window": "2023-2045 (22 tahun)",
+   "thresholds": [
+    "Threshold Low Income",
+    "Threshold Upper-Middle Income",
+    "Proyeksi Threshold High Income (rising dashed line, ~US$17-18k by 2045)"
+   ],
+   "gni_2045_usd": {
+    "7% scenario": "~30,000+",
+    "6% scenario": "~24,000"
+   }
+  },
+  "visual_description_en": "GNI per capita 1969-2045 (US$). Historical black line below the upper-middle-income threshold until ~2019; annotations mark leaving low income in 1993, relapse in 1998-2002, upper-middle in 2019, relapse in 2020, re-entry in 2022, and '30 years in the middle-income trap (1993-2022)'. Shaded projection 2023-2045 ('22 years') with two curves: 7% average growth (gold) crossing the rising high-income threshold in 2038 and 6% (red) in 2041. Inset table: Transformative 6% → exit MIT 2041; Very optimistic 7% → 2038.",
+  "visual_description_id": "Trajektori GNI per kapita 1969-2045: riwayat keluar-masuk kelompok pendapatan (1993, 1998-2002, 2019, 2020, 2022), 30 tahun dalam middle income trap; proyeksi 2023-2045 dengan skenario pertumbuhan 7% (keluar MIT 2038) dan 6% (keluar MIT 2041) melewati ambang high income yang terus naik.",
+  "summary_en": "Indonesia has been a middle-income country for 30 years (1993-2022); the plan's core assumption is that average growth of 6% (transformative scenario) lifts GNI per capita past the rising high-income threshold in 2041, or 2038 under a 7% 'very optimistic' scenario, within the 22-year window to 2045."
+ },
+ {
+  "figure_id": "Gambar 4.2.1",
+  "pdf_page": 98,
+  "printed_page": 91,
+  "section": "4.2",
+  "type": "concept",
+  "title_id": "Tahapan Transformasi Ekonomi",
+  "title_en": "Phases of Economic Transformation",
+  "structured_data": {
+   "phases": [
+    {
+     "tahap": 1,
+     "period": "2025-2029",
+     "label": "Perkuatan Fondasi Transformasi",
+     "focus_id": "Hilirisasi SDA serta penguatan riset inovasi dan produktivitas tenaga kerja",
+     "growth_range_pct": "5,6-6,1",
+     "manufacturing_share_gdp_pct": 21.9,
+     "middle_class_pct_population": 38
+    },
+    {
+     "tahap": 2,
+     "period": "2030-2034",
+     "label": "Akselerasi Transformasi",
+     "focus_id": "Peningkatan produktivitas secara masif dan perluasan sumber pertumbuhan ekonomi",
+     "growth_range_pct": "6,9-7,8",
+     "manufacturing_share_gdp_pct": 26.6,
+     "middle_class_pct_population": 50
+    },
+    {
+     "tahap": 3,
+     "period": "2035-2039",
+     "label": "Ekspansi Global",
+     "focus_id": "Economic power house yang terintegrasi dengan jaringan rantai global dan domestik, serta ekspor yang kokoh",
+     "growth_range_pct": "6,4-7,6",
+     "manufacturing_share_gdp_pct": 30.0,
+     "middle_class_pct_population": 61
+    },
+    {
+     "tahap": 4,
+     "period": "2040-2045",
+     "label": "Perwujudan Indonesia Emas",
+     "focus_id": "Negara Berpendapatan Tinggi",
+     "growth_range_pct": "5,4-6,7",
+     "manufacturing_share_gdp_pct": 28.0,
+     "middle_class_pct_population": 80
+    }
+   ]
+  },
+  "visual_description_en": "Four-phase economic roadmap with growth range, manufacturing share of GDP and middle-class share per phase: 2025-29 resource downstreaming, R&D and labour productivity (growth 5.6-6.1%, manufacturing 21.9%, middle class 38%); 2030-34 mass productivity gains and new growth sources (6.9-7.8%, 26.6%, 50%); 2035-39 integrated 'economic powerhouse' with strong exports (6.4-7.6%, 30.0%, 61%); 2040-45 high-income country (5.4-6.7%, 28.0%, 80%).",
+  "visual_description_id": "Peta jalan ekonomi empat tahap dengan kisaran pertumbuhan, peranan industri pengolahan terhadap PDB, dan pangsa kelas menengah: 2025-29 (5,6-6,1%; 21,9%; 38%), 2030-34 (6,9-7,8%; 26,6%; 50%), 2035-39 (6,4-7,6%; 30,0%; 61%), 2040-45 (5,4-6,7%; 28,0%; 80%).",
+  "summary_en": "The economic transformation path assumes growth of 5.6-6.1% in 2025-29, peaking at 6.9-7.8% in 2030-34 and 6.4-7.6% in 2035-39 before easing to 5.4-6.7% in 2040-45, with manufacturing rising to 30% of GDP by the late 2030s and the middle class expanding from 38% to 80% of the population."
+ },
+ {
+  "figure_id": "Tabel 4.2.1",
+  "pdf_page": 102,
+  "printed_page": 95,
+  "section": "4.2.1",
+  "type": "table",
+  "title_id": "Prioritas Industri Berdasarkan Koridor Ekonomi 2025-2045",
+  "title_en": "Priority Industries by Economic Corridor 2025-2045",
+  "structured_data": {
+   "corridor_themes": {
+    "KE Sumatera": "Industri berbasis SDA dan hub ekonomi biru Barat Indonesia",
+    "KE Jawa": "Industri berbasis inovasi, riset, dan teknologi",
+    "KE Bali Nusa Tenggara": "Superhub pariwisata dan ekonomi kreatif Nusantara bertaraf internasional",
+    "KE Kalimantan": "Superhub Ekonomi Nusantara",
+    "KE Sulawesi": "Penunjang Superhub Ekonomi Nusantara dan industri berbasis SDA",
+    "KE Maluku": "Hub ekonomi biru Timur Indonesia",
+    "KE Papua": "Industri kimia dasar dan berbasis agro"
+   },
+   "matrix": {
+    "Industri Berbasis Sumber Daya Alam (agro; hilirisasi tambang; sumber daya laut)": {
+     "Sumatera": [
+      "agro",
+      "tambang",
+      "laut"
+     ],
+     "Jawa": [],
+     "Bali-NT": [
+      "laut"
+     ],
+     "Kalimantan": [
+      "agro",
+      "tambang"
+     ],
+     "Sulawesi": [
+      "agro",
+      "tambang",
+      "laut"
+     ],
+     "Maluku": [
+      "agro",
+      "tambang",
+      "laut"
+     ],
+     "Papua": [
+      "agro",
+      "tambang"
+     ]
+    },
+    "Industri Dasar (kimia dasar; logam)": {
+     "Jawa": [
+      "kimia dasar",
+      "logam"
+     ],
+     "Kalimantan": [
+      "kimia dasar",
+      "logam"
+     ],
+     "Sulawesi": [
+      "logam"
+     ],
+     "Maluku": [
+      "logam"
+     ],
+     "Papua": [
+      "kimia dasar"
+     ]
+    },
+    "Industri Berteknologi Menengah-Tinggi (perkapalan; kedirgantaraan; otomotif dan alat angkut; pertahanan; alat kesehatan; produk kimia dan farmasi; mesin dan perlengkapan; elektronik; digital)": {
+     "Sumatera": [
+      "perkapalan (?)",
+      "otomotif",
+      "elektronik",
+      "digital"
+     ],
+     "Jawa": [
+      "all nine"
+     ],
+     "Kalimantan": [
+      "pertahanan (?)",
+      "mesin/elektronik (?)"
+     ],
+     "note": "Sumatra and Kalimantan ticks are partial and hard to align row-by-row in the scan; Java is ticked for every item"
+    },
+    "Industri Barang Konsumsi Berkelanjutan (makanan dan minuman; tekstil dan produk tekstil; alas kaki)": {
+     "Sumatera": [
+      "makanan-minuman",
+      "tekstil"
+     ],
+     "Jawa": [
+      "all three"
+     ],
+     "Bali-NT": [
+      "makanan-minuman"
+     ],
+     "Kalimantan": [
+      "makanan-minuman"
+     ],
+     "Sulawesi": [
+      "makanan-minuman"
+     ],
+     "Maluku": [
+      "makanan-minuman"
+     ],
+     "Papua": [
+      "makanan-minuman"
+     ]
+    },
+    "Industri Berbasis Inovasi dan Riset (ekonomi biru; bioekonomi)": {
+     "Sumatera": [
+      "both"
+     ],
+     "Jawa": [
+      "both"
+     ],
+     "Kalimantan": [
+      "both"
+     ],
+     "Maluku": [
+      "both"
+     ]
+    },
+    "Industri Kreatif (seni, budaya dan kerajinan; film, animasi dan visual arts; kuliner; pengembangan aplikasi dan gim)": {
+     "Sumatera": [
+      "kerajinan",
+      "film",
+      "kuliner"
+     ],
+     "Jawa": [
+      "all four"
+     ],
+     "Bali-NT": [
+      "all four"
+     ],
+     "Kalimantan": [
+      "kerajinan",
+      "kuliner"
+     ],
+     "Sulawesi": [
+      "kerajinan",
+      "kuliner"
+     ],
+     "Maluku": [
+      "kerajinan",
+      "kuliner"
+     ],
+     "Papua": [
+      "kerajinan",
+      "kuliner"
+     ]
+    }
+   },
+   "caveat": "Check-mark alignment within multi-row cells is approximate (rasterised scan)."
+  },
+  "visual_description_en": "Purple matrix: rows are seven priority-industry groups with sub-items, columns are the seven economic corridors (Sumatra, Java, Bali-Nusa Tenggara, Kalimantan, Sulawesi, Maluku, Papua) each with a corridor theme; check marks show which industries are prioritised where. Java is ticked for almost everything incl. all medium-high-tech industries; Sumatra, Kalimantan, Sulawesi, Maluku and Papua centre on natural-resource-based and basic industries; Bali-NT on marine resources, food and the creative industries.",
+  "visual_description_id": "Matriks industri prioritas (7 kelompok) terhadap 7 koridor ekonomi dengan tema koridor; Jawa mencakup hampir semua termasuk industri berteknologi menengah-tinggi; koridor lain berfokus pada industri berbasis SDA, industri dasar, barang konsumsi, dan industri kreatif.",
+  "summary_en": "Spatial industrial policy to 2045: Java hosts innovation- and technology-based industry (all medium-high-tech sectors), Sumatra is a resource and western blue-economy hub, Kalimantan the 'Nusantara superhub' with basic chemicals and metals, Sulawesi a resource-based support hub, Maluku the eastern blue-economy hub, Papua basic chemicals and agro-industry, and Bali-Nusa Tenggara an international tourism and creative-economy superhub."
+ },
+ {
+  "figure_id": "Gambar 4.2.2",
+  "pdf_page": 103,
+  "printed_page": 96,
+  "section": "4.2.1",
+  "type": "infographic",
+  "title_id": "Tahapan Arah Kebijakan dan Strategi Industrialisasi",
+  "title_en": "Phasing of Industrialisation Policy Direction and Strategy",
+  "structured_data": {
+   "strategi_pengembangan_industri_nasional": {
+    "1": "Penguatan ekosistem industrialisasi (pembiayaan, riset, inovasi, standardisasi, skema insentif)",
+    "2": "Peningkatan kapasitas produksi untuk memenuhi kebutuhan dalam negeri",
+    "3": "Penguatan daya saing industri menuju ekspansi global (SDM, energi, rantai pasok)",
+    "4": "Mencapai net export positif"
+   },
+   "tahapan_hilirisasi": {
+    "1": "Peleburan/pemurnian/penguatan on farm",
+    "2": "Produk antara",
+    "3": "Produk akhir"
+   },
+   "phases": [
+    {
+     "tahap": 1,
+     "period": "2025-2029",
+     "theme": "Penguatan ekosistem industrialisasi dan peningkatan kompleksitas produk industri",
+     "manufacturing_share_gdp_pct": 21.9,
+     "avg_investment_growth_pct": "6,4-6,7"
+    },
+    {
+     "tahap": 2,
+     "period": "2030-2034",
+     "theme": "Penguatan kompleksitas produk industri",
+     "manufacturing_share_gdp_pct": 26.6,
+     "avg_investment_growth_pct": "7,1-8,2"
+    },
+    {
+     "tahap": 3,
+     "period": "2035-2039",
+     "theme": "Penguatan daya saing industri menuju ekspansi global",
+     "manufacturing_share_gdp_pct": 30.0,
+     "avg_investment_growth_pct": "6,5-7,7"
+    },
+    {
+     "tahap": 4,
+     "period": "2040-2045",
+     "theme": "Indonesia Manufacturing the World",
+     "manufacturing_share_gdp_pct": 28.0,
+     "avg_investment_growth_pct": "5,4-6,1"
+    }
+   ],
+   "priority_industries": {
+    "1. Industri Berbasis Sumber Daya Hayati": [
+     "Sawit",
+     "Kakao",
+     "Minyak Atsiri",
+     "Kelapa",
+     "Karet",
+     "Rumput Laut"
+    ],
+    "2. Industri Berbasis Mineral Penting": [
+     "Nikel → baterai, komponen EV, stainless steel",
+     "Tembaga",
+     "Bauksit",
+     "Migas",
+     "Timah",
+     "Emas",
+     "Perak"
+    ],
+    "3. Industri Dasar": [
+     "Kimia",
+     "Logam"
+    ],
+    "4. Industri Berteknologi Menengah-Tinggi": [
+     "Otomotif dan Alat Angkut (EV)",
+     "Elektronik",
+     "Perkapalan",
+     "Kedirgantaraan",
+     "Kimia dan Farmasi",
+     "Mesin dan Perlengkapan",
+     "Alat Kesehatan",
+     "Digital"
+    ],
+    "5. Industri Barang Konsumsi Berkelanjutan": [
+     "Makanan Minuman",
+     "Tekstil dan Produk Tekstil",
+     "Alas Kaki"
+    ],
+    "6. Industri Berbasis Inovasi dan Riset": [
+     "Ekonomi Biru",
+     "Bioekonomi"
+    ],
+    "7. Industri Kreatif": [
+     "Seni, Budaya, dan Kerajinan",
+     "Film, Animasi, dan Visual Arts",
+     "Kuliner",
+     "Pengembangan Aplikasi dan Gim"
+    ]
+   },
+   "phase_pattern": "Resource-based industries: intermediate products (hilirisasi 2) with strategies 1-2 in 2025-29 → final products (3) with strategies 2-4 in 2030-34 → net export (4) in 2035-45. Basic industry: domestic-needs focus in phases 1-2, GVC participation (3-4) in phase 3, net export in phase 4. Medium-high-tech: strategies 1-2 → 2-3 → 3-4 → 4 (aerospace and machinery only reach 3 by 2045). Consumer goods and creative industries reach net export (4) earlier, from phase 2.",
+   "mainstreaming": "Penerapan industri hijau",
+   "key_factors": [
+    "Penyiapan SDM industri (vokasi dan STEAM)",
+    "Digitalisasi industri sesuai karakteristik industri terutama di kawasan industri",
+    "Kolaborasi triple helix",
+    "Pengembangan dan pengelolaan riset inovasi dan kekayaan intelektual"
+   ]
+  },
+  "visual_description_en": "Full-page roadmap. Top legend: four national industrial strategies (1 ecosystem, 2 domestic capacity, 3 global competitiveness, 4 positive net export) and three downstreaming stages (1 smelting/on-farm, 2 intermediate, 3 final product). Four phase columns with manufacturing share of GDP (21.9% → 26.6% → 30.0% → 28.0%) and average investment growth (6.4-6.7% → 7.1-8.2% → 6.5-7.7% → 5.4-6.1%). Rows list seven priority-industry groups and their commodities, with coloured badges per phase showing the downstreaming stage and strategy numbers applied. Footer: green-industry mainstreaming and four key factors (industrial skills, digitalisation, triple helix, R&D/IP).",
+  "visual_description_id": "Peta jalan industrialisasi satu halaman: legenda 4 strategi dan 3 tahap hilirisasi; empat tahap dengan peranan industri pengolahan terhadap PDB (21,9 → 26,6 → 30,0 → 28,0%) dan rata-rata pertumbuhan investasi; tujuh kelompok industri prioritas dengan lencana tahap hilirisasi/strategi per periode; mainstreaming industri hijau dan empat faktor kunci.",
+  "summary_en": "Industrialisation roadmap: manufacturing to reach 21.9% of GDP by 2029, 26.6% by 2034, 30% by 2039 and 28% in 2045, with investment growing 5.4-8.2% a year; resource-based commodities (palm oil, cocoa, coconut, rubber, seaweed, nickel, copper, bauxite, tin, gold, silver, oil and gas) move from intermediate to final products and net export, while medium-high-tech sectors (EVs, electronics, shipbuilding, aerospace, pharma, machinery, medical devices, digital) build ecosystems first and reach net-export status mostly by 2040-45; green industry, skills, digitalisation, triple-helix collaboration and IP are cross-cutting."
+ },
+ {
+  "figure_id": "Gambar 4.2.3",
+  "pdf_page": 109,
+  "printed_page": 102,
+  "section": "4.2.2",
+  "type": "concept",
+  "title_id": "Tahapan Transisi Energi",
+  "title_en": "Phases of the Energy Transition",
+  "structured_data": {
+   "phases": {
+    "2025-2029": [
+     "Penerapan CCS/CCUS dan pembatasan pembangunan PLTU batubara",
+     "Pemanfaatan Energy Storage System (ESS)",
+     "Pengembangan PLT ET (PLTA, PLTS, PLTP, PLTB, dan PLT Biomassa)",
+     "Penyiapan regulasi dan kelembagaan PLTN, hidrogen dan ammonia rendah karbon",
+     "Implementasi carbon credit secara luas",
+     "Pengalihan subsidi fosil ke subsidi ET secara bertahap",
+     "Peningkatan penggunaan kendaraan listrik dan peralatan listrik rumah tangga dan infrastruktur pendukungnya",
+     "Pengembangan sistem jaringan kelistrikan melalui interkoneksi dan smart grid",
+     "Perluasan mandatori biofuel"
+    ],
+    "2030-2034": [
+     "Implementasi retirement PLTU batubara",
+     "Peningkatan co-firing, penggunaan biomassa di industri",
+     "Penerapan CCS/CCUS untuk sektor yang sulit didekarbonisasi",
+     "Penyiapan infrastruktur pendukung hydrogen dan ammonia rendah karbon",
+     "Eksplorasi energi laut (arus, gelombang, pasang surut dan perbedaan suhu lapisan laut)",
+     "Commissioning dan operasi PLTN komersil pertama",
+     "Peningkatan kapasitas PLT ET",
+     "Perluasan sistem jaringan kelistrikan melalui interkoneksi dan smart grid",
+     "Penggunaan kendaraan listrik dan peralatan rumah tangga listrik secara masif",
+     "Perluasan mandatori biofuel"
+    ],
+    "2035-2039": [
+     "Melanjutkan retirement PLTU batubara",
+     "Peningkatan kapasitas PLT ET, termasuk PLTB offshore",
+     "Implementasi hydrogen dan ammonia rendah karbon untuk industri dan transportasi",
+     "Ekspansi operasi PLTN komersil",
+     "Pengembangan pilot PLT energi laut",
+     "Peningkatan pangsa dan efisiensi listrik di sektor industri",
+     "Peningkatan sistem jaringan kelistrikan melalui interkoneksi dan smart grid"
+    ],
+    "2040-2045": [
+     "Perluasan retirement PLTU batubara",
+     "Peningkatan kapasitas PLT ET",
+     "Ekspansi hidrogen dan amonia rendah karbon untuk industri transportasi alat berat",
+     "Ekspansi operasi PLTN komersil serta kemandirian teknologi PLTN",
+     "Pengembangan PLT energi laut komersial",
+     "Perluasan sistem jaringan kelistrikan melalui interkoneksi dan smart grid"
+    ]
+   }
+  },
+  "visual_description_en": "Four phase columns listing energy-transition actions: 2025-29 CCS/CCUS and cap on new coal plants, storage, renewable build-out (hydro, solar, geothermal, wind, biomass), nuclear/hydrogen regulation, carbon credits, fossil-to-renewable subsidy shift, EVs, smart grid, biofuel mandate; 2030-34 coal-plant retirement begins, biomass co-firing, first commercial nuclear plant, ocean-energy exploration, mass EV adoption; 2035-39 continued coal retirement, offshore wind, hydrogen/ammonia in industry and transport, nuclear expansion, ocean-energy pilots; 2040-45 wider coal retirement, nuclear technology self-reliance, commercial ocean energy, hydrogen for heavy transport.",
+  "visual_description_id": "Empat kolom tahap transisi energi 2025-2045: dari CCS/CCUS, pembatasan PLTU, pengembangan EBT dan regulasi PLTN (2025-29), retirement PLTU dan PLTN komersil pertama (2030-34), PLTB offshore dan hidrogen (2035-39), hingga kemandirian teknologi PLTN dan PLT energi laut komersial (2040-45).",
+  "summary_en": "Energy-transition sequencing: cap new coal and build renewables, storage and carbon markets by 2029; start retiring coal plants and commission the first commercial nuclear plant in 2030-34; scale offshore wind, hydrogen/ammonia and nuclear in 2035-39; and by 2040-45 broaden coal retirement, achieve nuclear technology self-reliance and commercialise ocean energy, with smart-grid interconnection throughout."
+ },
+ {
+  "figure_id": "Gambar 4.2.4",
+  "pdf_page": 111,
+  "printed_page": 104,
+  "section": "4.2.3",
+  "type": "concept",
+  "title_id": "Strategi Kebijakan Indonesia dalam Mengatasi Disrupsi Era Hyper Digital: \"Membangun Ekosistem Transformasi Digital\"",
+  "title_en": "Indonesia's Policy Strategy for the Hyper-Digital Era: 'Building a Digital Transformation Ecosystem'",
+  "structured_data": {
+   "goal": "Transformasi Digital - Membangun Ekosistem Transformasi Digital",
+   "integrator": "Superplatform Digital Indonesia",
+   "pillars": {
+    "Penguatan Supply": [
+     "Modal manusia",
+     "Regulasi dan kelembagaan → PP Transformasi Digital (termasuk mitigasi risiko: data privasi dan dampak negatif)",
+     "Infrastruktur dan konektivitas digital",
+     "Pembiayaan dan insentif",
+     "Ekosistem industri digital"
+    ],
+    "Penguasaan Teknologi": [
+     "IoT",
+     "Hyper-connectivity",
+     "AI",
+     "Distributed ledger",
+     "Product lifecycle management",
+     "Robotic process automation",
+     "Edge computing",
+     "Autonomous robotic systems",
+     "3D printing",
+     "Future technologies"
+    ],
+    "Penguatan Demand": [
+     "Literasi masyarakat",
+     "Fintech",
+     "Digital T&T (tourism and travel)",
+     "Industry 4.0",
+     "E-Gov (SPBE)",
+     "Smart cities",
+     "E-commerce",
+     "E-education",
+     "E-health"
+    ]
+   },
+   "enablers": [
+    "Cyber security",
+    "R&D"
+   ]
+  },
+  "relationships": [
+   "Penguatan Supply -> Penguasaan Teknologi -> Penguatan Demand",
+   "Superplatform Digital Indonesia -> Transformasi Digital",
+   "Enabler (cyber security, R&D) underpins all three pillars"
+  ],
+  "visual_description_en": "Architecture diagram: three green pillars (supply strengthening, technology mastery, demand strengthening) feed a yellow 'Superplatform Digital Indonesia' band, which feeds the top goal 'Digital Transformation - building the ecosystem'; a bottom bar names cyber security and R&D as enablers.",
+  "visual_description_id": "Diagram arsitektur: tiga pilar (penguatan supply, penguasaan teknologi, penguatan demand) → Superplatform Digital Indonesia → Transformasi Digital; enabler keamanan siber dan R&D.",
+  "summary_en": "Digital strategy: build supply (talent, a digital-transformation government regulation with privacy safeguards, connectivity, finance, industry ecosystem), master key technologies (IoT, AI, distributed ledger, edge, robotics, 3D printing) and stimulate demand (literacy, fintech, e-government/SPBE, smart cities, e-commerce, e-education, e-health), integrated through a national digital superplatform with cyber security and R&D as enablers."
+ },
+ {
+  "figure_id": "Tabel 4.2.2",
+  "pdf_page": 116,
+  "pdf_pages": [
+   116,
+   117
+  ],
+  "printed_page": 109,
+  "section": "4.2",
+  "type": "table",
+  "title_id": "Indikator Capaian Transformasi Ekonomi dalam RPJPN 2025-2045",
+  "title_en": "Economic Transformation Achievement Indicators in RPJPN 2025-2045",
+  "structured_data": {
+   "columns": [
+    "Arah (tujuan) pembangunan",
+    "Indikator",
+    "Baseline 2025",
+    "Sasaran 2045"
+   ],
+   "rows": [
+    {
+     "arah": "IE4 Iptek, Inovasi, dan Produktivitas Ekonomi",
+     "no": "11a",
+     "indikator": "Rasio PDB Industri Pengolahan (%)",
+     "baseline_2025": 20.8,
+     "target_2045": 28.0
+    },
+    {
+     "arah": "IE4",
+     "no": "11b",
+     "indikator": "Pertumbuhan PDB Pertanian, Kehutanan dan Perikanan (%)",
+     "baseline_2025": "3,2-3,4",
+     "target_2045": "3,3-4,2"
+    },
+    {
+     "arah": "IE4",
+     "no": "12a",
+     "indikator": "Rasio PDB Pariwisata (%)",
+     "baseline_2025": 4.6,
+     "target_2045": 8.0
+    },
+    {
+     "arah": "IE4",
+     "no": "12b",
+     "indikator": "Devisa Pariwisata (miliar USD)",
+     "baseline_2025": 22.1,
+     "target_2045": 100
+    },
+    {
+     "arah": "IE4",
+     "no": "13",
+     "indikator": "Proporsi PDB Ekonomi Kreatif (%)",
+     "baseline_2025": 7.92,
+     "target_2045": 11.0
+    },
+    {
+     "arah": "IE4",
+     "no": "14a",
+     "indikator": "Proporsi jumlah usaha kecil dan menengah (%)",
+     "baseline_2025": 1.44,
+     "target_2045": 5.0
+    },
+    {
+     "arah": "IE4",
+     "no": "14b",
+     "indikator": "Rasio kewirausahaan (%)",
+     "baseline_2025": 3.14,
+     "target_2045": 8.0
+    },
+    {
+     "arah": "IE4",
+     "no": "14c",
+     "indikator": "Rasio volume usaha koperasi terhadap PDB (%)",
+     "baseline_2025": 1.1,
+     "target_2045": 5.0
+    },
+    {
+     "arah": "IE4",
+     "no": "14d",
+     "indikator": "Return on Asset (ROA) BUMN (%)",
+     "baseline_2025": 3.4,
+     "target_2045": 5.6
+    },
+    {
+     "arah": "IE4",
+     "no": "15",
+     "indikator": "Tingkat Pengangguran Terbuka (%)",
+     "baseline_2025": "4,50-5,00",
+     "target_2045": 4.0
+    },
+    {
+     "arah": "IE4",
+     "no": "16",
+     "indikator": "Tingkat Partisipasi Angkatan Kerja Perempuan (%)",
+     "baseline_2025": 56.3,
+     "target_2045": 70.0
+    },
+    {
+     "arah": "IE4",
+     "no": "17a",
+     "indikator": "Pengeluaran Iptek dan Inovasi (% PDB)",
+     "baseline_2025": 0.3,
+     "target_2045": "2,2-2,3"
+    },
+    {
+     "arah": "IE4",
+     "no": "17b",
+     "indikator": "Peringkat Indeks Inovasi Global (peringkat)",
+     "baseline_2025": 60,
+     "target_2045": "30 besar"
+    },
+    {
+     "arah": "IE5 Penerapan Ekonomi Hijau",
+     "no": "18a",
+     "indikator": "Indeks Ekonomi Hijau",
+     "baseline_2025": 70.8,
+     "target_2045": 90.65
+    },
+    {
+     "arah": "IE5",
+     "no": "18b",
+     "indikator": "Porsi EBT dalam Bauran Energi Primer (%)",
+     "baseline_2025": 20,
+     "target_2045": 70
+    },
+    {
+     "arah": "IE6 Transformasi Digital",
+     "no": "19",
+     "indikator": "Indeks Daya Saing Digital di Tingkat Global (peringkat)",
+     "baseline_2025": 43,
+     "target_2045": "20 besar"
+    },
+    {
+     "arah": "IE7 Integrasi Ekonomi Domestik dan Global",
+     "no": "20",
+     "indikator": "Biaya Logistik (% PDB)",
+     "baseline_2025": 13.5,
+     "target_2045": 8.0
+    },
+    {
+     "arah": "IE7",
+     "no": "21",
+     "indikator": "Pembentukan Modal Tetap Bruto (% PDB)",
+     "baseline_2025": "30,1-30,2",
+     "target_2045": 27.2
+    },
+    {
+     "arah": "IE7",
+     "no": "22",
+     "indikator": "Ekspor Barang dan Jasa (% PDB)",
+     "baseline_2025": "21,0-21,6",
+     "target_2045": 40.0
+    },
+    {
+     "arah": "IE8 Perkotaan dan Perdesaan sebagai Pusat Pertumbuhan Ekonomi",
+     "no": "23a",
+     "indikator": "Proporsi kontribusi PDRB wilayah metropolitan terhadap nasional (%)",
+     "baseline_2025": 44.34,
+     "target_2045": 48.92
+    },
+    {
+     "arah": "IE8",
+     "no": "23b",
+     "indikator": "Rumah tangga dengan akses hunian layak, terjangkau dan berkelanjutan (%)",
+     "baseline_2025": 67.0,
+     "target_2045": 100
+    },
+    {
+     "arah": "IE8",
+     "no": "23c",
+     "indikator": "Persentase Desa Mandiri (%)",
+     "baseline_2025": 4.0,
+     "target_2045": 16.25
+    }
+   ]
+  },
+  "visual_description_en": "Two-page four-column indicator table (direction, indicator, 2025 baseline, 2045 target) for the five economic directions IE4-IE8: science/innovation/productivity (indicators 11-17), green economy (18), digital (19), domestic-global integration (20-22) and urban-rural growth centres (23).",
+  "visual_description_id": "Tabel indikator dua halaman untuk lima arah transformasi ekonomi (IE4-IE8), indikator 11-23, dengan baseline 2025 dan sasaran 2045.",
+  "summary_en": "Economic scorecard 2025→2045: manufacturing 20.8→28% of GDP; agriculture growth 3.2-3.4→3.3-4.2%; tourism 4.6→8% of GDP and US$22.1bn→100bn forex; creative economy 7.92→11%; SME share 1.44→5%; entrepreneurship 3.14→8%; cooperatives 1.1→5% of GDP; SOE ROA 3.4→5.6%; unemployment 4.5-5→4%; female LFPR 56.3→70%; R&D 0.30→2.2-2.3% of GDP; Global Innovation Index 60→top 30; Green Economy Index 70.8→90.65; renewables 20→70% of primary energy; digital competitiveness 43→top 20; logistics cost 13.5→8% of GDP; GFCF 30.1→27.2%; exports 21→40% of GDP; metropolitan GRDP share 44.34→48.92%; decent housing 67→100%; self-reliant villages 4→16.25%."
+ },
+ {
+  "figure_id": "Gambar 4.3.1",
+  "pdf_page": 118,
+  "printed_page": 111,
+  "section": "4.3",
+  "type": "concept",
+  "title_id": "Tahapan Transformasi Tata Kelola",
+  "title_en": "Phases of Governance Transformation",
+  "structured_data": {
+   "phases": [
+    {
+     "tahap": 1,
+     "period": "2025-2029",
+     "label": "Penguatan Pondasi",
+     "focus_id": "Kelembagaan tepat fungsi dan kolaboratif, peningkatan kualitas ASN, regulasi yang efektif, digitalisasi pelayanan publik, peningkatan integritas partai politik, dan pemberdayaan masyarakat sipil"
+    },
+    {
+     "tahap": 2,
+     "period": "2030-2034",
+     "label": "Akselerasi Transformasi",
+     "focus_id": "SDM ASN berkualitas, regulasi berbasis teknologi-informatif, partai politik berintegritas, dan masyarakat sipil partisipatif"
+    },
+    {
+     "tahap": 3,
+     "period": "2035-2039",
+     "label": "Ekspansi Global",
+     "focus_id": "Kelembagaan adaptif, SDM ASN kompetitif, partai politik modern, regulasi adaptif, dan masyarakat sipil mandiri"
+    },
+    {
+     "tahap": 4,
+     "period": "2040-2045",
+     "label": "Mewujudkan Indonesia Emas",
+     "focus_id": "Regulasi dan tata kelola yang berintegritas dan adaptif"
+    }
+   ]
+  },
+  "visual_description_en": "Four-phase governance timeline: 2025-29 right-sized collaborative institutions, better civil servants, effective regulation, digital public services, party integrity, civil-society empowerment; 2030-34 quality civil service, technology-based regulation, parties with integrity, participatory civil society; 2035-39 adaptive institutions, competitive civil service, modern parties, adaptive regulation, self-reliant civil society; 2040-45 regulation and governance with integrity and adaptability.",
+  "visual_description_id": "Empat tahap transformasi tata kelola 2025-2045 dari penguatan pondasi kelembagaan/ASN/regulasi/partai/masyarakat sipil hingga regulasi dan tata kelola yang berintegritas dan adaptif.",
+  "summary_en": "Governance reform is phased from institutional and civil-service foundations (2025-29) through technology-based regulation and participatory civil society (2030-34) and adaptive institutions (2035-39) to fully adaptive, high-integrity governance by 2045."
+ },
+ {
+  "figure_id": "Tabel 4.3.1",
+  "pdf_page": 121,
+  "printed_page": 114,
+  "section": "4.3",
+  "type": "table",
+  "title_id": "Indikator Capaian Transformasi Tata Kelola dalam RPJPN 2025-2045",
+  "title_en": "Governance Transformation Achievement Indicators in RPJPN 2025-2045",
+  "structured_data": {
+   "columns": [
+    "Arah (tujuan) pembangunan",
+    "Indikator",
+    "Baseline 2025",
+    "Sasaran 2045"
+   ],
+   "rows": [
+    {
+     "arah": "IE9 Regulasi dan Tata Kelola yang Berintegritas dan Adaptif",
+     "no": "24",
+     "indikator": "Indeks Materi Hukum",
+     "baseline_2025": 0.51,
+     "target_2045": 0.71
+    },
+    {
+     "arah": "IE9",
+     "no": "25",
+     "indikator": "Indeks Sistem Pemerintahan Berbasis Elektronik (SPBE)",
+     "baseline_2025": 3.12,
+     "target_2045": 5.0
+    },
+    {
+     "arah": "IE9",
+     "no": "26",
+     "indikator": "Indeks Pelayanan Publik",
+     "baseline_2025": 3.68,
+     "target_2045": 5.0
+    },
+    {
+     "arah": "IE9",
+     "no": "27a",
+     "indikator": "Anti Korupsi: Indeks Integritas Nasional",
+     "baseline_2025": 74.52,
+     "target_2045": 96.98
+    },
+    {
+     "arah": "IE9",
+     "no": "27b",
+     "indikator": "Anti Korupsi: Indeks Persepsi Korupsi",
+     "baseline_2025": 38,
+     "target_2045": 60
+    }
+   ],
+   "note": "OCR on PDF page 120 picked up a stray 'Tabel 4.3.1.' from the body text; the table itself is on PDF page 121."
+  },
+  "visual_description_en": "Single-direction indicator table with five rows: legal-substance index, e-government (SPBE) index, public-service index, national integrity index and corruption perception index, each with 2025 baseline and 2045 target.",
+  "visual_description_id": "Tabel indikator tata kelola (IE9): Indeks Materi Hukum, Indeks SPBE, Indeks Pelayanan Publik, Indeks Integritas Nasional, Indeks Persepsi Korupsi.",
+  "summary_en": "Governance scorecard 2025→2045: Legal Substance Index 0.51→0.71; SPBE e-government index 3.12→5.00; Public Service Index 3.68→5.00; National Integrity Index 74.52→96.98; Corruption Perception Index 38→60."
+ },
+ {
+  "figure_id": "Gambar 4.4.1",
+  "pdf_page": 122,
+  "printed_page": 115,
+  "section": "4.4",
+  "type": "concept",
+  "title_id": "Tahapan Supremasi Hukum, Stabilitas, dan Kepemimpinan Indonesia",
+  "title_en": "Phases of Rule of Law, Stability and Indonesian Leadership",
+  "structured_data": {
+   "phases": [
+    {
+     "tahap": 1,
+     "period": "2025-2029",
+     "label": "Penguatan Pondasi",
+     "focus_id": "Memperkuat supremasi hukum dan stabilitas, serta membangun kekuatan pertahanan berdaya gentar kawasan dan ketangguhan diplomasi sebagai landasan transformasi dan pembangunan"
+    },
+    {
+     "tahap": 2,
+     "period": "2030-2034",
+     "label": "Akselerasi Transformasi",
+     "focus_id": "Memantapkan supremasi hukum, stabilitas, serta kekuatan pertahanan berdaya gentar kawasan dan ketangguhan diplomasi untuk mewujudkan landasan yang kokoh bagi transformasi dan pembangunan"
+    },
+    {
+     "tahap": 3,
+     "period": "2035-2039",
+     "label": "Ekspansi Global",
+     "focus_id": "Indonesia yang berkeadilan, bebas korupsi, menjunjung tinggi HAM, berdemokrasi substansial, aman dan nyaman, serta berpengaruh dan memimpin di kawasan"
+    },
+    {
+     "tahap": 4,
+     "period": "2040-2045",
+     "label": "Mewujudkan Indonesia Emas",
+     "focus_id": "Indonesia yang berdaulat, aman dan damai serta berpengaruh dan memimpin dalam tatanan dunia"
+    }
+   ]
+  },
+  "visual_description_en": "Four-phase timeline: strengthen rule of law, stability, regional deterrent defence and resilient diplomacy (2025-29); consolidate them as a firm foundation (2030-34); a just, corruption-free, rights-respecting, substantively democratic Indonesia leading the region (2035-39); a sovereign, secure, peaceful Indonesia that leads in the world order (2040-45).",
+  "visual_description_id": "Empat tahap supremasi hukum, stabilitas, dan kepemimpinan: penguatan pondasi (2025-29), pemantapan (2030-34), Indonesia berkeadilan dan memimpin kawasan (2035-39), Indonesia berdaulat dan memimpin tatanan dunia (2040-45).",
+  "summary_en": "The rule-of-law/stability/leadership mission moves from strengthening legal supremacy, deterrent defence and diplomacy (2025-34) to a corruption-free, substantively democratic Indonesia leading its region (2035-39) and a sovereign, influential global leader by 2045."
+ },
+ {
+  "figure_id": "Gambar 4.4.2",
+  "pdf_page": 127,
+  "printed_page": 120,
+  "section": "4.4.3",
+  "type": "concept",
+  "title_id": "Kerangka Diplomasi Tangguh",
+  "title_en": "Resilient Diplomacy Framework",
+  "structured_data": {
+   "component_1": {
+    "label": "Penguatan Sinergi dan Fokus Diplomasi",
+    "core": "Sinergi kebijakan dan pelaksanaan antar bidang diplomasi",
+    "bidang_diplomasi": [
+     "Diplomasi Ekonomi",
+     "Diplomasi Pertahanan dan Kedaulatan",
+     "Diplomasi Kepemimpinan",
+     "Diplomasi Pelindungan",
+     "Diplomasi Publik"
+    ]
+   },
+   "component_2": {
+    "label": "Pemantapan Kelembagaan dan Infrastruktur Pendukung Diplomasi",
+    "core": "Sinergi antar pelaku diplomasi",
+    "pelaku_diplomasi": [
+     "Pemerintah Pusat dan Daerah",
+     "Parlemen",
+     "Profesional",
+     "Akademisi dan Lembaga Riset",
+     "Akademisi dan Lembaga Advokasi",
+     "Tokoh Agama dan Organisasi Keagamaan",
+     "Media Informasi",
+     "Dunia Usaha",
+     "Warga Negara dan Organisasi Nirlaba",
+     "Lembaga Pembiayaan",
+     "Diaspora"
+    ]
+   },
+   "component_3": {
+    "label": "Modalitas Diplomasi: Infrastruktur dan Kelembagaan"
+   }
+  },
+  "relationships": [
+   "Sinergi antar bidang diplomasi <-> Sinergi antar pelaku diplomasi",
+   "Modalitas diplomasi (infrastruktur dan kelembagaan) <-> both wheels"
+  ],
+  "visual_description_en": "Two purple wheels linked by arrows to a hub at the bottom. Left wheel: five fields of diplomacy (economic; defence and sovereignty; leadership; protection; public) around 'policy and implementation synergy across diplomatic fields'. Right wheel: eleven actor groups (central and regional government, parliament, professionals, academia/research, academia/advocacy, religious leaders and organisations, media, business, citizens and non-profits, financing institutions, diaspora) around 'synergy among diplomatic actors'. Bottom hub: 'diplomatic modalities - infrastructure and institutions'.",
+  "visual_description_id": "Dua roda: lima bidang diplomasi (ekonomi, pertahanan dan kedaulatan, kepemimpinan, pelindungan, publik) dan sebelas pelaku diplomasi, dihubungkan dengan hub modalitas diplomasi (infrastruktur dan kelembagaan).",
+  "summary_en": "Resilient diplomacy rests on synergy across five diplomatic fields (economic, defence/sovereignty, leadership, protection, public), synergy among eleven types of state and non-state actors from parliament to the diaspora, and strengthened institutional and infrastructural modalities."
+ },
+ {
+  "figure_id": "Tabel 4.4.1",
+  "pdf_page": 129,
+  "pdf_pages": [
+   129,
+   130
+  ],
+  "printed_page": 122,
+  "section": "4.4",
+  "type": "table",
+  "title_id": "Indikator Capaian Supremasi Hukum, Stabilitas, dan Kepemimpinan Indonesia dalam RPJPN 2025-2045",
+  "title_en": "Rule of Law, Stability and Indonesian Leadership Achievement Indicators in RPJPN 2025-2045",
+  "structured_data": {
+   "columns": [
+    "Arah (tujuan) pembangunan",
+    "Indikator",
+    "Baseline 2025",
+    "Sasaran 2045"
+   ],
+   "rows": [
+    {
+     "arah": "IE10 Hukum Berkeadilan, Keamanan Nasional Tangguh, dan Demokrasi Substansial",
+     "no": "28",
+     "indikator": "Indeks Pembangunan Hukum",
+     "baseline_2025": 0.69,
+     "target_2045": 0.89
+    },
+    {
+     "arah": "IE10",
+     "no": "29",
+     "indikator": "Proporsi penduduk yang merasa aman berjalan sendirian di area tempat tinggalnya (%)",
+     "baseline_2025": 67.5,
+     "target_2045": 80.0
+    },
+    {
+     "arah": "IE10",
+     "no": "30",
+     "indikator": "Indeks Demokrasi Indonesia",
+     "baseline_2025": "Sedang (60-80)",
+     "target_2045": "Tinggi (>80)"
+    },
+    {
+     "arah": "IE11 Stabilitas Ekonomi Makro",
+     "no": "31",
+     "indikator": "Rasio Pajak terhadap PDB (%)",
+     "baseline_2025": "10,70-11,20",
+     "target_2045": "18,0-20,0"
+    },
+    {
+     "arah": "IE11",
+     "no": "32",
+     "indikator": "Tingkat Inflasi (%)",
+     "baseline_2025": "2,5±1",
+     "target_2045": "2,0±1"
+    },
+    {
+     "arah": "IE11",
+     "no": "33a",
+     "indikator": "Aset Perbankan/PDB (%)",
+     "baseline_2025": 66.9,
+     "target_2045": 200
+    },
+    {
+     "arah": "IE11",
+     "no": "33b",
+     "indikator": "Aset Dana Pensiun/PDB (%)",
+     "baseline_2025": 8.0,
+     "target_2045": 60
+    },
+    {
+     "arah": "IE11",
+     "no": "33c",
+     "indikator": "Aset Asuransi/PDB (%)",
+     "baseline_2025": 9.1,
+     "target_2045": 20
+    },
+    {
+     "arah": "IE11",
+     "no": "33d",
+     "indikator": "Kapitalisasi Pasar Modal/PDB (%)",
+     "baseline_2025": 57.8,
+     "target_2045": 120
+    },
+    {
+     "arah": "IE11",
+     "no": "33e",
+     "indikator": "Total Kredit/PDB (%)",
+     "baseline_2025": 37.8,
+     "target_2045": "80-90"
+    },
+    {
+     "arah": "IE11",
+     "no": "34",
+     "indikator": "Inklusi Keuangan (%)",
+     "baseline_2025": 91,
+     "target_2045": 98
+    },
+    {
+     "arah": "IE12 Ketangguhan Diplomasi dan Pertahanan Berdaya Gentar Kawasan",
+     "no": "35",
+     "indikator": "Asia Power Index (Diplomatic Influence)",
+     "baseline_2025": 61.54,
+     "target_2045": "75,0-80,0"
+    },
+    {
+     "arah": "IE12",
+     "no": "36",
+     "indikator": "Asia Power Index (Military Capability)",
+     "baseline_2025": 16,
+     "target_2045": 45.0
+    }
+   ]
+  },
+  "visual_description_en": "Two-page indicator table for IE10-IE12: legal development index, perceived safety, democracy index, tax ratio, inflation, five financial-deepening ratios, financial inclusion, and two Asia Power Index sub-scores, with 2025 baselines and 2045 targets.",
+  "visual_description_id": "Tabel indikator dua halaman untuk IE10-IE12 (hukum/keamanan/demokrasi, stabilitas makro, diplomasi dan pertahanan) dengan baseline 2025 dan sasaran 2045.",
+  "summary_en": "Scorecard 2025→2045: Legal Development Index 0.69→0.89; people feeling safe walking alone 67.5→80%; Democracy Index medium (60-80)→high (>80); tax ratio 10.7-11.2→18-20% of GDP; inflation 2.5±1→2.0±1%; bank assets 66.9→200% of GDP; pension assets 8→60%; insurance assets 9.1→20%; market capitalisation 57.8→120%; credit 37.8→80-90%; financial inclusion 91→98%; Asia Power Index diplomatic influence 61.54→75-80 and military capability 16→45."
+ },
+ {
+  "figure_id": "Gambar 4.5.1",
+  "pdf_page": 134,
+  "printed_page": 125,
+  "section": "4.5",
+  "type": "concept",
+  "title_id": "Tahapan Ketahanan Sosial Budaya dan Ekologi",
+  "title_en": "Phases of Socio-Cultural and Ecological Resilience",
+  "structured_data": {
+   "phases": [
+    {
+     "tahap": 1,
+     "period": "2025-2029",
+     "label": "Penguatan Pondasi",
+     "focus_id": "Memperkuat ketahanan sosial budaya dan ekologi sebagai landasan dan modal dasar pembangunan"
+    },
+    {
+     "tahap": 2,
+     "period": "2030-2034",
+     "label": "Akselerasi Transformasi",
+     "focus_id": "Memantapkan ketahanan sosial budaya dan ekologi sebagai pendorong pembangunan sosial ekonomi yang setara dan inklusif"
+    },
+    {
+     "tahap": 3,
+     "period": "2035-2039",
+     "label": "Ekspansi Global",
+     "focus_id": "Mewujudkan ketangguhan manusia, masyarakat, beserta alam dan lingkungan dalam menghadapi berbagai perubahan"
+    },
+    {
+     "tahap": 4,
+     "period": "2040-2045",
+     "label": "Mewujudkan Indonesia Emas",
+     "focus_id": "Mewujudkan Indonesia sebagai pusat peradaban dunia yang berkelanjutan"
+    }
+   ]
+  },
+  "visual_description_en": "Four-phase timeline: socio-cultural and ecological resilience as a foundation (2025-29), as a driver of equitable inclusive development (2030-34), resilience of people, society and nature to change (2035-39), Indonesia as a sustainable centre of world civilisation (2040-45).",
+  "visual_description_id": "Empat tahap ketahanan sosial budaya dan ekologi: landasan (2025-29), pendorong pembangunan setara dan inklusif (2030-34), ketangguhan manusia dan alam (2035-39), pusat peradaban dunia berkelanjutan (2040-45).",
+  "summary_en": "Socio-cultural and ecological resilience is framed first as development capital (2025-29), then as a driver of inclusive growth (2030-34), then as resilience to shocks (2035-39), culminating in Indonesia as 'a sustainable centre of world civilisation' by 2045."
+ },
+ {
+  "figure_id": "Grafik 4.5.1",
+  "pdf_page": 141,
+  "printed_page": 130,
+  "section": "4.5.5",
+  "type": "chart",
+  "title_id": "Proyeksi Penurunan Emisi GRK secara Kumulatif dan Tahunan (GtCO2e)",
+  "title_en": "Projected Cumulative and Annual GHG Emission Reductions (GtCO2e)",
+  "structured_data": {
+   "annual_emissions_gtco2e": {
+    "historis": {
+     "2010": "~1.3",
+     "2015": "~1.65",
+     "2020": 1.19
+    },
+    "baseline": {
+     "2015": "~1.65",
+     "2020": 1.96,
+     "2025": 2.23,
+     "2030": 2.33,
+     "2035": "~2.35",
+     "2040": "~2.65",
+     "2045": 2.91
+    },
+    "skenario_GE_green_economy": {
+     "2025": 1.5,
+     "2030": 1.03,
+     "2035": "~0.75",
+     "2040": "~0.65",
+     "2045": 0.55
+    }
+   },
+   "cumulative_emissions_gtco2e": {
+    "historis": {
+     "2015": "~8",
+     "2020": 14.13
+    },
+    "baseline": {
+     "2020": 18.28,
+     "2025": 28.72,
+     "2030": 39.71,
+     "2035": "~52",
+     "2040": "~65",
+     "2045": 78.42
+    },
+    "skenario_GE": {
+     "2025": 21.6,
+     "2030": 27.53,
+     "2035": "~32",
+     "2040": "~36",
+     "2045": 38.92
+    }
+   },
+   "reduction_vs_baseline_pct": {
+    "columns": [
+     "Capaian 2020",
+     "Base year 2025",
+     "Target 2030",
+     "Target 2045"
+    ],
+    "Kumulatif": [
+     26.44,
+     28.12,
+     32.6,
+     51.51
+    ],
+    "Tahunan": [
+     39.05,
+     32.65,
+     55.65,
+     80.98
+    ]
+   },
+   "net_zero_target_year": 2060
+  },
+  "visual_description_en": "Combo chart 2010-2045: bars = annual emissions (grey historical, blue baseline rising to 2.91 GtCO2e in 2045, green GE scenario falling to 0.55); lines = cumulative emissions (baseline 78.42 Gt by 2045 vs GE scenario 38.92 Gt). Table beneath: reduction against baseline, cumulative 26.44% (2020), 28.12% (2025), 32.60% (2030), 51.51% (2045); annual 39.05%, 32.65%, 55.65%, 80.98%.",
+  "visual_description_id": "Grafik kombinasi 2010-2045: batang emisi tahunan (historis, baseline hingga 2,91 GtCO2e, skenario ekonomi hijau turun ke 0,55) dan garis emisi kumulatif (baseline 78,42 Gt vs skenario GE 38,92 Gt). Tabel penurunan emisi terhadap baseline: kumulatif 26,44/28,12/32,60/51,51%; tahunan 39,05/32,65/55,65/80,98% (2020/2025/2030/2045).",
+  "summary_en": "Under the green-economy scenario annual GHG emissions fall from 1.50 GtCO2e (2025) to 0.55 (2045) against a baseline of 2.91, an 80.98% annual reduction (51.51% cumulative) by 2045, versus a 32.65% annual reduction in the 2025 base year; the stated end goal is net zero by 2060."
+ },
+ {
+  "figure_id": "Tabel 4.5.1",
+  "pdf_page": null,
+  "printed_page": null,
+  "section": "4.5",
+  "type": "table",
+  "title_id": "Indikator Capaian Ketahanan Sosial Budaya dan Ekologi dalam RPJPN 2025-2045",
+  "title_en": "Socio-Cultural and Ecological Resilience Achievement Indicators in RPJPN 2025-2045",
+  "structured_data": {
+   "status": "NOT IN PART 1 - the table is referenced on PDF page 142 (printed 131) but begins on the next page, which falls in part 2 of the PDF."
+  },
+  "visual_description_en": "Not available in this part of the document.",
+  "visual_description_id": "Tidak tersedia dalam bagian ini.",
+  "summary_en": "Indicator table for IE13-IE17 (religion and culture, family/gender/inclusion, environment, energy-water-food, disaster and climate resilience); content to be extracted from part 2 (printed page 132 onward)."
+ },
+ {
+  "figure_id": "Bab I opener",
+  "pdf_page": 7,
+  "printed_page": null,
+  "section": "1",
+  "type": "chapter_infographic",
+  "title_id": "Bab I: Selayang Pandang Pembangunan Indonesia",
+  "title_en": "Chapter I: Overview of Indonesia's Development",
+  "structured_data": {
+   "intro_id": "Selama dua dekade terakhir melalui pelaksanaan RPJPN 2005-2025, Indonesia telah mencapai kemajuan yang signifikan... Namun, tantangan yang dihadapi Indonesia untuk menjadi negara maju masih besar.",
+   "refleksi_dua_dekade": {
+    "01 Pendapatan per kapita tumbuh pesat": [
+     "Pendapatan per kapita naik menjadi ±6,5x lipat dan menjadi upper middle income country di tahun 2019",
+     "Pertumbuhan ekonomi di kisaran 5-6% dan pulih relatif cepat saat pandemi COVID-19",
+     "Inflasi stabil di rentang 3±1%"
+    ],
+    "02 Kemiskinan dan ketimpangan menurun": [
+     "Tingkat kemiskinan (9,57%) dan TPT (5,86%) turun signifikan",
+     "Kontribusi KTI meningkat menjadi 21,5%",
+     "Cakupan kepesertaan BPJS Kesehatan mencapai 89,5%"
+    ],
+    "03 Kepemimpinan dan pengaruh internasional meningkat": [
+     "Perekonomian terbesar ke-16 di dunia dan terbesar di ASEAN",
+     "Kontribusi industri pertahanan dalam negeri 57,6% dalam pemenuhan alutsista",
+     "Kemajuan signifikan pada kualitas demokrasi sejak reformasi"
+    ],
+    "04 Daya saing SDM membaik": [
+     "IPM meningkat 0,77% per tahun",
+     "UHH meningkat menjadi 71,85 pada 2022",
+     "Prevalensi stunting turun menjadi 21,6% pada 2022"
+    ],
+    "05 Intensitas emisi GRK menurun": [
+     "Penurunan emisi GRK kumulatif sebesar 5,65 GtCO2eq atau 27,07%",
+     "Inisiasi kebijakan ketahanan bencana: TEWS, MEWS, FFEWS, kebakaran hutan dan lahan"
+    ]
+   },
+   "isu_dan_tantangan_ke_depan": [
+    "Produktivitas rendah",
+    "IPTEKIN dan riset lemah",
+    "Deindustrialisasi dini",
+    "Pariwisata di bawah potensinya",
+    "Ekonomi laut belum optimal",
+    "Kontribusi UMKM dan koperasi kecil",
+    "Infrastruktur dan literasi digital rendah",
+    "Pembangunan belum berkelanjutan",
+    "Integrasi domestik terbatas",
+    "Kualitas SDM yang makin rendah",
+    "Tata kelola pemerintahan belum optimal",
+    "Kepastian dan penegakan hukum masih lemah",
+    "Demokratisasi belum optimal",
+    "Kesenjangan Jawa dan Luar Jawa"
+   ]
+  },
+  "visual_description_en": "Full-page blue chapter infographic: five numbered achievement blocks mirroring the five 2045 targets (income, poverty/inequality, international influence, human capital, GHG intensity) with headline numbers, followed by a 14-item list of forward challenges.",
+  "visual_description_id": "Infografik pembuka Bab I: lima blok capaian dua dekade dengan angka utama, dan 14 isu dan tantangan pembangunan ke depan.",
+  "summary_en": "Chapter I summary: over 2005-2025 income per capita rose ~6.5x (upper-middle income in 2019), growth held 5-6% with inflation 3±1%, poverty fell to 9.57% and unemployment to 5.86%, eastern Indonesia's share rose to 21.5%, BPJS health coverage reached 89.5%, Indonesia became the 16th largest economy, HDI grew 0.77%/yr, life expectancy 71.85, stunting 21.6%, cumulative GHG cuts 5.65 GtCO2e (27.07%); fourteen challenges remain, led by low productivity, weak R&D, premature deindustrialisation and the Java/non-Java gap."
+ },
+ {
+  "figure_id": "Bab II opener",
+  "pdf_page": 35,
+  "printed_page": null,
+  "section": "2",
+  "type": "chapter_infographic",
+  "title_id": "Bab II: Megatren, Modal Dasar dan Perubahan Iklim",
+  "title_en": "Chapter II: Megatrends, Basic Capital and Climate Change",
+  "structured_data": {
+   "megatren": [
+    "Perkembangan demografi global",
+    "Dinamika geopolitik dan geoekonomi global",
+    "Perkembangan teknologi",
+    "Peningkatan urbanisasi dunia",
+    "Perubahan konstelasi perdagangan global",
+    "Pergeseran tata kelola keuangan global",
+    "Pertumbuhan kelas menengah",
+    "Peningkatan persaingan pemanfaatan sumber daya alam",
+    "Perubahan iklim",
+    "Pemanfaatan luar angkasa"
+   ],
+   "modal_dasar": {
+    "Kependudukan": "Jumlah penduduk pada tahun 2045 sekitar 324 juta jiwa",
+    "Modal Sosial dan Budaya": [
+     "Gotong royong",
+     "Musyawarah mufakat",
+     "Kekeluargaan",
+     "Solidaritas sosial dan kesukarelawanan",
+     "Berjiwa berdikari",
+     "Keragaman budaya"
+    ],
+    "Kekayaan Alam": "Hutan, minyak bumi dan gas alam, mineral, energi baru terbarukan dan keanekaragaman hayati",
+    "Kekuatan Maritim": "Peradaban maritim"
+   },
+   "perubahan_iklim_daya_tampung_daya_dukung": {
+    "Perubahan Iklim": "Kenaikan suhu global dikhawatirkan terus meningkat dan melampaui 1,5 derajat Celcius di tahun 2100",
+    "Daya Tampung": [
+     "Kualitas dan kapasitas air, udara, lahan, dan laut menurun",
+     "Daya dukung dan daya tampung wilayah berbeda-beda"
+    ],
+    "Daya Dukung": "Daya dukung lingkungan mengalami penurunan"
+   }
+  },
+  "visual_description_en": "Green chapter opener listing ten megatrends, four categories of basic capital (population ~324 million in 2045; social-cultural values; natural wealth; maritime strength) and the climate/carrying-capacity outlook (warming may exceed 1.5°C by 2100; declining environmental capacity).",
+  "visual_description_id": "Pembuka Bab II: sepuluh megatren, empat modal dasar (penduduk ~324 juta pada 2045, modal sosial budaya, kekayaan alam, kekuatan maritim), dan perubahan iklim/daya dukung/daya tampung.",
+  "summary_en": "Chapter II frames the plan's context: ten global megatrends, Indonesia's basic capital (a 324-million population by 2045, communal social values, forests/oil-gas/minerals/renewables/biodiversity, maritime civilisation) and a worsening climate and carrying-capacity outlook with warming possibly beyond 1.5°C by 2100."
+ },
+ {
+  "figure_id": "Bab III opener",
+  "pdf_page": 62,
+  "printed_page": null,
+  "section": "3",
+  "type": "chapter_infographic",
+  "title_id": "Bab III: Indonesia Emas 2045: NKRI yang Berdaulat, Maju, dan Berkelanjutan",
+  "title_en": "Chapter III: Indonesia Emas 2045: A Sovereign, Advanced and Sustainable Unitary State",
+  "structured_data": {
+   "visi_misi_bernegara": "Negara yang Merdeka, Bersatu, Berdaulat, Adil, dan Makmur",
+   "visi_indonesia_emas_2045": "Negara Kesatuan Republik Indonesia yang Berdaulat, Maju, dan Berkelanjutan",
+   "definisi": {
+    "NKRI": "Negara kepulauan yang memiliki ciri nusantara serta memiliki ketangguhan politik, ekonomi, keamanan nasional, dan budaya/peradaban bahari sebagai poros maritim dunia",
+    "Berdaulat": "Negara kesatuan yang memiliki kemandirian dan kewenangan penuh untuk mengatur sendiri seluruh aspek kehidupan bermasyarakat, berbangsa, dan bernegara di wilayahnya",
+    "Maju": "Ekonominya mencapai posisi nomor lima terbesar dunia, berbasiskan pengetahuan dan inovasi yang berakar pada budaya Nusantara; berdaya, modern, tangguh, inovatif, dan adil",
+    "Berkelanjutan": "Pertumbuhan ekonomi tinggi seimbang dengan pembangunan sosial, keberlanjutan SDA dan kualitas lingkungan hidup, serta tata kelola yang baik"
+   },
+   "lima_sasaran_utama": [
+    "Pendapatan per kapita setara negara maju",
+    "Kemiskinan menurun dan ketimpangan berkurang",
+    "Kepemimpinan dan pengaruh di dunia internasional meningkat",
+    "Daya saing sumber daya manusia meningkat",
+    "Intensitas emisi GRK menurun menuju net zero emission"
+   ],
+   "diwujudkan_melalui": "17 Arah (Tujuan), 8 Misi (Agenda), dan 45 Indikator Utama Pembangunan"
+  },
+  "visual_description_en": "Brown chapter opener: constitutional vision → RPJPN 2025-2045 vision 'Sovereign, Advanced, Sustainable NKRI', with definitions of each pillar (Advanced = fifth-largest economy in the world, knowledge- and innovation-based), the five main targets and the 17/8/45 delivery structure.",
+  "visual_description_id": "Pembuka Bab III: visi bernegara → Visi Indonesia Emas 2045 dengan definisi Berdaulat, Maju (ekonomi nomor lima terbesar dunia), Berkelanjutan; lima sasaran utama; 17 arah, 8 misi, 45 indikator.",
+  "summary_en": "Chapter III states the 2045 vision - a sovereign, advanced (fifth-largest economy, knowledge-based) and sustainable Indonesia - its five headline targets, and the 17 directions / 8 missions / 45 indicators through which it is delivered."
+ },
+ {
+  "figure_id": "Bab IV opener",
+  "pdf_page": 86,
+  "printed_page": null,
+  "section": "4",
+  "type": "chapter_infographic",
+  "title_id": "Bab IV: Transformasi Indonesia Menuju Indonesia Emas",
+  "title_en": "Chapter IV: Indonesia's Transformation toward Indonesia Emas",
+  "structured_data": {
+   "intro_id": "Langkah reformasi saja tidak cukup, melainkan perlu diperkuat dengan transformasi menyeluruh di berbagai bidang pembangunan.",
+   "transformasi": {
+    "Transformasi Sosial": {
+     "goal": "Menciptakan manusia Indonesia unggul",
+     "arah": {
+      "IE1": "Kesehatan untuk Semua",
+      "IE2": "Pendidikan Berkualitas yang Merata",
+      "IE3": "Perlindungan Sosial yang Adaptif"
+     }
+    },
+    "Transformasi Ekonomi": {
+     "goal": "Membawa Indonesia keluar Middle Income Trap/MIT",
+     "arah": {
+      "IE4": "Iptek, Inovasi, dan Produktivitas Ekonomi",
+      "IE5": "Penerapan Ekonomi Hijau",
+      "IE6": "Transformasi Digital",
+      "IE7": "Integrasi Ekonomi Domestik dan Global",
+      "IE8": "Perkotaan dan Perdesaan sebagai Pusat Pertumbuhan Ekonomi"
+     }
+    },
+    "Transformasi Tata Kelola": {
+     "goal": "Menciptakan pelayanan publik berkualitas dan masyarakat sipil partisipatif",
+     "arah": {
+      "IE9": "Regulasi dan Tata Kelola yang Berintegritas dan Adaptif"
+     }
+    }
+   },
+   "landasan_transformasi": {
+    "Supremasi Hukum, Stabilitas, dan Kepemimpinan Indonesia": {
+     "goal": "Menciptakan lingkungan strategis yang kondusif serta kepemimpinan dan pengaruh Indonesia di global",
+     "arah": {
+      "IE10": "Hukum Berkeadilan, Keamanan Nasional Tangguh, dan Demokrasi Substansial",
+      "IE11": "Stabilitas Ekonomi Makro",
+      "IE12": "Ketangguhan Diplomasi dan Pertahanan Berdaya Gentar Kawasan"
+     }
+    },
+    "Ketahanan Sosial Budaya dan Ekologi": {
+     "goal": "Menciptakan hubungan timbal balik yang seimbang antara aspek sosial budaya dan ekologi sebagai penguat transformasi",
+     "arah": {
+      "IE13": "Beragama Maslahat dan Berkebudayaan Maju",
+      "IE14": "Keluarga Berkualitas, Kesetaraan Gender, dan Masyarakat Inklusif",
+      "IE15": "Lingkungan Hidup Berkualitas",
+      "IE16": "Berketahanan Energi, Air, dan Kemandirian Pangan",
+      "IE17": "Resiliensi terhadap Bencana dan Perubahan Iklim"
+     }
+    }
+   },
+   "note": "IE = Indonesia Emas"
+  },
+  "visual_description_en": "Purple chapter opener: three transformations (social → excellent Indonesians; economic → escape the middle-income trap; governance → quality public services and participatory civil society) with directions IE1-IE9, and two foundations (rule of law/stability/leadership IE10-12; socio-cultural and ecological resilience IE13-17).",
+  "visual_description_id": "Pembuka Bab IV: tiga transformasi (sosial, ekonomi, tata kelola) dengan IE1-IE9 dan dua landasan transformasi dengan IE10-IE17.",
+  "summary_en": "Chapter IV organises the plan's substance as three transformations (social, economic, governance; IE1-IE9) resting on two foundations (rule of law, stability and leadership IE10-12; socio-cultural and ecological resilience IE13-17), the structure followed by sections 4.1-4.5."
+ },
+ {
+  "figure_id": "Grafik 1.1.6",
+  "pdf_page": "16a",
+  "printed_page": 11,
+  "section": "1.1",
+  "type": "chart",
+  "title_id": "Indeks Kualitas Lingkungan Hidup Tahun 2009-2022",
+  "title_en": "Environmental Quality Index (IKLH) 2009-2022",
+  "structured_data": {
+   "iklh_index_value": {
+    "2009": 59.79,
+    "2010": 61.07,
+    "2011": 65.76,
+    "2012": 63.96,
+    "2013": 63.2,
+    "2014": 63.42,
+    "2015": 68.31,
+    "2016": 65.73,
+    "2017": 66.46,
+    "2018": 65.14,
+    "2019": 66.55,
+    "2020": 70.27,
+    "2021": 71.43,
+    "2022": 72.42
+   },
+   "unit": "nilai (index value, 0-100)",
+   "trend_line": "linear trend overlaid (orange), rising from ~61 (2009) to ~71 (2022)",
+   "note": "2009 label partly overprinted; read as 59.79"
+  },
+  "visual_description_en": "Line chart 2009-2022 of Indonesia's Environmental Quality Index (IKLH, y-axis 59-75) with an orange linear trend line. Values climb irregularly from 59.79 (2009) to 72.42 (2022), with a spike to 68.31 in 2015, a dip to 65.14 in 2018, and steady gains from 2019 onward (66.55 → 70.27 → 71.43 → 72.42).",
+  "visual_description_id": "Grafik garis IKLH 2009-2022 (sumbu 59-75) dengan garis tren linier: naik dari 59,79 (2009) menjadi 72,42 (2022), lonjakan 68,31 pada 2015, turun ke 65,14 pada 2018, lalu naik stabil 2019-2022.",
+  "summary_en": "The Environmental Quality Index rose from 59.79 in 2009 to 72.42 in 2022, with notable volatility (68.31 in 2015, 65.14 in 2018) before a steady climb after 2019; the body text cites the 2009→2022 improvement as evidence of environmental recovery."
+ },
+ {
+  "figure_id": "Grafik 1.1.7",
+  "pdf_page": "16a",
+  "printed_page": 11,
+  "section": "1.1",
+  "type": "chart",
+  "title_id": "Produksi Padi dan Perikanan 2005-2022",
+  "title_en": "Rice and Fisheries Production 2005-2022",
+  "structured_data": {
+   "series": {
+    "Produksi Padi (juta ton GKG)": {
+     "2005": "~54",
+     "2010": "~66",
+     "2014": "~71 (peak)",
+     "2019": "~55",
+     "2020": "~55",
+     "2021": "~54",
+     "2022": "~55",
+     "axis": "left, 0-60+"
+    },
+    "Produksi Perikanan (juta ton)": {
+     "2005": "~7",
+     "2010": "~11",
+     "2014": "~21",
+     "2019": "~25",
+     "2020": "~23",
+     "2021": "~24",
+     "2022": "~24",
+     "axis": "right, 0-60"
+    }
+   },
+   "note": "Area chart without printed data labels; values are visual estimates. The apparent drop in rice output 2014→2019 reflects the 2018 BPS methodology change (KSA) for rice statistics, not stated on the chart."
+  },
+  "visual_description_en": "Dual-axis area chart 2005-2022. Blue area = rice production (million tonnes of dry unhusked paddy, GKG): rises from ~54 in 2005 to a plateau of ~70 around 2014, then steps down to ~55 from 2019 and stays flat to 2022. Orange area = fisheries production (million tonnes): climbs from ~7 in 2005 to ~21 in 2014 and ~24-25 in 2019-2022. No data labels printed.",
+  "visual_description_id": "Grafik area dua sumbu 2005-2022: produksi padi (juta ton GKG) naik dari ~54 ke puncak ~70 (2014) lalu turun ke ~55 (2019-2022); produksi perikanan (juta ton) naik dari ~7 ke ~24-25. Tanpa label angka.",
+  "summary_en": "Rice production (GKG) grew to around 70 million tonnes by 2014 and then settled at roughly 55 million tonnes in 2019-2022, while fisheries production more than tripled from about 7 to about 24 million tonnes between 2005 and 2022."
+ },
+ {
+  "figure_id": "Gambar 1.1.2",
+  "pdf_page": "16a",
+  "printed_page": 11,
+  "section": "1.1",
+  "type": "infographic",
+  "title_id": "Capaian Pembangunan Menjadi Modalitas untuk Mengakselerasi Transformasi Ekonomi Menuju Indonesia Maju",
+  "title_en": "Development Achievements as Capital to Accelerate Economic Transformation toward an Advanced Indonesia",
+  "structured_data": {
+   "header": {
+    "label": "Infrastruktur Untuk Daya Saing",
+    "total_spending": "Rp 2.779,9 triliun (2015-2022)"
+   },
+   "indicators": {
+    "Tol Beroperasi (km)": {
+     "2014": 802,
+     "2019": 2100,
+     "2022": 2687
+    },
+    "Jalan Umum (ribu km)": {
+     "2014": 517.75,
+     "2019": 544.47,
+     "2022": 549.16
+    },
+    "Pembangkit Listrik (GW)": {
+     "2014": 53,
+     "2019": 64.84,
+     "2022": 81.2
+    },
+    "Kapasitas Bendungan (miliar m3)": {
+     "2014": 6.39,
+     "2019": 8.16,
+     "2022": 16.96
+    },
+    "Bandar Udara (unit)": {
+     "2014": 237,
+     "2019": 251,
+     "2022": 287
+    },
+    "Pelabuhan (unit)": {
+     "2014": 1655,
+     "2019": 2588,
+     "2022": 3157
+    }
+   }
+  },
+  "visual_description_en": "Six-tile infographic under the banner 'Infrastructure for Competitiveness — Rp 2,779.9 trillion (2015-2022)'. Each tile gives 2014 / 2019 / 2022 values: operating toll roads 802 → 2,100 → 2,687 km (shown as a rising line); public roads 517.75 → 544.47 → 549.16 thousand km; power generation capacity 53 → 64.84 → 81.20 GW; dam storage 6.39 → 8.16 → 16.96 billion m³; airports 237 → 251 → 287; ports 1,655 → 2,588 → 3,157.",
+  "visual_description_id": "Infografik enam kotak 'Infrastruktur untuk Daya Saing, Rp 2.779,9 T (2015-2022)' dengan nilai 2014/2019/2022: tol beroperasi 802→2.100→2.687 km; jalan umum 517,75→544,47→549,16 ribu km; pembangkit listrik 53→64,84→81,20 GW; kapasitas bendungan 6,39→8,16→16,96 miliar m³; bandara 237→251→287; pelabuhan 1.655→2.588→3.157.",
+  "summary_en": "Infrastructure spending of Rp 2,779.9 trillion in 2015-2022 is credited with tripling operating toll roads (802 → 2,687 km), lifting generation capacity from 53 to 81.2 GW, more than doubling dam storage (6.39 → 16.96 billion m³) and nearly doubling the number of ports (1,655 → 3,157), with airports 237 → 287 and public roads 517.75 → 549.16 thousand km."
+ }
+]
