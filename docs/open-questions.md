@@ -21,7 +21,7 @@ Everything unresolved, half-finished or ambiguous at handover, 18 November 2026.
 - **"loam-soft"** is named in the brand book's dark-theme text but no such token exists. The dark value of `loam` is `#C9A79C`; `docs/brand-guidelines.md` uses that. Rename in the text or add the token.
 - **Ember has two roles.** It is the call-to-action ink ("never in data or status") and also listed as one of four scenario inks (`ember` + `scenario-wash-1 #FBE7DE`) on scenario-set pages. A scenario line in Ember is data. Decide whether scenario sets use Ember or another ink.
 - **Measure** is stated as both "60-72 characters" / `measure` 680px and "66ch" (inheritance table). Pick one definition for CSS.
-- **"Game-changer" is a banned word**, but Indonesia's RPJPN names its 20 measures "game changers" and the page draft uses the term throughout. Decide whether a report's own term may be used as a proper name.
+- **"Game-changer" is a banned word**, but Indonesia's RPJPN names its 20 measures "game changers" and page draft 0.2 calls them "priority measures" and gives the plan's term once, in quotes, as its proper name ([TRIAL]). Decide whether a report's own term may be used as a proper name.
 - The brand's illustrative examples (e.g. "Growth holds; the jobs goal is behind its path", "14 of 18") use made-up figures. Keep them out of anything public.
 
 ### Not yet built
@@ -30,7 +30,8 @@ Everything unresolved, half-finished or ambiguous at handover, 18 November 2026.
 - Fonts are hosted (Google Fonts), no files. Decide whether to self-host (all three faces are open-licence; check before shipping).
 - Components are static HTML/CSS previews (`bundle.css`, prefix `nz-`); no JavaScript bundle, no site code, no chart library chosen.
 - Not designed visually: home page, country and theme indexes, cross-report comparison view, method page, social cards beyond the rules, deck template. Their structure and content are in `docs/site-architecture.md` v0.1.
-- One page is laid out (`pages/espana-2050/index.html`, 18 Nov) and checked in Chromium at desktop and phone widths, light and dark. No reader has seen it.
+- Two pages are laid out (`pages/espana-2050/index.html` and `pages/indonesia-2045/index.html`, 18 Nov) and checked in Chromium at desktop and phone widths, light and dark. No reader has seen either.
+- **Glyphs drawn without a bundle reference** for the Indonesia page: field chips (pressure readings), the "no longer in force" target marker, "revisit: new conditions" and the challenge/opportunity arrows were drawn from the brand §8 descriptions, not copied from the artifact. Check them against the artifact's previews.
 - **`bundle.css` uses unprefixed variables** (`--paper`, `--sky-ink`), but `brand/tokens.css` generates `--nz-*`. The bundle cannot run on the repo tokens as is; `pages/report-page.css` is a port. Decide which naming leads before exporting the bundle.
 - **ScenarioCards preview gives a vision's goal an Ember band and its comparison path a Bloom band.** Brand §4 keeps Ember out of data and scenario inks for scenario-set pages. The España page uses Loam for both cards. Decide which rule leads.
 
@@ -135,7 +136,7 @@ Commissioner, political moment and decision questions (§3, §4); a rubric for w
 
 - `claude/report-page-template.md` is still **v0.1** (17 sections, old numbering, "Scenarios are not predictions" fixed text that is wrong for visions).
 - `claude/espana-2050-page-draft.md` is now draft 0.2 on spec v0.2 (18 Nov). Its eight "notes from the rebuild" are proposals for spec v0.3 and brand v0.2.
-- The Indonesia draft and España draft 0.2 follow spec v0.2; the template does not.
+- Indonesia draft 0.2 and España draft 0.2 follow spec v0.2 and brand v0.1; the template does not. Indonesia draft 0.2 adds five spec notes (8-12) to the seven from 0.1.
 
 ## 5. Indonesia Emas 2045 (half-finished)
 
