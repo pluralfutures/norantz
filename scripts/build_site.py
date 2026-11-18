@@ -48,6 +48,13 @@ LANG_HTML = {"en": "en-GB", "es": "es", "id": "id"}
 # Interface strings. Spanish and Indonesian are machine drafts, to be checked by a native speaker.
 T = {
     "en": {
+        "ai_footer": "Reviews on this site are drafted with generative AI and may contain errors. "
+                     "Read them as a conversation starter and a starting point for deeper, human-led analysis.",
+        "ai_label": "Made with generative AI",
+        "ai_text": "This analysis was drafted by generative AI and may contain errors. It is meant to start a "
+                   "conversation and to be a starting point for deeper, human-led discussion and analysis, "
+                   "not a final judgement.",
+        "ai_how": "How AI is used", "ai_err": "Report an error",
         "reports": "Reports", "countries": "Countries", "method": "Method", "about": "About",
         "main_nav": "Main", "lang_nav": "Language", "skip": "Skip to content",
         "by": "By Plural Futures", "crumbs": "You are here",
@@ -63,10 +70,18 @@ T = {
         "accessibility": "Accessibility",
         "endorse": "Norantz, by Plural Futures",
         "rights": "© 2026 Plural Futures",
-        "zero": "Zero draft 0.1 · 18 Nov 2026 · Not for publication · Placeholder content marked",
+        "zero": "Zero draft 0.2 · 18 Nov 2026 · Not for publication · Placeholder content marked",
         "notes": "Show draft notes",
     },
     "es": {
+        "ai_footer": "Las revisiones de este sitio se redactan con IA generativa y pueden contener errores. "
+                     "L\u00e9alas como punto de partida para la conversaci\u00f3n y para un an\u00e1lisis m\u00e1s profundo, "
+                     "dirigido por personas.",
+        "ai_label": "Hecho con IA generativa",
+        "ai_text": "Este an\u00e1lisis fue redactado con IA generativa y puede contener errores. Su prop\u00f3sito es abrir "
+                   "una conversaci\u00f3n y servir de punto de partida para un debate y un an\u00e1lisis m\u00e1s profundos, "
+                   "dirigidos por personas. No es un juicio final.",
+        "ai_how": "C\u00f3mo se usa la IA", "ai_err": "Informar de un error",
         "reports": "Informes", "countries": "Países", "method": "Método", "about": "Acerca de",
         "main_nav": "Principal", "lang_nav": "Idioma", "skip": "Ir al contenido",
         "by": "Por Plural Futures", "crumbs": "Está aquí",
@@ -82,7 +97,7 @@ T = {
         "terms": "Condiciones de uso", "cookies": "Cookies", "accessibility": "Accesibilidad",
         "endorse": "Norantz, por Plural Futures",
         "rights": "© 2026 Plural Futures",
-        "zero": "Borrador cero 0.1 · 18 nov 2026 · No publicar · Traducción automática por revisar",
+        "zero": "Borrador cero 0.2 · 18 nov 2026 · No publicar · Traducción automática por revisar",
         "notes": "Mostrar notas",
         "stub_label": "Página aún no traducida",
         "stub_h": "Esta página todavía no está en español",
@@ -90,6 +105,13 @@ T = {
         "stub_link": "Leer en inglés",
     },
     "id": {
+        "ai_footer": "Tinjauan di situs ini disusun dengan AI generatif dan mungkin mengandung kesalahan. "
+                     "Bacalah sebagai pembuka percakapan dan titik awal bagi analisis yang lebih dalam oleh manusia.",
+        "ai_label": "Dibuat dengan AI generatif",
+        "ai_text": "Analisis ini disusun oleh AI generatif dan mungkin mengandung kesalahan. Tujuannya membuka "
+                   "percakapan dan menjadi titik awal bagi diskusi dan analisis yang lebih dalam oleh manusia, "
+                   "bukan penilaian akhir.",
+        "ai_how": "Cara AI digunakan", "ai_err": "Laporkan kesalahan",
         "reports": "Laporan", "countries": "Negara", "method": "Metode", "about": "Tentang",
         "main_nav": "Utama", "lang_nav": "Bahasa", "skip": "Langsung ke isi",
         "by": "Oleh Plural Futures", "crumbs": "Posisi Anda",
@@ -105,7 +127,7 @@ T = {
         "terms": "Ketentuan penggunaan", "cookies": "Cookie", "accessibility": "Aksesibilitas",
         "endorse": "Norantz, oleh Plural Futures",
         "rights": "© 2026 Plural Futures",
-        "zero": "Draf nol 0.1 · 18 Nov 2026 · Bukan untuk publikasi · Terjemahan mesin, perlu diperiksa",
+        "zero": "Draf nol 0.2 · 18 Nov 2026 · Bukan untuk publikasi · Terjemahan mesin, perlu diperiksa",
         "notes": "Tampilkan catatan",
         "stub_label": "Halaman belum diterjemahkan",
         "stub_h": "Halaman ini belum tersedia dalam bahasa Indonesia",
@@ -432,6 +454,7 @@ def footer(route, lang):
         <span class="nz-endorse">{t["by"]}</span>
       </div>
       <p>{t["blurb"]}</p>
+      <p class="nz-fai">{t["ai_footer"]}</p>
       <p class="nz-label">{t["motto"]}</p>
     </div>
     <div class="nz-fcols">{"".join(cols)}</div>
@@ -441,6 +464,15 @@ def footer(route, lang):
     </div>
   </div>
 </footer>'''
+
+
+def ai_notice(route, lang):
+    t = T[lang]
+    lr = lambda r, h: rel(route, lang_route(lang, r)) + h
+    return (f'<aside class="nz-ainotice nz-site" aria-label="{t["ai_label"]}"><div class="nz-ainotice-inner">'
+            f'<p class="nz-label">{t["ai_label"]}</p><p class="nz-ainotice-text">{t["ai_text"]} '
+            f'<a href="{lr("method/", "#ai")}">{t["ai_how"]}</a> \u00b7 '
+            f'<a href="{lr("contact/", "#error")}">{t["ai_err"]}</a></p></div></aside>')
 
 
 def page(route, lang, meta, body, alt):
@@ -475,6 +507,7 @@ def page(route, lang, meta, body, alt):
 {masthead(route, lang, meta.get("nav"), alt)}
 {draftband(lang, meta.get("draft") or T[lang]["zero"], meta.get("notes_toggle", False))}
 {crumbs_html(route, lang, meta.get("crumbs"))}
+{ai_notice(route, lang) if meta.get("ai_notice") or meta.get("report") else ""}
 {content}
 {footer(route, lang)}
 <script src="{asset(route, "site.js")}"></script>

@@ -58,7 +58,7 @@ Every significant decision made in the claude.ai project "NBD-Norantz" between 1
 | S11 | **Country pages** show every report for a country and how they link. | Confirmed (17 Nov) | Indonesia already has two linked documents (I2, P10). | — |
 | S12 | **Corrections and changelog, for report authors, funding and selection, editorial standards and press pages** are part of the launch site. | Confirmed (17 Nov) | Needed for trust and fair quoting; content policies for each are still open. | — |
 | S13 | **Plural Futures is registered in Spain, so Spanish law sets the legal pages**: legal notice (LSSI-CE art. 10), privacy (GDPR, LOPDGDD), cookies (LSSI-CE art. 22.2). | Confirmed (17 Nov) | Owner's statement of jurisdiction. | Generic legal pages with no jurisdiction. |
-| S14 | **Site zero draft 0.1 built** (`site/`, from `site-src/` by `scripts/build_site.py`). Its 32 design and build calls (Z1-Z32) are listed in `docs/site-zero-draft-decisions.md`. | Proposed (18 Nov); none reviewed by the owner | Owner asked for a quick-to-review zero draft with every design call recorded for later review. | — |
+| S14 | **Site zero draft 0.1 built** (`site/`, from `site-src/` by `scripts/build_site.py`). Zero draft 0.2 (same day) adds the generative-AI notice and full drafts of the method, standards, right-of-reply, corrections and legal pages. Its 50 design and build calls (Z1-Z50) are listed in `docs/site-zero-draft-decisions.md`. | Proposed (18 Nov); none reviewed by the owner | Owner asked for a quick-to-review zero draft with every design call recorded for later review. | — |
 
 ## 4. Review method (`claude/scenario-review-method.md`, v0.2)
 

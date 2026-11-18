@@ -280,3 +280,28 @@
 }
 .nz-map-count { text-decoration: none; }
 .nz-map a:hover .nz-map-count { text-decoration: none; }
+
+/* ---------- generative-AI notice (report pages, home, reports list) and footer line ---------- */
+.nz-ainotice { margin-top: var(--nz-space-4); }
+.nz-ainotice-inner {
+  border: var(--nz-stroke-hair) solid var(--nz-line-2); border-left: var(--nz-stroke-bold) solid var(--nz-sky-ink);
+  border-radius: var(--nz-radius-sm); background: var(--nz-surface);
+  padding: var(--nz-space-3) var(--nz-space-4); display: grid; gap: var(--nz-space-1); max-width: 920px;
+}
+.nz-ainotice .nz-label { color: var(--nz-sky-ink); }
+.nz-ainotice-text { margin: 0; font-size: var(--nz-body-s-size); line-height: var(--nz-body-s-line); }
+.nz-fai { font-style: italic; }
+/* Long policy pages: numbered clauses and a definition list */
+.nz-prose dl { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--nz-space-1) 0; max-width: var(--nz-measure); margin: 0 0 var(--nz-space-4); }
+.nz-prose dt { font-family: var(--nz-font-signal); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--nz-ink-2); margin-top: var(--nz-space-3); }
+.nz-prose dd { margin: 0; }
+.nz-callout { border-radius: var(--nz-radius); background: var(--nz-paper-2); padding: var(--nz-space-5); max-width: var(--nz-measure); margin: var(--nz-space-5) 0; }
+.nz-callout p:last-child { margin-bottom: 0; }
+.nz-callout .nz-h3 { margin-bottom: var(--nz-space-2); }
+.nz-toc-list { list-style: none; padding: 0; margin: var(--nz-space-2) 0 0; }
+.nz-toc-list li { margin: 0; border-top: var(--nz-stroke-hair) solid var(--nz-line); }
+.nz-toc-list a { display: block; padding: 6px 0; font-family: var(--nz-ui-family); font-size: 14px; color: var(--nz-ink); text-decoration: none; }
+.nz-toc-list a:hover { color: var(--nz-sky-ink); }
+.nz-sticky { position: sticky; top: var(--nz-space-5); }
+@media (max-width: 899px) { .nz-aside-toc { display: none; } }
+.nz-version { font-family: var(--nz-font-signal); font-size: 12px; letter-spacing: .06em; color: var(--nz-ink-3); margin-top: var(--nz-space-3); }

@@ -27,9 +27,9 @@ Everything unresolved, half-finished or ambiguous at handover, 18 November 2026.
 ### Not yet built
 
 - Logo SVGs and `tokens.json` are now in `brand/` (checksums match the artifact). `brand/tokens.css` is generated from the tokens by `scripts/build_tokens.py`. Still to do: export the 15 component previews and `components/bundle.css`, which are only in the artifact.
-- Fonts are hosted (Google Fonts), no files. Decide whether to self-host (all three faces are open-licence; check before shipping).
+- Fonts are hosted (Google Fonts), no files. Zero draft 0.2 proposes self-hosting before launch, since Google Fonts sends visitors' IP addresses to Google (Z49). Decide whether to self-host (all three faces are open-licence; check before shipping).
 - Components are static HTML/CSS previews (`bundle.css`, prefix `nz-`); no JavaScript bundle, no site code, no chart library chosen.
-- Site zero draft 0.1 (18 Nov, `site/`) lays out every page in `docs/site-architecture.md` v0.1; its design calls are proposals Z1-Z32 in `docs/site-zero-draft-decisions.md`, awaiting owner review. Still not designed: theme indexes, cross-report comparison view, social cards beyond the rules, deck template, a real basemap.
+- Site zero draft 0.1 (18 Nov, `site/`) lays out every page in `docs/site-architecture.md` v0.1; its design calls are proposals Z1-Z50 in `docs/site-zero-draft-decisions.md` (zero draft 0.2 adds drafted policies for election timing, right of reply, versions, licence, complaints and privacy retention, all [TRIAL]), awaiting owner review. Still not designed: theme indexes, cross-report comparison view, social cards beyond the rules, deck template, a real basemap.
 - Two report pages are laid out (`site-src/pages/reports/`, built to `site/reports/`, 18 Nov) and checked in Chromium at desktop and phone widths, light and dark, inside the site shell. No reader has seen either.
 - Spanish and Indonesian interface strings in `scripts/build_site.py` are machine drafts; no page is translated.
 - **Glyphs drawn without a bundle reference** for the Indonesia page: field chips (pressure readings), the "no longer in force" target marker, "revisit: new conditions" and the challenge/opportunity arrows were drawn from the brand §8 descriptions, not copied from the artifact. Check them against the artifact's previews.
