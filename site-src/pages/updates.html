@@ -1,0 +1,30 @@
+<!--meta {"title": "Get updates", "description": "One email when a review is published or updated, for the reports and countries you choose.", "nav": "", "crumbs": [["Get updates", "updates/"]]} -->
+<header class="nz-pagehead">
+  <p class="nz-label">Email updates</p>
+  <h1 class="nz-h1">Follow a report between reviews</h1>
+  <p class="nz-lead">One email when a review is published or updated. You choose what to hear about and in which language. Your address is used for nothing else.</p>
+</header>
+<section class="nz-block">
+  <form class="nz-form" data-placeholder action="#" method="post">
+    <div class="nz-field-input">
+      <label class="nz-label" for="email">Email address</label>
+      <input type="email" id="email" name="email" autocomplete="email" required>
+    </div>
+    <fieldset>
+      <legend class="nz-label">What to hear about</legend>
+      <label class="nz-check"><input type="checkbox" name="topic" value="new" checked> New reviews</label>
+      <label class="nz-check"><input type="checkbox" name="topic" value="espana-2050"> Updates to España 2050</label>
+      <label class="nz-check"><input type="checkbox" name="topic" value="indonesia-2045"> Updates to Indonesia Emas 2045</label>
+    </fieldset>
+    <fieldset>
+      <legend class="nz-label">Language</legend>
+      <label class="nz-check"><input type="radio" name="lang" value="en" checked> English</label>
+      <label class="nz-check"><input type="radio" name="lang" value="es"> Español</label>
+      <label class="nz-check"><input type="radio" name="lang" value="id"> Bahasa Indonesia</label>
+    </fieldset>
+    <p class="nz-body-s">We will send one email to confirm your address. You can leave at any time from any email. See <a href="{{root}}legal/privacy/index.html">Privacy</a>.</p>
+    <div><button class="nz-btn" type="submit">Sign up</button></div>
+    <p class="nz-note nz-form-msg" tabindex="-1" hidden><b>[PLACEHOLDER]</b> Nothing was sent. The zero draft has no email provider.</p>
+  </form>
+  <p class="nz-note"><b>[PLACEHOLDER]</b> Email provider not chosen (open item 8). Double opt-in per decision S9.</p>
+</section>

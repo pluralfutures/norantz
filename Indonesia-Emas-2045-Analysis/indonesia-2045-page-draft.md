@@ -4,7 +4,7 @@ Version 0.2, 18 November 2026. Draft for review. Not for publication.
 
 Draft 0.1 (17 November 2026) filled page spec v0.2 for the RPJPN 2025-2045 (UU 59/2024), with the 2017 *Visi Indonesia 2045* deck paired on the page. This version rebuilds it to brand v0.1 (`docs/brand-guidelines.md`) and to the same shape as *España 2050* draft 0.2 (`claude/espana-2050-page-draft.md`). Draft 0.1 is in git history at commit `125a537`.
 
-The laid-out version of this page, in the brand system, is `pages/indonesia-2045/index.html`. This file is its content source. If the two disagree, this file wins; fix the HTML.
+The laid-out version of this page, in the brand system, is `site-src/pages/reports/indonesia-2045.html` (built to `site/reports/indonesia-2045/`). This file is its content source. If the two disagree, this file wins; fix the HTML.
 
 **What changed from 0.1**
 

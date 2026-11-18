@@ -1,0 +1,506 @@
+/* Norantz report page.
+   Version 0.2, 18 November 2026. Draft for review.
+   0.2 adds, for the Indonesia page: field chips (pressure readings), the
+   challenge/opportunity pair with phone tabs, the "no longer in force" target
+   marker, the "revisit: new conditions" glyph, a two-reading logic chain and
+   the report tile. Nothing in 0.1 was changed, so the España page is unaffected.
+
+   Component rules (nz- prefix) are ported from the design-system artifact's
+   components/bundle.css (18 Nov 2026), rewritten to use the --nz-* variables
+   in brand/tokens.css. Page layout rules are new. Load after tokens.css.
+   Values come from tokens; the only literals are sizes for glyph geometry
+   and the phone type steps, which brand §5 and §7 leave open. */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { background: var(--nz-paper); -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--nz-paper);
+  color: var(--nz-ink);
+  font-family: var(--nz-body-family);
+  font-size: var(--nz-body-size);
+  line-height: var(--nz-body-line);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+a { color: var(--nz-sky-ink); text-decoration: underline; text-decoration-thickness: 1.5px; text-underline-offset: 3px; }
+a:hover { text-decoration-thickness: 2.5px; }
+a:focus-visible, summary:focus-visible, button:focus-visible, input:focus-visible + label {
+  outline: 2px solid var(--nz-focus-ring);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.nz-vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* ---------- type ---------- */
+.nz-label {
+  font-family: var(--nz-label-family);
+  font-size: var(--nz-label-size);
+  line-height: var(--nz-label-line);
+  font-weight: var(--nz-label-weight);
+  letter-spacing: var(--nz-label-tracking);
+  text-transform: uppercase;
+  color: var(--nz-ink-2);
+  margin: 0;
+}
+.nz-label-then { color: var(--nz-loam-ink); }
+.nz-label-now { color: var(--nz-sky-ink); }
+.nz-status {
+  font-family: var(--nz-font-signal);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--nz-ink);
+}
+.nz-source {
+  font-family: var(--nz-source-family);
+  font-size: var(--nz-source-size);
+  line-height: var(--nz-source-line);
+  font-weight: var(--nz-source-weight);
+  color: var(--nz-ink-3);
+  margin: var(--nz-space-2) 0 0;
+}
+.nz-data {
+  font-family: var(--nz-data-family);
+  font-size: var(--nz-data-size);
+  font-weight: var(--nz-data-weight);
+  font-variant-numeric: tabular-nums;
+}
+.nz-display-m {
+  font-family: var(--nz-display-m-family);
+  font-size: var(--nz-display-m-size);
+  line-height: var(--nz-display-m-line);
+  font-weight: var(--nz-display-m-weight);
+  letter-spacing: var(--nz-display-m-tracking);
+  margin: var(--nz-space-3) 0 0;
+}
+.nz-tip {
+  font-family: var(--nz-h1-family);
+  font-size: var(--nz-h1-size);
+  line-height: var(--nz-h1-line);
+  font-weight: var(--nz-h1-weight);
+  letter-spacing: var(--nz-h1-tracking);
+  margin: var(--nz-space-3) 0 0;
+  max-width: 22ch;
+  text-wrap: balance;
+}
+.nz-h2 {
+  font-family: var(--nz-h2-family);
+  font-size: var(--nz-h2-size);
+  line-height: var(--nz-h2-line);
+  font-weight: var(--nz-h2-weight);
+  letter-spacing: var(--nz-h2-tracking);
+  margin: var(--nz-space-3) 0 0;
+  max-width: 30ch;
+  text-wrap: balance;
+}
+.nz-h3 {
+  font-family: var(--nz-h3-family);
+  font-size: var(--nz-h3-size);
+  line-height: var(--nz-h3-line);
+  font-weight: var(--nz-h3-weight);
+  margin: 0;
+  text-wrap: balance;
+}
+.nz-lead {
+  font-family: var(--nz-lead-family);
+  font-size: var(--nz-lead-size);
+  line-height: var(--nz-lead-line);
+  margin: var(--nz-space-4) 0 var(--nz-space-5);
+  max-width: var(--nz-measure);
+  text-wrap: pretty;
+}
+.nz-body, .nz-section p, .nz-section ul { max-width: var(--nz-measure); }
+.nz-section p { margin: 0 0 var(--nz-space-4); }
+.nz-body-s, .nz-section .nz-body-s {
+  font-size: var(--nz-body-s-size);
+  line-height: var(--nz-body-s-line);
+  margin: var(--nz-space-2) 0 0;
+  text-wrap: pretty;
+}
+.nz-muted { color: var(--nz-ink-2); }
+cite, .nz-title { font-style: italic; }
+
+/* ---------- site bar and lockup ---------- */
+.nz-site { max-width: var(--nz-container); margin: 0 auto; padding: 0 var(--nz-space-4); }
+.nz-sitebar {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+  gap: var(--nz-space-3) var(--nz-space-5);
+  padding: var(--nz-space-5) 0;
+}
+.nz-lockup { display: flex; flex-direction: column; gap: 6px; text-decoration: none; }
+.nz-lockup img { display: block; height: 40px; width: auto; }
+.nz-endorse {
+  font-family: var(--nz-font-signal); font-size: 11px; font-weight: 500;
+  letter-spacing: .16em; text-transform: uppercase; color: var(--nz-ink-2);
+  padding-left: 51px; /* aligns with the wordmark at a 40px lockup */
+}
+.nz-draftbar {
+  display: flex; flex-wrap: wrap; align-items: center; gap: var(--nz-space-2) var(--nz-space-4);
+  font-family: var(--nz-font-signal); font-size: 12px; letter-spacing: .06em; color: var(--nz-ink-2);
+}
+.nz-toggle { display: inline-flex; align-items: center; gap: var(--nz-space-2); min-height: 44px; cursor: pointer; }
+.nz-toggle input { width: 18px; height: 18px; margin: 0; accent-color: var(--nz-sky-ink); }
+
+/* ---------- chips ---------- */
+.nz-chips { display: flex; flex-wrap: wrap; gap: var(--nz-space-2); margin-top: var(--nz-space-4); }
+.nz-chip {
+  font-family: var(--nz-font-signal); font-size: 12px; letter-spacing: .06em; line-height: 1.4;
+  padding: 6px 10px; border: var(--nz-stroke-hair) solid var(--nz-line-2);
+  border-radius: var(--nz-radius-sm); color: var(--nz-ink-2); background: var(--nz-surface);
+}
+.nz-chip-now { background: var(--nz-sky-wash); border-color: var(--nz-sky-wash); color: var(--nz-sky-ink); }
+.nz-pill {
+  font-family: var(--nz-font-signal); font-size: 12px; padding: 6px 12px;
+  border: var(--nz-stroke-hair) solid var(--nz-line-2); border-radius: var(--nz-radius-pill); color: var(--nz-ink-2);
+}
+
+/* ---------- report header ---------- */
+.nz-header { padding: var(--nz-space-6) 0 var(--nz-space-6); border-bottom: var(--nz-stroke-rule) solid var(--nz-ink); }
+.nz-header .nz-meta { font-family: var(--nz-font-signal); font-size: 13px; line-height: 1.5; color: var(--nz-ink-2); margin: var(--nz-space-3) 0 0; max-width: 72ch; }
+.nz-header .nz-fulltitle { font-family: var(--nz-font-read); font-style: italic; font-size: 18px; line-height: 1.5; margin: var(--nz-space-3) 0 0; max-width: var(--nz-measure); }
+
+/* ---------- layout ---------- */
+.nz-layout { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--nz-space-6); }
+.nz-side { display: none; }
+@media (min-width: 1080px) {
+  .nz-layout { grid-template-columns: minmax(0, 8fr) minmax(0, 3fr); gap: var(--nz-space-8); }
+  .nz-side { display: block; }
+  .nz-toc-inline { display: none; }
+}
+.nz-side-inner { position: sticky; top: var(--nz-space-5); padding-top: var(--nz-space-6); }
+
+/* ---------- at a glance ---------- */
+.nz-glance { padding: var(--nz-space-6) 0 0; }
+.nz-findings { margin: 0 0 var(--nz-space-5); padding-left: 1.4em; max-width: var(--nz-measure); }
+.nz-findings li { margin-bottom: var(--nz-space-3); padding-left: 4px; }
+.nz-asof {
+  font-family: var(--nz-font-signal); font-size: 12px; letter-spacing: .06em;
+  color: var(--nz-sky-ink); white-space: nowrap;
+}
+.nz-tally {
+  display: flex; flex-wrap: wrap; gap: var(--nz-space-2) var(--nz-space-5);
+  padding: var(--nz-space-4) 0; margin-top: var(--nz-space-3);
+  border-top: var(--nz-stroke-hair) solid var(--nz-line); border-bottom: var(--nz-stroke-hair) solid var(--nz-line);
+}
+.nz-tally-item {
+  display: inline-flex; align-items: center; gap: var(--nz-space-2);
+  font-family: var(--nz-font-signal); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--nz-ink-2);
+}
+.nz-tally-item b { font-family: var(--nz-font-display); font-size: 22px; letter-spacing: 0; color: var(--nz-ink); font-weight: 600; }
+.nz-tallyblock { margin-top: var(--nz-space-5); }
+
+/* ---------- waterline ---------- */
+.nz-waterline { position: relative; border-top: var(--nz-stroke-rule) solid var(--nz-sky-ink); margin: var(--nz-space-7) 0 var(--nz-space-5); }
+.nz-waterline span {
+  position: absolute; top: -10px; left: 0; background: var(--nz-paper); padding-right: var(--nz-space-3);
+  font-family: var(--nz-font-signal); font-size: 12px; font-weight: 500; letter-spacing: .16em; text-transform: uppercase; color: var(--nz-sky-ink);
+}
+
+/* ---------- table of contents ---------- */
+.nz-toc ol { list-style: none; margin: var(--nz-space-3) 0 0; padding: 0; }
+.nz-toc li { border-top: var(--nz-stroke-hair) solid var(--nz-line); }
+.nz-toc li.nz-toc-part { border-top: 0; padding-top: var(--nz-space-4); }
+.nz-toc a {
+  display: flex; gap: var(--nz-space-3); align-items: baseline; padding: 9px 0; min-height: 40px;
+  font-family: var(--nz-ui-family); font-size: var(--nz-ui-size); line-height: var(--nz-ui-line); font-weight: var(--nz-ui-weight);
+  color: var(--nz-ink); text-decoration: none;
+}
+.nz-toc a:hover { color: var(--nz-sky-ink); }
+.nz-toc a span { font-family: var(--nz-font-signal); font-size: 12px; color: var(--nz-ink-3); min-width: 2ch; }
+.nz-toc-inline { border-top: var(--nz-stroke-hair) solid var(--nz-line-2); border-bottom: var(--nz-stroke-hair) solid var(--nz-line-2); margin-bottom: var(--nz-space-5); }
+.nz-toc-inline > summary { padding: var(--nz-space-3) 0; min-height: 44px; display: flex; align-items: center; }
+
+/* ---------- parts and sections ---------- */
+.nz-part {
+  margin: var(--nz-space-8) 0 0; padding-top: var(--nz-space-3);
+  border-top: var(--nz-stroke-rule) solid var(--nz-ink);
+  display: flex; gap: var(--nz-space-3); align-items: baseline; flex-wrap: wrap;
+}
+.nz-part:first-of-type { margin-top: var(--nz-space-6); }
+.nz-section { border-top: var(--nz-stroke-hair) solid var(--nz-line); padding: var(--nz-space-5) 0 var(--nz-space-6); scroll-margin-top: var(--nz-space-4); }
+.nz-part + .nz-section { border-top: 0; }
+.nz-section > summary { list-style: none; cursor: pointer; display: block; position: relative; padding-right: 40px; }
+.nz-section > summary::-webkit-details-marker { display: none; }
+.nz-section > summary::after {
+  content: "−"; position: absolute; right: 0; top: 0;
+  width: 32px; height: 32px; display: grid; place-items: center;
+  font-family: var(--nz-font-signal); font-size: 18px; color: var(--nz-ink-2);
+  border: var(--nz-stroke-hair) solid var(--nz-line-2); border-radius: var(--nz-radius-sm);
+}
+.nz-section:not([open]) > summary::after { content: "+"; }
+.nz-section-body { padding-top: var(--nz-space-5); }
+.nz-section h3.nz-h3 { margin-top: var(--nz-space-6); }
+.nz-section ul { padding-left: 1.2em; margin: 0 0 var(--nz-space-4); }
+.nz-section li { margin-bottom: var(--nz-space-2); }
+
+/* ---------- draft notes ([GAP], [TRIAL], [STRAIN]) ---------- */
+.nz-note {
+  background: var(--nz-paper-3); color: var(--nz-ink-2);
+  font-family: var(--nz-font-signal); font-size: 13px; line-height: 1.5;
+  border-radius: var(--nz-radius-sm); padding: var(--nz-space-2) var(--nz-space-3);
+  margin: var(--nz-space-3) 0; max-width: var(--nz-measure);
+}
+.nz-note b { font-weight: 600; color: var(--nz-ink); letter-spacing: .06em; }
+span.nz-note { display: inline; padding: 1px 6px; margin: 0; font-size: 12px; }
+.nz-hide-notes .nz-note { display: none; }
+
+/* ---------- then / now ---------- */
+.nz-thennow, .nz-pair { display: grid; grid-template-columns: 1fr 1fr; gap: var(--nz-space-4); margin: var(--nz-space-4) 0; }
+.nz-then, .nz-now { border-radius: var(--nz-radius); padding: var(--nz-space-5); }
+.nz-then { background: var(--nz-loam-wash); }
+.nz-now { background: var(--nz-sky-wash); }
+.nz-then p, .nz-now p { margin: var(--nz-space-2) 0 0; }
+.nz-then .nz-source { color: var(--nz-loam-ink); }
+.nz-now .nz-source { color: var(--nz-ink-2); }
+.nz-tagrow { display: flex; align-items: center; gap: var(--nz-space-2); margin: var(--nz-space-4) 0 0 !important; flex-wrap: wrap; }
+@media (max-width: 640px) { .nz-thennow, .nz-pair { grid-template-columns: 1fr; } }
+.nz-sowhat { max-width: var(--nz-measure); }
+.nz-sowhat b { font-family: var(--nz-font-signal); font-size: 12px; font-weight: 500; letter-spacing: .16em; text-transform: uppercase; color: var(--nz-ink-2); margin-right: var(--nz-space-2); }
+.nz-spread { display: flex; flex-wrap: wrap; align-items: center; gap: var(--nz-space-2) var(--nz-space-4); margin: var(--nz-space-3) 0 0; }
+.nz-spread .nz-tally-item b { font-size: 16px; }
+
+/* ---------- tables ---------- */
+.nz-tablewrap { margin: var(--nz-space-4) 0 var(--nz-space-5); }
+.nz-table { border-collapse: collapse; width: 100%; font-size: var(--nz-body-s-size); line-height: var(--nz-body-s-line); }
+.nz-table caption { text-align: left; caption-side: top; padding-bottom: var(--nz-space-3); }
+.nz-table th {
+  text-align: left; vertical-align: bottom; padding: 0 var(--nz-space-4) var(--nz-space-2) 0;
+  font-family: var(--nz-font-signal); font-size: 12px; font-weight: 500; letter-spacing: .12em; text-transform: uppercase; color: var(--nz-ink-2);
+  border-bottom: var(--nz-stroke-rule) solid var(--nz-ink);
+}
+.nz-table td { padding: var(--nz-space-3) var(--nz-space-4) var(--nz-space-3) 0; border-bottom: var(--nz-stroke-hair) solid var(--nz-line); vertical-align: top; }
+.nz-table td:last-child, .nz-table th:last-child { padding-right: 0; }
+.nz-table .nz-num { text-align: right; font-family: var(--nz-data-family); font-size: var(--nz-data-size); font-weight: var(--nz-data-weight); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.nz-table th.nz-num { text-align: right; }
+.nz-table .nz-mark { white-space: nowrap; }
+.nz-table .nz-mark > span { display: inline-flex; align-items: center; gap: var(--nz-space-2); }
+.nz-table .nz-mark .nz-source { white-space: normal; }
+.nz-table td.nz-then-cell { color: var(--nz-ink); }
+.nz-table .nz-now-fig { color: var(--nz-sky-ink); font-family: var(--nz-data-family); font-size: var(--nz-data-size); font-weight: 600; }
+.nz-table .nz-then-fig { color: var(--nz-loam-ink); font-family: var(--nz-data-family); font-size: var(--nz-data-size); }
+
+/* Stacked tables on phones: each row becomes a block, each cell carries its column label. */
+@media (max-width: 640px) {
+  .nz-stack thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .nz-stack, .nz-stack tbody, .nz-stack tr, .nz-stack td { display: block; width: 100%; }
+  .nz-stack tr { border-bottom: var(--nz-stroke-hair) solid var(--nz-line); padding: var(--nz-space-3) 0; }
+  .nz-stack td { border: 0; padding: 2px 0; text-align: left !important; white-space: normal; }
+  .nz-stack td:empty { display: none; }
+  .nz-stack td[data-label]::before {
+    content: attr(data-label); display: block; margin-top: var(--nz-space-2);
+    font-family: var(--nz-font-signal); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--nz-ink-3);
+  }
+  .nz-stack td:first-child { font-weight: 500; }
+  .nz-stack td:first-child::before { display: none; }
+}
+
+/* ---------- quote ---------- */
+.nz-quote { margin: 0; padding-left: var(--nz-space-5); border-left: var(--nz-stroke-bold) solid var(--nz-loam); font-family: var(--nz-quote-family); font-style: italic; font-size: var(--nz-quote-size); line-height: var(--nz-quote-line); max-width: 36ch; }
+
+/* ---------- recommendation chips ---------- */
+.nz-rec {
+  display: inline-flex; align-items: center; gap: 6px; padding: 5px 10px;
+  border: var(--nz-stroke-hair) solid var(--nz-ink); border-radius: var(--nz-radius-sm);
+  font-family: var(--nz-font-signal); font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase;
+  color: var(--nz-ink); vertical-align: middle; white-space: nowrap;
+}
+.nz-rec-new { border: var(--nz-stroke-hair) dashed var(--nz-sky-ink); color: var(--nz-sky-ink); }
+.nz-rec-na { border-color: var(--nz-line-2); color: var(--nz-ink-3); font-weight: 500; }
+.nz-delivery { font-family: var(--nz-font-signal); font-size: 13px; color: var(--nz-ink-3); }
+
+/* ---------- scenario cards ---------- */
+.nz-scenario { border: var(--nz-stroke-hair) solid var(--nz-line-2); border-radius: var(--nz-radius); overflow: hidden; background: var(--nz-surface); display: flex; flex-direction: column; }
+.nz-sc-band { height: 6px; background: var(--nz-loam); flex: none; }
+.nz-sc-body { padding: var(--nz-space-5); }
+.nz-sc-body .nz-h3 { margin-top: var(--nz-space-2); }
+.nz-sc-facts { display: grid; grid-template-columns: auto 1fr; gap: 6px 16px; margin: var(--nz-space-4) 0 0; padding-top: var(--nz-space-3); border-top: var(--nz-stroke-hair) solid var(--nz-line); }
+.nz-sc-facts dt { font-family: var(--nz-font-signal); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--nz-ink-2); padding-top: 2px; }
+.nz-sc-facts dd { margin: 0; font-family: var(--nz-font-signal); font-size: 14px; line-height: 1.5; }
+
+/* ---------- logic chain (section 6) ---------- */
+.nz-chain { margin: var(--nz-space-4) 0; }
+.nz-chain-group { display: grid; grid-template-columns: minmax(0, 1fr); gap: 0; padding: var(--nz-space-4) 0; border-top: var(--nz-stroke-hair) solid var(--nz-line-2); }
+.nz-chain-group > .nz-label { margin-bottom: var(--nz-space-2); }
+.nz-chain-row { display: grid; grid-template-columns: minmax(0, 1fr) 13rem 3.5rem; gap: var(--nz-space-2) var(--nz-space-4); align-items: center; padding: var(--nz-space-2) 0; font-size: var(--nz-body-s-size); line-height: var(--nz-body-s-line); }
+.nz-chain-row .nz-mark { display: inline-flex; align-items: center; gap: var(--nz-space-2); }
+.nz-chain-row a { font-family: var(--nz-font-signal); font-size: 13px; }
+@media (max-width: 640px) {
+  .nz-chain-row { grid-template-columns: minmax(0, 1fr) auto; }
+  .nz-chain-row .nz-mark { grid-column: 1; }
+  .nz-chain-row a { grid-column: 2; grid-row: 2; justify-self: end; }
+}
+
+/* ---------- glyphs ---------- */
+.nz-glyph { flex: none; overflow: visible; display: block; }
+.nz-g-then { fill: none; stroke: var(--nz-loam); stroke-width: 2; stroke-linecap: round; stroke-dasharray: 0.01 3.4; }
+.nz-g-tick { fill: none; stroke: var(--nz-loam); stroke-width: 2; stroke-linecap: round; }
+.nz-g-now { fill: none; stroke: var(--nz-sky-ink); stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+.nz-g-origin { fill: var(--nz-ink); }
+.nz-g-origin-open { fill: var(--nz-paper); stroke: var(--nz-ink); stroke-width: 1.5; }
+.nz-g-ring { fill: none; stroke: var(--nz-sky-ink); stroke-width: 1.5; }
+.nz-g-dot { fill: var(--nz-sky-ink); }
+.nz-g-ink-thin { fill: none; stroke: var(--nz-ink); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.nz-g-fill { fill: var(--nz-ink); }
+.nz-g-now-fill { fill: var(--nz-sky-ink); }
+.nz-rec-new .nz-g-ink-thin { stroke: var(--nz-sky-ink); }
+
+/* ---------- charts ---------- */
+.nz-figure { margin: var(--nz-space-6) 0; }
+.nz-chartwrap { overflow-x: auto; margin-top: var(--nz-space-4); }
+.nz-chart { display: block; width: 100%; min-width: 560px; height: auto; max-width: 720px; overflow: visible; }
+.nz-c-grid { stroke: var(--nz-line); stroke-width: 1; }
+.nz-c-axis { font-family: var(--nz-font-signal); font-size: 12px; fill: var(--nz-ink-2); }
+.nz-c-label { font-family: var(--nz-font-signal); font-size: 11px; letter-spacing: .16em; fill: var(--nz-ink-2); }
+.nz-c-nowrule { stroke: var(--nz-ink-2); stroke-width: 1; }
+.nz-c-then { fill: none; stroke: var(--nz-loam); stroke-width: 2.5; stroke-linecap: round; stroke-dasharray: 0.01 6; }
+.nz-c-then-thin { fill: none; stroke: var(--nz-loam); stroke-width: 1.5; stroke-linecap: round; stroke-dasharray: 0.01 4; }
+.nz-c-band { fill: var(--nz-loam-wash); }
+.nz-c-thenring { fill: var(--nz-paper); stroke: var(--nz-loam); stroke-width: 1.5; }
+.nz-c-thenlabel { font-family: var(--nz-font-signal); font-size: 12px; fill: var(--nz-loam-ink); }
+.nz-c-now { fill: none; stroke: var(--nz-sky-ink); stroke-width: 2.5; stroke-linejoin: round; stroke-linecap: round; }
+.nz-c-nowdot { fill: var(--nz-sky-ink); }
+.nz-c-nowlabel { font-family: var(--nz-font-signal); font-size: 13px; font-weight: 600; fill: var(--nz-sky-ink); }
+.nz-c-nowvalue { font-family: var(--nz-font-signal); font-size: 12px; fill: var(--nz-sky-ink); }
+.nz-c-gap { fill: none; stroke: var(--nz-ink); stroke-width: 1.2; }
+.nz-c-gaplabel { font-family: var(--nz-font-signal); font-size: 12px; fill: var(--nz-ink); }
+@media (prefers-reduced-motion: no-preference) {
+  .nz-c-now { stroke-dasharray: 1200; stroke-dashoffset: 1200; animation: nz-draw 720ms cubic-bezier(.16, .84, .3, 1) 460ms forwards; }
+}
+@keyframes nz-draw { to { stroke-dashoffset: 0; } }
+
+/* ---------- timeline (section 10) ---------- */
+.nz-timeline { list-style: none; margin: var(--nz-space-4) 0; padding: 0; max-width: var(--nz-measure); }
+.nz-timeline li { display: grid; grid-template-columns: 9.5rem minmax(0, 1fr); gap: var(--nz-space-4); padding: var(--nz-space-3) 0; border-bottom: var(--nz-stroke-hair) solid var(--nz-line); font-size: var(--nz-body-s-size); line-height: var(--nz-body-s-line); }
+.nz-timeline time { font-family: var(--nz-font-signal); font-size: 13px; color: var(--nz-ink-2); padding-top: 2px; }
+.nz-timeline .nz-source { margin: 2px 0 0; }
+@media (max-width: 480px) { .nz-timeline li { grid-template-columns: 1fr; gap: 2px; } }
+
+/* ---------- key (section 2 and the side column) ---------- */
+.nz-key { display: grid; gap: var(--nz-space-2); margin: var(--nz-space-3) 0 0; }
+.nz-key-row { display: flex; align-items: center; gap: var(--nz-space-3); }
+
+/* ---------- footer ---------- */
+.nz-footer { margin-top: var(--nz-space-9); background: var(--nz-paper); color: var(--nz-ink); }
+.nz-footer-inner { max-width: var(--nz-container); margin: 0 auto; padding: var(--nz-space-7) var(--nz-space-4) var(--nz-space-8); display: grid; gap: var(--nz-space-5); }
+.nz-footer p { margin: 0; max-width: var(--nz-measure); font-size: var(--nz-body-s-size); line-height: var(--nz-body-s-line); color: var(--nz-ink-2); }
+.nz-footer .nz-label { color: var(--nz-ink-2); }
+
+/* =====================================================================
+   Added in 0.2 (Indonesia page). Brand §8 shapes; values from tokens.
+   ===================================================================== */
+
+/* ---------- field chips: what new conditions may mean from here ---------- */
+.nz-field {
+  display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px 4px 8px;
+  border: var(--nz-stroke-hair) dashed var(--nz-ink-2); border-radius: var(--nz-radius-sm);
+  font-family: var(--nz-font-signal); font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase;
+  color: var(--nz-ink); line-height: 1.4; white-space: nowrap;
+}
+.nz-field .nz-field-change { font-weight: 500; letter-spacing: .04em; text-transform: none; color: var(--nz-ink-2); white-space: normal; }
+.nz-field a { color: var(--nz-sky-ink); }
+.nz-fieldrow { display: flex; flex-wrap: wrap; align-items: center; gap: var(--nz-space-2); margin: var(--nz-space-3) 0 0; }
+.nz-fieldrow > .nz-label { margin-right: var(--nz-space-1); }
+.nz-g-bar { fill: none; stroke: var(--nz-ink); stroke-width: 2; stroke-linecap: round; }
+.nz-g-eye { fill: none; stroke: var(--nz-ink); stroke-width: 1.5; stroke-linejoin: round; }
+
+/* ---------- "no longer in force" (target marker, card band, tile) ---------- */
+.nz-g-gone { fill: none; stroke: var(--nz-ink-3); stroke-width: 2; stroke-linecap: round; stroke-dasharray: 0.01 3.4; }
+.nz-g-gone-dot { fill: var(--nz-ink-3); }
+.nz-g-strike { fill: none; stroke: var(--nz-ink-3); stroke-width: 1.5; stroke-linecap: round; }
+.nz-sc-band-gone { background: var(--nz-ink-3); }
+.nz-label-gone { color: var(--nz-ink-3); }
+
+/* ---------- "revisit: new conditions" ---------- */
+.nz-g-sky-fill { fill: var(--nz-sky); }
+
+/* ---------- report tile (paired predecessor) ---------- */
+.nz-tile {
+  display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--nz-space-2);
+  border: var(--nz-stroke-hair) solid var(--nz-line-2); border-radius: var(--nz-radius);
+  padding: var(--nz-space-4) var(--nz-space-5); margin-top: var(--nz-space-5); max-width: var(--nz-measure);
+  background: var(--nz-surface);
+}
+.nz-tile p { margin: 0; }
+.nz-tile .nz-body-s { margin: 0; }
+
+/* ---------- logic chain with two readings (rating so far, pressure from here) ---------- */
+.nz-chain-row.nz-chain-row-2 { grid-template-columns: minmax(0, 1fr) 12.5rem 13.5rem 3.5rem; }
+.nz-chain-head { display: grid; grid-template-columns: minmax(0, 1fr) 12.5rem 13.5rem 3.5rem; gap: var(--nz-space-4); padding-bottom: var(--nz-space-2); }
+.nz-chain-head .nz-label:nth-child(2) { grid-column: 2; }
+@media (max-width: 900px) {
+  .nz-chain-head { display: none; }
+  .nz-chain-row.nz-chain-row-2 { grid-template-columns: minmax(0, 1fr) auto; }
+  .nz-chain-row.nz-chain-row-2 > span:first-child { grid-column: 1 / -1; }
+  .nz-chain-row.nz-chain-row-2 .nz-mark { grid-column: 1; }
+  .nz-chain-row.nz-chain-row-2 .nz-field { grid-column: 1; justify-self: start; }
+  .nz-chain-row.nz-chain-row-2 a { grid-column: 2; grid-row: 2; justify-self: end; }
+}
+
+/* ---------- challenges and opportunities: equal cards, two tabs on phones ---------- */
+.nz-changes { margin: var(--nz-space-5) 0; }
+.nz-changes > input { position: absolute; opacity: 0; pointer-events: none; }
+.nz-tabbar { display: none; }
+.nz-changepair { display: grid; grid-template-columns: 1fr 1fr; gap: var(--nz-space-4); align-items: start; }
+.nz-changecol { display: grid; gap: var(--nz-space-3); }
+.nz-changecol > .nz-label { display: flex; align-items: center; gap: var(--nz-space-2); padding-bottom: var(--nz-space-2); border-bottom: var(--nz-stroke-rule) solid var(--nz-ink); }
+.nz-change {
+  border: var(--nz-stroke-hair) solid var(--nz-line-2); border-radius: var(--nz-radius);
+  background: var(--nz-surface); padding: var(--nz-space-4);
+}
+.nz-change-head { display: flex; align-items: flex-start; gap: var(--nz-space-2); }
+.nz-change-id { font-family: var(--nz-font-signal); font-size: 12px; font-weight: 600; letter-spacing: .08em; color: var(--nz-ink-2); padding-top: 3px; min-width: 3ch; }
+.nz-change h3 { font-family: var(--nz-h3-family); font-size: 17px; line-height: 1.3; font-weight: 600; margin: 0; text-wrap: balance; }
+.nz-change .nz-source { margin-top: var(--nz-space-1); }
+.nz-change p.nz-body-s { margin: var(--nz-space-2) 0 0; }
+.nz-change dl { display: grid; grid-template-columns: minmax(0, 1fr); gap: 2px; margin: var(--nz-space-3) 0 0; padding-top: var(--nz-space-2); border-top: var(--nz-stroke-hair) solid var(--nz-line); }
+.nz-change dt { font-family: var(--nz-font-signal); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--nz-ink-3); margin-top: var(--nz-space-2); }
+.nz-change dt:first-child { margin-top: 0; }
+.nz-change dd { margin: 0; font-size: var(--nz-body-s-size); line-height: var(--nz-body-s-line); }
+.nz-change-also h3 { font-size: 16px; }
+.nz-tag {
+  display: inline-block; margin-left: 4px; padding: 1px 6px; vertical-align: 2px;
+  border: var(--nz-stroke-hair) solid var(--nz-line-2); border-radius: var(--nz-radius-sm);
+  font-family: var(--nz-font-signal); font-size: 11px; font-weight: 500; letter-spacing: .06em; color: var(--nz-ink-2);
+}
+.nz-nomeasure { margin-top: var(--nz-space-4); }
+.nz-nomeasure p:not(.nz-label) { font-size: var(--nz-body-s-size); line-height: var(--nz-body-s-line); }
+@media (max-width: 640px) {
+  .nz-tabbar { display: grid; grid-template-columns: 1fr 1fr; gap: 0; margin-bottom: var(--nz-space-4); border: var(--nz-stroke-hair) solid var(--nz-line-2); border-radius: var(--nz-radius-sm); overflow: hidden; }
+  .nz-tabbar label {
+    display: flex; align-items: center; justify-content: center; gap: var(--nz-space-2); min-height: 44px; cursor: pointer;
+    font-family: var(--nz-font-signal); font-size: 12px; font-weight: 500; letter-spacing: .12em; text-transform: uppercase; color: var(--nz-ink-2);
+  }
+  .nz-tabbar label + label { border-left: var(--nz-stroke-hair) solid var(--nz-line-2); }
+  #tab-ch:checked ~ .nz-tabbar label[for="tab-ch"], #tab-op:checked ~ .nz-tabbar label[for="tab-op"] { background: var(--nz-paper-2); color: var(--nz-ink); font-weight: 600; }
+  #tab-ch:focus-visible ~ .nz-tabbar label[for="tab-ch"], #tab-op:focus-visible ~ .nz-tabbar label[for="tab-op"] { outline: 2px solid var(--nz-focus-ring); outline-offset: -2px; }
+  .nz-changepair { grid-template-columns: minmax(0, 1fr); }
+  .nz-changecol > .nz-label { display: none; }
+  #tab-ch:checked ~ .nz-changepair .nz-col-op, #tab-op:checked ~ .nz-changepair .nz-col-ch { display: none; }
+}
+@media print { .nz-tabbar { display: none; } .nz-changecol { display: grid !important; } }
+
+/* ---------- phone steps ---------- */
+@media (max-width: 640px) {
+  .nz-display-m { font-size: 40px; }
+  .nz-tip { font-size: 30px; line-height: 1.12; }
+  .nz-h2 { font-size: 24px; line-height: 1.18; }
+  .nz-h3 { font-size: 20px; }
+  .nz-lead { font-size: 20px; }
+  .nz-header { padding-top: var(--nz-space-5); }
+  .nz-part { margin-top: var(--nz-space-7); }
+  .nz-then, .nz-now { padding: var(--nz-space-4); }
+}
+@media (min-width: 720px) {
+  .nz-site { padding: 0 var(--nz-space-5); }
+  .nz-footer-inner { padding-left: var(--nz-space-5); padding-right: var(--nz-space-5); }
+}
+@media print {
+  .nz-side, .nz-toc-inline, .nz-draftbar .nz-toggle { display: none; }
+  .nz-section > summary::after { display: none; }
+}
