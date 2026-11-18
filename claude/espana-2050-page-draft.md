@@ -4,7 +4,7 @@ Version 0.2, 18 November 2026. Draft for review. Not for publication.
 
 Draft 0.1 (16 November 2026) was a test fill of template v0.1. This version rebuilds it to page spec v0.2 (`claude/report-page-spec.md`) and brand v0.1 (`docs/brand-guidelines.md`). The test fill that `claude/template-test-espana-2050.md` analyses is in git history at commit `0fd0026`.
 
-The laid-out version of this page, in the brand system, is `pages/espana-2050/index.html`. This file is its content source. If the two disagree, this file wins; fix the HTML.
+The laid-out version of this page, in the brand system, is `site-src/pages/reports/espana-2050.html` (built to `site/reports/espana-2050/`). This file is its content source. If the two disagree, this file wins; fix the HTML.
 
 **What changed from 0.1**
 

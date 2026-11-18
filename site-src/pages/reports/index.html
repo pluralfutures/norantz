@@ -1,0 +1,28 @@
+<!--meta {"title": "Reports", "description": "Every national vision or scenario report Norantz has found, reviewed or not, as a list and a map.", "nav": "reports", "crumbs": [["Reports", "reports/"]]} -->
+<header class="nz-pagehead">
+  <p class="nz-label">Catalogue · {{n_reports}} reports</p>
+  <h1 class="nz-display-m">Reports</h1>
+  <p class="nz-lead">Every national vision or scenario report we have found, whether reviewed or not. A vision describes one desired future and a route to it; a scenario set describes several possible futures without choosing one.</p>
+  <div class="nz-tallyblock">{{state_counts}}</div>
+</header>
+
+<div class="nz-views">
+  <input type="radio" name="view" id="view-list" checked>
+  <input type="radio" name="view" id="view-map">
+  <div class="nz-viewtabs" role="presentation"><label for="view-list">List</label><label for="view-map">Map</label></div>
+
+  <section class="nz-view-map nz-block" aria-labelledby="map-h">
+    <h2 class="nz-vh" id="map-h">Map</h2>
+    {{map}}
+    {{map_key}}
+    <p class="nz-source">Schematic: points at each capital, one mark per country, no borders drawn. A country with several reports shows its count. Countries are never shaded by findings or by review state.</p>
+    <p class="nz-note"><b>[PLACEHOLDER]</b> No basemap until the disputed-borders convention is chosen (site architecture open item 2). The review-state marks are a proposal, not yet tested with readers.</p>
+  </section>
+
+  <section class="nz-view-list" aria-labelledby="list-h">
+    <h2 class="nz-h2" id="list-h">All reports</h2>
+    {{filters}}
+    {{report_list}}
+    <p class="nz-note"><b>[PLACEHOLDER]</b> Seven listed reports come from a secondary synthesis of ASEAN reports and have not been classified from their own text. What the catalogue includes waits on method decision 15 (scope).</p>
+  </section>
+</div>

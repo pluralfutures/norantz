@@ -29,10 +29,11 @@ Everything unresolved, half-finished or ambiguous at handover, 18 November 2026.
 - Logo SVGs and `tokens.json` are now in `brand/` (checksums match the artifact). `brand/tokens.css` is generated from the tokens by `scripts/build_tokens.py`. Still to do: export the 15 component previews and `components/bundle.css`, which are only in the artifact.
 - Fonts are hosted (Google Fonts), no files. Decide whether to self-host (all three faces are open-licence; check before shipping).
 - Components are static HTML/CSS previews (`bundle.css`, prefix `nz-`); no JavaScript bundle, no site code, no chart library chosen.
-- Not designed visually: home page, country and theme indexes, cross-report comparison view, method page, social cards beyond the rules, deck template. Their structure and content are in `docs/site-architecture.md` v0.1.
-- Two pages are laid out (`pages/espana-2050/index.html` and `pages/indonesia-2045/index.html`, 18 Nov) and checked in Chromium at desktop and phone widths, light and dark. No reader has seen either.
+- Site zero draft 0.1 (18 Nov, `site/`) lays out every page in `docs/site-architecture.md` v0.1; its design calls are proposals Z1-Z32 in `docs/site-zero-draft-decisions.md`, awaiting owner review. Still not designed: theme indexes, cross-report comparison view, social cards beyond the rules, deck template, a real basemap.
+- Two report pages are laid out (`site-src/pages/reports/`, built to `site/reports/`, 18 Nov) and checked in Chromium at desktop and phone widths, light and dark, inside the site shell. No reader has seen either.
+- Spanish and Indonesian interface strings in `scripts/build_site.py` are machine drafts; no page is translated.
 - **Glyphs drawn without a bundle reference** for the Indonesia page: field chips (pressure readings), the "no longer in force" target marker, "revisit: new conditions" and the challenge/opportunity arrows were drawn from the brand §8 descriptions, not copied from the artifact. Check them against the artifact's previews.
-- **`bundle.css` uses unprefixed variables** (`--paper`, `--sky-ink`), but `brand/tokens.css` generates `--nz-*`. The bundle cannot run on the repo tokens as is; `pages/report-page.css` is a port. Decide which naming leads before exporting the bundle.
+- **`bundle.css` uses unprefixed variables** (`--paper`, `--sky-ink`), but `brand/tokens.css` generates `--nz-*`. The bundle cannot run on the repo tokens as is; `site-src/assets/report-page.css` is a port. Decide which naming leads before exporting the bundle.
 - **ScenarioCards preview gives a vision's goal an Ember band and its comparison path a Bloom band.** Brand §4 keeps Ember out of data and scenario inks for scenario-set pages. The España page uses Loam for both cards. Decide which rule leads.
 
 ## 2. Name and launch

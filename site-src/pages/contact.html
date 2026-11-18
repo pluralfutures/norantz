@@ -1,0 +1,23 @@
+<!--meta {"title": "Contact", "description": "Contact Norantz, suggest a report, or report an error.", "nav": "", "crumbs": [["Contact", "contact/"]]} -->
+<header class="nz-pagehead">
+  <p class="nz-label">Contact</p>
+  <h1 class="nz-h1">Write to us</h1>
+  <p class="nz-lead">Three routes, so your message reaches the right list.</p>
+</header>
+<div class="nz-routes">
+  <section class="nz-route" id="general"><h2 class="nz-h3">General</h2><p>Questions about Norantz, partnerships, and anything else.</p></section>
+  <section class="nz-route" id="suggest"><h2 class="nz-h3">Suggest a report</h2><p>A national vision or scenario report we have not listed. It goes into the catalogue queue.</p></section>
+  <section class="nz-route" id="error"><h2 class="nz-h3">Report an error</h2><p>A figure, source, or reading you think is wrong. It goes to the corrections log. Authors replying to a review, see <a href="{{root}}about/authors/index.html">for report authors</a>.</p></section>
+</div>
+<section class="nz-block" id="reply">
+  <form class="nz-form" data-placeholder action="#" method="post">
+    <div class="nz-field-input"><label class="nz-label" for="route">About</label>
+      <select id="route" name="route"><option>General</option><option>Suggest a report</option><option>Report an error</option><option>Author's response</option></select></div>
+    <div class="nz-field-input"><label class="nz-label" for="c-email">Your email</label><input type="email" id="c-email" name="email" autocomplete="email" required></div>
+    <div class="nz-field-input"><label class="nz-label" for="c-msg">Message</label><textarea id="c-msg" name="message" required></textarea></div>
+    <p class="nz-body-s">We use your address only to answer you. See <a href="{{root}}legal/privacy/index.html">Privacy</a>.</p>
+    <div><button class="nz-btn-quiet" type="submit">Send</button></div>
+    <p class="nz-note nz-form-msg" tabindex="-1" hidden><b>[PLACEHOLDER]</b> Nothing was sent. The zero draft has no form handler.</p>
+  </form>
+  <p class="nz-note"><b>[PLACEHOLDER]</b> Contact address and form handler not chosen.</p>
+</section>

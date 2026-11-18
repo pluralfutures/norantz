@@ -1,0 +1,121 @@
+<!--meta {"title": "Method", "description": "How Norantz reviews a national vision or scenario report: what the AI does, what people check, the sources it trusts, and what every label means.", "nav": "method", "crumbs": [["Method", "method/"]]} -->
+{{glyphs}}
+<header class="nz-pagehead">
+  <p class="nz-label">Method v0.2 · plain-language version</p>
+  <h1 class="nz-display-m">How a review is done</h1>
+  <p class="nz-lead">Each review reads a report on its own terms first, then checks what it assumed and aimed for against the evidence since. The same steps run for every report, so two reviews can be compared.</p>
+</header>
+<p class="nz-note"><b>[PLACEHOLDER]</b> Public form of <code>claude/scenario-review-method.md</code> v0.2, cut down. Wording is a first draft; method decisions 1 (thresholds), 2 (horizon split) and 15 (scope) are still open and change parts of this page.</p>
+
+<div class="nz-cols">
+<div>
+<section class="nz-block nz-prose" id="tracks">
+  <h2 class="nz-h2">A vision and a scenario set are read differently</h2>
+  <p>A <strong>vision</strong> describes one desired future and a route to it. Its goals are the authors' aims, not forecasts. The review asks whether what the vision assumed has held, and where things stand against its own path.</p>
+  <p>A <strong>scenario set</strong> describes several possible futures and does not choose one. The review asks which forces the scenarios turned on, and which of the futures the evidence now resembles, element by element. No scenario is named as "the" outcome unless most elements agree.</p>
+  <p>Some reports do both: they set out several futures and argue for one. <cite>España 2050</cite> is this kind. Its preferred future is read as a vision, and the others as comparison paths.</p>
+</section>
+
+<section class="nz-block nz-prose" id="steps">
+  <h2 class="nz-h2">Nine steps, each with a named human check</h2>
+  <div class="nz-tablewrap">
+    <table class="nz-table nz-stack">
+      <thead><tr><th>Step</th><th>What the AI does</th><th>What a person checks</th></tr></thead>
+      <tbody>
+        <tr><td>1. Intake</td><td data-label="What the AI does">Records what the report is, who published it, and whether it is still in force.</td><td data-label="What a person checks">The classification and status</td></tr>
+        <tr><td>2. Register</td><td data-label="What the AI does">Logs every claim, goal, and commitment with its page reference.</td><td data-label="What a person checks">Assumptions the report implies but does not state</td></tr>
+        <tr><td>3. Consistency</td><td data-label="What the AI does">Flags places where the report's own figures disagree.</td><td data-label="What a person checks">Which figure to test against</td></tr>
+        <tr><td>4. Themes</td><td data-label="What the AI does">Groups items into themes and ranks the assumptions most goals rest on.</td><td data-label="What a person checks">Which themes to review, in what order</td></tr>
+        <tr><td>5. Evidence</td><td data-label="What the AI does">Gathers the latest official figures, dated and sourced.</td><td data-label="What a person checks">—</td></tr>
+        <tr><td>6. What has changed</td><td data-label="What the AI does">Lists major shifts, trends, and emerging issues since publication, and what each bears on.</td><td data-label="What a person checks">The list, and the direction of each link</td></tr>
+        <tr><td>7. Readings</td><td data-label="What the AI does">Applies the labels below and tests the rate each target now needs.</td><td data-label="What a person checks">Every reading, above all "not supported so far" and "behind"</td></tr>
+        <tr><td>8. Findings</td><td data-label="What the AI does">Writes the findings, each in four beats: intent, then, now, so what.</td><td data-label="What a person checks">The page, before it is published</td></tr>
+        <tr><td>9. Limits</td><td data-label="What the AI does">Lists unverified figures, unopened sources, and every proxy the reviewer made.</td><td data-label="What a person checks">—</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="nz-source">Scenario sets follow eight steps of the same shape (method stages E1 to E8).</p>
+</section>
+
+<section class="nz-block nz-prose" id="sources">
+  <h2 class="nz-h2">Readings rest on official sources only</h2>
+  <div class="nz-tablewrap">
+    <table class="nz-table nz-stack">
+      <thead><tr><th>Source</th><th>Examples</th><th>Use</th></tr></thead>
+      <tbody>
+        <tr><td>Tier 1</td><td data-label="Examples">Statistics offices, central banks, finance ministries, IMF, World Bank, WTO, ILO, APO</td><td data-label="Use">Supports a reading</td></tr>
+        <tr><td>Tier 2</td><td data-label="Examples">Think tanks and research institutes</td><td data-label="Use">Context and trends; emerging issues</td></tr>
+        <tr><td>Media</td><td data-label="Examples">News reports</td><td data-label="Use">Never supports a reading. May flag a candidate or carry an official figure, which is then verified at source.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Every figure carries an "as of" date and a link. Where a plan's 2025 "baseline" was a projection, the published 2025 outturn replaces it, and both are shown.</p>
+</section>
+
+<section class="nz-block nz-prose" id="labels">
+  <h2 class="nz-h2">What each label means</h2>
+  <p>Colour tells time: <span class="nz-label-then nz-label">Loam</span> is what the report said, then; <span class="nz-label-now nz-label">Sky</span> is what the evidence shows, now. Shape tells status. Dotted lines are planned; solid lines are observed. There is no overall score.</p>
+  <div class="nz-tablewrap">
+    <table class="nz-table nz-stack">
+      <caption class="nz-label">How a claim has fared so far</caption>
+      <tbody>
+        <tr><td class="nz-mark"><span><svg class="nz-glyph" width="20" height="20" aria-hidden="true"><use href="#b-holds"/></svg><span class="nz-status">Holds</span></span></td><td>The evidence matches what the report expected.</td></tr>
+        <tr><td class="nz-mark"><span><svg class="nz-glyph" width="20" height="20" aria-hidden="true"><use href="#b-further"/></svg><span class="nz-status">Goes further</span></span></td><td>Things moved further in the direction the report expected.</td></tr>
+        <tr><td class="nz-mark"><span><svg class="nz-glyph" width="20" height="20" aria-hidden="true"><use href="#b-part"/></svg><span class="nz-status">Holds in part</span></span></td><td>The direction holds; the size or timing does not.</td></tr>
+        <tr><td class="nz-mark"><span><svg class="nz-glyph" width="20" height="20" aria-hidden="true"><use href="#b-not"/></svg><span class="nz-status">Not supported so far</span></span></td><td>The evidence so far runs against what the report expected.</td></tr>
+        <tr><td class="nz-mark"><span><svg class="nz-glyph" width="20" height="20" aria-hidden="true"><use href="#b-notyet"/></svg><span class="nz-status">Not yet reviewed</span></span></td><td>Too early to test, or not yet checked.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="nz-tablewrap">
+    <table class="nz-table nz-stack">
+      <caption class="nz-label">Where a target figure stands against the report's own path</caption>
+      <tbody>
+        <tr><td class="nz-mark"><span><svg class="nz-glyph" width="32" height="20" aria-hidden="true"><use href="#t-ahead"/></svg><span class="nz-status">Ahead</span></span></td><td>Better than the path for its year.</td></tr>
+        <tr><td class="nz-mark"><span><svg class="nz-glyph" width="32" height="20" aria-hidden="true"><use href="#t-onpath"/></svg><span class="nz-status">On path</span></span></td><td>Close to the path.</td></tr>
+        <tr><td class="nz-mark"><span><svg class="nz-glyph" width="32" height="20" aria-hidden="true"><use href="#t-behind"/></svg><span class="nz-status">Behind</span></span></td><td>Below the path. This describes a distance from the plan, not a government.</td></tr>
+        <tr><td class="nz-mark"><span><svg class="nz-glyph" width="32" height="20" aria-hidden="true"><use href="#t-met"/></svg><span class="nz-status">Met</span></span></td><td>The target has been reached.</td></tr>
+        <tr><td class="nz-mark"><span><svg class="nz-glyph" width="32" height="20" aria-hidden="true"><use href="#t-gone"/></svg><span class="nz-status">No longer in force</span></span></td><td>The target belongs to a report since replaced; its last-known status is shown.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="nz-tablewrap">
+    <table class="nz-table nz-stack">
+      <caption class="nz-label">What new conditions may mean from here</caption>
+      <tbody>
+        <tr><td><span class="nz-field"><svg class="nz-glyph" width="22" height="15" aria-hidden="true"><use href="#p-under"/></svg>Under pressure</span></td><td>New conditions push against the claim.</td></tr>
+        <tr><td><span class="nz-field"><svg class="nz-glyph" width="22" height="15" aria-hidden="true"><use href="#p-supported"/></svg>Supported</span></td><td>New conditions run with it.</td></tr>
+        <tr><td><span class="nz-field"><svg class="nz-glyph" width="22" height="15" aria-hidden="true"><use href="#p-mixed"/></svg>Mixed</span></td><td>Both at once.</td></tr>
+        <tr><td><span class="nz-field"><svg class="nz-glyph" width="22" height="15" aria-hidden="true"><use href="#p-watch"/></svg>Watch</span></td><td>Something new may bear on it; not yet clear which way.</td></tr>
+        <tr><td><span class="nz-field"><svg class="nz-glyph" width="22" height="15" aria-hidden="true"><use href="#p-untouched"/></svg>Untouched</span></td><td>Nothing found that bears on it.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="nz-tablewrap">
+    <table class="nz-table nz-stack">
+      <caption class="nz-label">Recommendations</caption>
+      <tbody>
+        <tr><td class="nz-mark"><span><svg class="nz-glyph" width="14" height="14" aria-hidden="true"><use href="#r-stands"/></svg><span class="nz-status">Still stands</span></span></td><td>The reasoning behind it still holds.</td></tr>
+        <tr><td class="nz-mark"><span><svg class="nz-glyph" width="14" height="14" aria-hidden="true"><use href="#r-revisit"/></svg><span class="nz-status">Worth revisiting</span></span></td><td>An assumption it rests on has moved.</td></tr>
+        <tr><td class="nz-mark"><span><svg class="nz-glyph" width="14" height="14" aria-hidden="true"><use href="#r-revisit-new"/></svg><span class="nz-status">Revisit: new conditions</span></span></td><td>Something new since publication bears on it.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="nz-note"><b>[PLACEHOLDER]</b> Target thresholds (3% either side of the path on the Indonesia page) wait on method decision 1. Recommendation label wording taken from the pilot pages; check against brand §8.</p>
+</section>
+</div>
+
+<aside>
+  <div class="nz-aside" style="position:sticky;top:var(--nz-space-5);margin-top:var(--nz-space-7)">
+    <p class="nz-label">On this page</p>
+    <ul class="nz-toc" style="list-style:none;padding:0">
+      <li><a href="#tracks">A vision and a scenario set</a></li>
+      <li><a href="#steps">Nine steps</a></li>
+      <li><a href="#sources">Sources</a></li>
+      <li><a href="#labels">What each label means</a></li>
+    </ul>
+    <p class="nz-label" style="margin-top:var(--nz-space-5)">Also</p>
+    <p><a href="{{root}}about/standards/index.html">Editorial standards</a><br><a href="{{root}}about/corrections/index.html">Corrections and changelog</a><br><a href="{{root}}data/index.html">Data and citation</a></p>
+  </div>
+</aside>
+</div>
