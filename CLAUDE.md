@@ -25,7 +25,7 @@ The repo mirrors the claude.ai project layout, except that the Indonesia analysi
 
 | Path | What it holds |
 | --- | --- |
-| `CLAUDE.md`, `docs/` | This handover: brand, decisions, open questions |
+| `CLAUDE.md`, `docs/` | This handover: brand, decisions, open questions; `docs/site-architecture.md` is the site map, page list and address pattern (v0.1) |
 | `Indonesia-Emas-2045-Analysis/` | Indonesia register, source pack, evidence clusters A/B/D, change scan, page draft 0.2. `register.md`, `source-pack.md` and `evidence-cluster-a.md` are byte-identical duplicates of the `indonesia-*` files |
 | `claude/scenario-review-method.md` | **The method, v0.2.** Stages N1-N9 (visions) and E1-E8 (scenario sets), register classes, status scales, change scan, required-rate test, 20 open decisions |
 | `claude/report-page-spec.md` | **Public page spec, v0.2.** 18 sections (0-17) in four parts, design principles, open questions |
@@ -91,6 +91,7 @@ Source-extraction schema (agreed, keep it): one record per page or slide; number
 - **España 2050** (pilot 1, hybrid, quantified, advisory): 102-item register, 6 of 9 clusters tested, page draft 0.2 rebuilt to spec v0.2 and brand v0.1, and laid out as HTML (`pages/espana-2050/`); no rating changed. Template-test fixes 3, 9, 11, 12 and 13 applied (presentation only); the rest, including all that change ratings, not applied. Five figures behind ratings or the tip are Tier 2 and tagged "verify at Tier 1". No change scan or commitment pass yet.
 - **Indonesia Emas 2045** (pilot 2, RPJPN 2025-2045 / UU 59/2024, in force, early-horizon variant, paired with the superseded 2017 deck): register validated (35 claims, 87 goal rows, 37 commitments); clusters A, B, D evidenced; change scan run once (X1-X12); **page draft 0.2** rebuilt to brand v0.1 in the España page's shape and laid out as HTML (`pages/indonesia-2045/`); no rating changed. First page with both a rating and a pressure reading on every assumption. Seven Tier 1 figures behind ratings or the top of the page were read through carriers and are tagged "verify at source". No rating has been reviewed by a person.
 - **Brand v0.1** built as a design system artifact (tokens, 15 components, logo SVGs): https://claude.ai/artifact/DRZLvr6GwRJSaThHXB2pe5. Five brand decisions confirmed by the owner (B1-B4, and B15: the site follows the reader's dark-mode setting); the rest is draft for review.
+- **Site architecture v0.1** (`docs/site-architecture.md`, decisions S5-S13): the catalogue section is "Reports" with a list and map of every report found, reviewed or not; country pages; method, about, corrections, right-of-reply, press, data, email sign-up, FAQ, contact and legal pages; fixed version addresses; English at the root, Spanish and Indonesian under `/es/` and `/id/`, from launch; legal pages under Spanish law (Plural Futures is registered in Spain). Not yet designed visually.
 - No site code yet beyond two static test pages (`pages/espana-2050/` and `pages/indonesia-2045/`, sharing `pages/report-page.css`). Tokens (JSON and generated CSS) and logos are in `brand/`; the 15 component previews are still only in the artifact, no JS bundle.
 
 ## Next steps, in order
@@ -101,6 +102,7 @@ Source-extraction schema (agreed, keep it): one record per page or slide; number
 4. Update the template to spec v0.3 and bring the España page (draft 0.2, already on spec v0.2 and laid out in `pages/`) up to it. Have the owner and one reader look at the laid-out page, on a phone too; act on the eight rebuild notes at the end of the draft and the twelve spec notes at the end of the Indonesia draft 0.2.
 5. Indonesia clusters C, E, F, G; then pilot 3 (Vietnam 2035 or AmBisyon Natin 2040, classified from the primary text).
 6. Settle the name risk (trademark and domain check) before buying a domain.
+7. Close method decision 15 (scope) before the map launches; settle the site open items in `docs/open-questions.md` §2a (basemap, licence, election policy, right of reply, lawyer check of the Spanish legal pages).
 
 Ask the owner before changing anything listed as confirmed in `docs/decisions.md`.
 
